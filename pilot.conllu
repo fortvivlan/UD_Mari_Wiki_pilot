@@ -1,0 +1,3681 @@
+# sent_id = mhr-fewshot-0001
+# text = Графике информацийым растрле кодлымаш () — ойыпым цифр дене ончыктымо йӧн - графике объектын кончыктымашыжым пиксель сетке семын пуымаш; пиксельын кажне тӱсшӧ кокытан чот дене кодлалтеш.
+# text_en = Encoding graphical information in raster form is a way of representing an image digitally: a graphic object is represented as a grid of pixels, and each pixel's color is encoded by a binary number.
+# source_id = mhr:wiki:8a3f9932b56f40df081b
+# source_sent_id = 48843
+# annotation_status = PARSER_FST_REVIEW
+1	Графике	графике	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	информацийым	информаций	NOUN	_	Case=Acc|Number=Sing	4	nmod:obj	_	_
+3	растрле	растрле	ADJ	_	_	4	amod	_	_
+4	кодлымаш	кодлымаш	NOUN	_	Case=Nom|Number=Sing|VerbForm=Vnoun	12	nsubj	_	_
+5	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	4	punct	_	_
+7	—	—	PUNCT	_	_	12	punct	_	_
+8	ойыпым	ойып	NOUN	_	Case=Acc|Number=Sing	11	obj	_	_
+9	цифр	цифр	NOUN	_	Case=Nom|Number=Sing	11	obl	_	_
+10	дене	дене	ADP	_	AdpType=Post	9	case	_	_
+11	ончыктымо	ончыкташ	VERB	_	VerbForm=Part|Voice=Pass	12	acl	_	_
+12	йӧн	йӧн	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+13	-	-	PUNCT	_	_	20	punct	_	_
+14	графике	графике	NOUN	_	Case=Nom|Number=Sing	15	nmod	_	_
+15	объектын	объект	NOUN	_	Case=Gen|Number=Sing	16	nmod	_	_
+16	кончыктымашыжым	кончыктымаш	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun	20	obj	_	_
+17	пиксель	пиксель	NOUN	_	Case=Nom|Number=Sing	18	nmod	_	_
+18	сетке	сетке	NOUN	_	Case=Nom|Number=Sing	20	obl	_	_
+19	семын	семын	ADP	_	AdpType=Post	18	case	_	_
+20	пуымаш	пуымаш	NOUN	_	Case=Nom|Number=Sing|VerbForm=Vnoun	12	parataxis	_	SpaceAfter=No
+21	;	;	PUNCT	_	_	28	punct	_	_
+22	пиксельын	пиксель	NOUN	_	Case=Gen|Number=Sing	24	nmod	_	_
+23	кажне	кажне	DET	_	PronType=Tot	24	det	_	_
+24	тӱсшӧ	тӱс	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	28	nsubj:pass	_	_
+25	кокытан	кокытан	ADJ	_	_	26	amod	_	_
+26	чот	чот	NOUN	_	Case=Nom|Number=Sing	28	obl	_	_
+27	дене	дене	ADP	_	AdpType=Post	26	case	_	_
+28	кодлалтеш	кодлаш	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	20	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = mhr-fewshot-0002
+# text = Идым мут ончыктен кертеш:
+# text_en = The word "idym" can mean:
+# source_id = mhr:wiki:def585a02af3efb3af1c
+# source_sent_id = 94382
+# annotation_status = PARSER_FST_REVIEW
+1	Идым	идым	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	мут	мут	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+3	ончыктен	ончыкташ	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+4	кертеш	керташ	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	3	punct	_	_
+
+# sent_id = mhr-fewshot-0003
+# text = Йӱрнӧ ола сынан посёлко деч 6 километр тораште лийын шоген.
+# text_en = It was located 6 kilometers from the urban-type settlement of Yurno.
+# source_id = mhr:wiki:684634be0b8dcac269d6
+# source_sent_id = 160971
+# annotation_status = PARSER_FST_REVIEW
+1	Йӱрнӧ	Йӱрнӧ	PROPN	_	Case=Nom|Number=Sing	4	compound	_	_
+2	ола	ола	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
+3	сынан	сынан	ADP	_	AdpType=Post	2	case	_	_
+4	посёлко	посёлко	NOUN	_	Case=Nom|Number=Sing	9	obl	_	_
+5	деч	деч	ADP	_	AdpType=Post	4	case	_	_
+6	6	6	NUM	_	NumType=Card	7	nummod	_	_
+7	километр	километр	NOUN	_	Case=Nom|Number=Sing	9	obl	_	_
+8	тораште	тораште	ADP	_	AdpType=Post	7	case	_	_
+9	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+10	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:aspect	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = mhr-fewshot-0006
+# text = Интернетыште могай марий сайт-влак улыт?
+# text_en = What Mari websites are there on the Internet?
+# source_id = mhr:wiki:9618cca4eab13e403411
+# source_sent_id = 101922
+# annotation_status = PARSER_FST_REVIEW
+1	Интернетыште	интернет	NOUN	_	Case=Ine|Number=Sing	0	root	_	_
+2	могай	могай	ADJ	_	PronType=Int	4	amod	_	_
+3	марий	марий	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
+4	сайт-влак	сайт	NOUN	_	Case=Nom|Number=Plur	1	nsubj	_	_
+5	улыт	улаш	AUX	_	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = mhr-fewshot-0007
+# text = Какшамарий ял шотан илемын рӱдерже.
+# text_en = The administrative center of Kakshamari Rural Settlement.
+# source_id = mhr:wiki:ef0c6b58f0bea23ba1fa
+# source_sent_id = 92305
+# annotation_status = PARSER_FST_REVIEW
+1	Какшамарий	Какшамарий	PROPN	_	Case=Nom|Number=Sing	4	compound	_	_
+2	ял	ял	NOUN	_	Case=Nom|Number=Sing	3	obl	_	_
+3	шотан	шотан	ADJ	_	_	4	amod	_	_
+4	илемын	илем	NOUN	_	Case=Gen|Number=Sing	5	nmod	_	_
+5	рӱдерже	рӱдер	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = mhr-fewshot-0008
+# text = Унагудо — ӧрдыж гыч толшо-влаклан малашышт лӱмын чоҥымо пӧрт.
+# text_en = An inn is a house built for visitors from elsewhere to stay overnight.
+# source_id = mhr:wiki:48f0b9bbc59d464deec9
+# source_sent_id = 91162
+# annotation_status = PARSER_FST_REVIEW
+1	Унагудо	унагудо	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	_
+2	—	—	PUNCT	_	_	9	punct	_	_
+3	ӧрдыж	ӧрдыж	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+4	гыч	гыч	ADP	_	AdpType=Post	3	case	_	_
+5	толшо-влаклан	толшо	NOUN	_	Case=Dat|Number=Plur	6	nsubj	_	_
+6	малашышт	малаш	VERB	_	Number[psor]=Plur|Person[psor]=3|VerbForm=Inf	8	advcl	_	_
+7	лӱмын	лӱмын	ADV	_	_	8	advmod	_	_
+8	чоҥымо	чоҥаш	VERB	_	VerbForm=Part|Voice=Pass	9	acl	_	_
+9	пӧрт	пӧрт	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = mhr-fewshot-0011
+# text = Осинкин Вадим Никандрович — физика-математика шанче кандидат.
+# text_en = Vadim Nikandrovich Osinkin is a Candidate of Physical and Mathematical Sciences.
+# source_id = mhr:wiki:560c3562778a457c15f7
+# source_sent_id = 150406
+# annotation_status = PARSER_FST_REVIEW
+1	Осинкин	Осинкин	PROPN	_	Case=Nom|Number=Sing	7	nsubj	_	_
+2	Вадим	Вадим	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+3	Никандрович	Никандрович	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+4	—	—	PUNCT	_	_	7	punct	_	_
+5	физика-математика	физика-математика	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	шанче	шанче	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	кандидат	кандидат	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = mhr-fewshot-0014
+# text = Йӱдвел-касвел марий йылме (Йӱдвел-касвел марий йылме, йӱдйымал-касвел марий йылме, марий йылмын йӱдвел-касвел наречийже; шкен лӱмжӧ йөтнӫмӓл-кӓсвел маре йӹлмӹ) – ик финн-угор йылме.
+# text_en = Northwestern Mari (also called Northwestern Mari, northwestern Mari, or the northwestern dialect of Mari; its own name is yötńömäl-käsvel mare yïlmï) is a Finno-Ugric language.
+# source_id = mhr:wiki:cef7e62892c1a13af11b
+# source_sent_id = 189765
+# annotation_status = PARSER_FST_REVIEW
+1	Йӱдвел-касвел	йӱдвел-касвел	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+2	марий	марий	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	йылме	йылме	NOUN	_	Case=Nom|Number=Sing	27	nsubj	_	_
+4	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+5	Йӱдвел-касвел	йӱдвел-касвел	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+6	марий	марий	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	йылме	йылме	NOUN	_	Case=Nom|Number=Sing	3	appos	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	йӱдйымал-касвел	йӱдйымал-касвел	NOUN	_	Case=Nom|Number=Sing	11	nmod	_	_
+10	марий	марий	NOUN	_	Case=Nom|Number=Sing	11	nmod	_	_
+11	йылме	йылме	NOUN	_	Case=Nom|Number=Sing	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	16	punct	_	_
+13	марий	марий	NOUN	_	Case=Nom|Number=Sing	14	nmod	_	_
+14	йылмын	йылме	NOUN	_	Case=Gen|Number=Sing	16	nmod	_	_
+15	йӱдвел-касвел	йӱдвел-касвел	NOUN	_	Case=Nom|Number=Sing	16	nmod	_	_
+16	наречийже	наречий	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	conj	_	SpaceAfter=No
+17	;	;	PUNCT	_	_	20	punct	_	_
+18	шкен	шке	PRON	_	Case=Gen|PronType=Prs|Reflex=Yes	19	nmod	_	_
+19	лӱмжӧ	лӱм	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	20	nsubj	_	_
+20	йөтнӫмӓл-кӓсвел	йөтнӫмӓл-кӓсвел	X	_	Foreign=Yes	7	parataxis	_	_
+21	маре	маре	X	_	Foreign=Yes	20	flat:foreign	_	_
+22	йӹлмӹ	йӹлмӹ	X	_	Foreign=Yes	20	flat:foreign	_	SpaceAfter=No
+23	)	)	PUNCT	_	_	7	punct	_	_
+24	–	–	PUNCT	_	_	27	punct	_	_
+25	ик	ик	DET	_	PronType=Ind	27	det	_	_
+26	финн-угор	финн-угор	ADJ	_	_	27	amod	_	_
+27	йылме	йылме	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	_
+
+# sent_id = mhr-fewshot-0015
+# text = Хлебниково сола деч 16 километр касвел могырно верланен.
+# text_en = It is located 16 kilometers west of the village of Khlebnikovo.
+# source_id = mhr:wiki:7d7e020bcad6d94aaf6f
+# source_sent_id = 143485
+# annotation_status = PARSER_FST_REVIEW
+1	Хлебниково	Хлебниково	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	16	16	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	касвел	касвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = mhr-fewshot-0015-1
+# text = Торалык Яндекс.Карте-влак ӱзгарын полышышт дене висалтын.
+# text_en = The distance was measured with Yandex Maps tools.
+# source_id = mhr:wiki:7d7e020bcad6d94aaf6f
+# source_sent_id = 143485
+# annotation_status = PARSER_FST_REVIEW
+1	Торалык	торалык	NOUN	_	Case=Nom|Number=Sing	8	nsubj	_	_
+2	Яндекс	Яндекс	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	Карте-влак	карте	NOUN	_	Case=Nom|Number=Plur	2	flat:name	_	_
+5	ӱзгарын	ӱзгар	NOUN	_	Case=Gen|Number=Sing	6	nmod	_	_
+6	полышышт	полыш	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	8	obl	_	_
+7	дене	дене	ADP	_	AdpType=Post	6	case	_	_
+8	висалтын	висалташ	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0016
+# text = Йошкар-Ола ола деч 198 километр кечывалвел-касвел могырно верланен.
+# text_en = It is located 198 kilometers southwest of the city of Yoshkar-Ola. 
+# source_id = mhr:wiki:663d2f0768b9c8c5bd47
+# source_sent_id = 47710
+# annotation_status = PARSER_FST_REVIEW
+1	Йошкар-Ола	Йошкар-Ола	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ола	ола	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+3	деч	деч	ADP	_	AdpPart=Post	2	case	_	_
+4	198	198	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	кечывалвел-касвел	кечывалвел-касвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpPart=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = mhr-fewshot-0017
+# text = Тыге кыдалаш образованийым налеш.
+# text_en = Thus, they receive secondary education.
+# source_id = mhr:wiki:5f82f302bf49b7def2c9
+# source_sent_id = 90082
+# annotation_status = PARSER_FST_REVIEW
+1	Тыге	тыге	ADV	_	_	4	advmod	_	_
+2	кыдалаш	кыдалаш	ADJ	_	_	3	amod	_	_
+3	образованийым	образований	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
+4	налеш	налаш	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = mhr-fewshot-0020
+# text = Сивыр федерал йырвелыш пура.
+# text_en = It belongs to the Siberian Federal District.
+# source_id = mhr:wiki:673e1af2b756b7c38b16
+# source_sent_id = 87526
+# annotation_status = PARSER_FST_REVIEW
+1	Сивыр	Сивыр	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
+2	федерал	федерал	ADJ	_	_	3	amod	_	_
+3	йырвелыш	йырвел	NOUN	_	Case=Ill|Number=Sing	4	obl	_	_
+4	пура	пураш	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = mhr-fewshot-0021
+# text = Лужбин Иван Демидович — Йошкар Шӱдыр орденын кавалерже, 1941–1945 ийласе Кугу Ачамланде сарын участникше.
+# text_en = Ivan Demidovich Luzhbin was a recipient of the Order of the Red Star and a participant in the Great Patriotic War of 1941–1945.
+# source_id = mhr:wiki:7798c7507df8006dcb50
+# source_sent_id = 144589
+# annotation_status = PARSER_FST_REVIEW
+1	Лужбин	Лужбин	PROPN	_	Case=Nom|Number=Sing	8	nsubj	_	_
+2	Иван	Иван	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+3	Демидович	Демидович	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+4	—	—	PUNCT	_	_	8	punct	_	_
+5	Йошкар	йошкар	ADJ	_	Variant=Short	6	amod	_	_
+6	Шӱдыр	шӱдыр	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	орденын	орден	NOUN	_	Case=Gen|Number=Sing	8	nmod	_	_
+8	кавалерже	кавалер	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	17	punct	_	_
+10	1941	1941	NUM	_	NumForm=Digit|NumType=Card	13	nummod	_	SpaceAfter=No
+11	–	–	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	1945	1945	NUM	_	NumForm=Digit|NumType=Card	10	nmod	_	_
+13	ийласе	ийласе	ADJ	_	_	16	amod	_	_
+14	Кугу	кугу	ADJ	_	_	16	amod	_	_
+15	Ачамланде	ачамланде	ADJ	_	_	16	amod	_	_
+16	сарын	сар	NOUN	_	Case=Gen|Number=Sing	17	nmod	_	_
+17	участникше	участник	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0022
+# text = Шойбулак сола деч 6 километр йӱдвел-касвел могырно верланен.
+# text_en = It is located 6 kilometers northwest of the village of Shoibulak.
+# source_id = mhr:wiki:6b5bda63637661268043
+# source_sent_id = 140832
+# annotation_status = PARSER_FST_REVIEW
+1	Шойбулак	Шойбулак	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	6	6	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	йӱдвел-касвел	йӱдвел-касвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = mhr-fewshot-0023
+# text = Аркадий Искаков 1930 ий кылме тылзын 7-ше кечынже Вотск автоном область, Можга уезд, Вожай ялыште шочын.
+# text_en = Arkady Iskakov was born on 7 November 1930 in the village of Vozhay, Mozhga Uyezd, Votyak Autonomous Oblast.
+# source_id = mhr:wiki:8dbcd19a95979edb2ef9
+# source_sent_id = 172650
+# annotation_status = PARSER_FST_REVIEW
+1	Аркадий	Аркадий	PROPN	_	Case=Nom|Number=Sing	18	nsubj	_	_
+2	Искаков	Искаков	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+3	1930	1930	ADJ	_	NumForm=Digit|NumType=Ord	4	amod	_	_
+4	ий	ий	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
+5	кылме	кылме	ADJ	_	_	6	amod	_	_
+6	тылзын	тылзе	NOUN	_	Case=Gen|Number=Sing	8	nmod	_	_
+7	7-ше	7	ADJ	_	NumForm=Digit|NumType=Ord	8	amod	_	_
+8	кечынже	кече	NOUN	_	Number=Sing|number[psor]=Sing|Person[psor]=3	18	obl:tmod	_	_
+9	Вотск	Вотск	PROPN	_	Case=Nom|Number=Sing	11	compound	_	_
+10	автоном	автоном	ADJ	_	_	11	amod	_	_
+11	область	область	NOUN	_	Case=Nom|Number=Sing	17	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	Можга	Можга	PROPN	_	Case=Nom|Number=Sing	14	compound	_	_
+14	уезд	уезд	NOUN	_	Case=Nom|Number=Sing	17	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	Вожай	Вожай	PROPN	_	Case=Nom|Number=Sing	17	compound	_	_
+17	ялыште	ял	NOUN	_	Case=Ine|Number=Sing	18	obl	_	_
+18	шочын	шочаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = mhr-fewshot-0026
+# text = Лишыл ыле тымыкын ласкаже...
+# text_en = Nearby, the calm was gentle...
+# source_id = mhr:wiki:dc55d0e3762041671eb9
+# source_sent_id = 132696
+# annotation_status = PARSER_FST_REVIEW
+1	Лишыл	лишыл	ADJ	_	_	0	root	_	_
+2	ыле	улаш	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	cop	_	_
+3	тымыкын	тымык	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
+4	ласкаже	ласка	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	1	nsubj	_	SpaceAfter=No
+5	...	...	PUNCT	_	_	1	punct	_	_
+
+# sent_id = mhr-fewshot-0027
+# text = Российлан тиде сар утарыше ыле, садлан Кугу Авамланде Сар маналтын.
+# text_en = For Russia, this war was liberating, and therefore it was called the Great Patriotic War.
+# text_orig = Российлан тиде сар ыле, садлан Кугу Авамланде Сар маналтын.
+# source_id = mhr:wiki:6d4fb2482153dc0c88ab
+# source_sent_id = 42180
+# annotation_status = PARSER_FST_REVIEW
+1	Российлан	Россий	PROPN	_	Case=Dat|Number=Sing	4	obl	_	_
+2	тиде	тиде	DET	_	PronType=Dem	3	det	_	_
+3	сар	сар	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+4	утарыше	утарыше	ADJ	_	_	0	root	_	_
+5	ыле	улаш	AUX	_	Tense=Past	4	cop	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	11	punct	_	_
+7	садлан	садлан	ADV	_	PronType=Dem	11	advmod	_	_
+8	Кугу	кугу	ADJ	_	_	10	amod	_	_
+9	Авамланде	авамланде	ADJ	_	_	10	amod	_	_
+10	Сар	сар	NOUN	_	Case=Nom|Number=Sing	11	xcomp	_	_
+11	маналтын	маналташ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = mhr-fewshot-0029
+# text = Храм типичный Калинга архитектурный стилеште ден ӱмбалыште 3 шӧртньӧ калаша уло.
+# text_en = The temple is in the typical Kalinga architectural style and has three golden kalashas on top.
+# source_id = mhr:wiki:f0e497d4e7ff231bb648
+# source_sent_id = 192440
+# annotation_status = PARSER_FST_REVIEW
+1	Храм	храм	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+2	типичный	типичный	ADJ	_	_	3	amod	_	_
+3	Калинга	Калинга	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
+4	архитектурный	архитектурный	ADJ	_	_	5	amod	_	_
+5	стилеште	стиль	NOUN	_	Case=Ine|Number=Sing	0	root	_	_
+6	ден	ден	CCONJ	_	_	11	cc	_	_
+7	ӱмбалыште	ӱмбал	NOUN	_	Case=Ine|Number=Sing	11	obl	_	_
+8	3	3	NUM	_	NumForm=Digit|NumType=Card	10	nummod	_	_
+9	шӧртньӧ	шӧртньӧ	NOUN	_	Case=Nom|Number=Sing	10	nmod	_	_
+10	калаша	калаша	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
+11	уло	улаш	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = mhr-fewshot-0030
+# text = Елена Иванова «Культурная мозаика сел и деревень» Россий кӱкшытан конкурсышто Звенигово районышто у турист маршрутым почаш грантым сеҥен налын.
+# text_en = Elena Ivanova won a grant in the Russian national "Cultural Mosaic of Villages and Hamlets" competition to open a new tourist route in Zvenigovsky District.
+# source_id = mhr:wiki:edf7a2575c909fe89adc
+# source_sent_id = 171838
+# annotation_status = PARSER_FST_REVIEW
+1	Елена	Елена	PROPN	_	Case=Nom|Number=Sing	20	nsubj	_	_
+2	Иванова	Иванова	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+3	«	«	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Культурная	Культурная	X	_	Foreign=Yes	12	nmod	_	_
+5	мозаика	мозаика	X	_	Foreign=Yes	4	flat:foreign	_	_
+6	сел	сел	X	_	Foreign=Yes	4	flat:foreign	_	_
+7	и	и	X	_	Foreign=Yes	4	flat:foreign	_	_
+8	деревень	деревень	X	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+9	»	»	PUNCT	_	_	4	punct	_	_
+10	Россий	Россий	PROPN	_	Case=Nom|Number=Sing	12	nmod	_	_
+11	кӱкшытан	кӱкшытан	ADJ	_	_	12	amod	_	_
+12	конкурсышто	конкурс	NOUN	_	Case=Ine|Number=Sing	20	obl	_	_
+13	Звенигово	Звенигово	PROPN	_	Case=Nom|Number=Sing	14	compound	_	_
+14	районышто	район	NOUN	_	Case=Ine|Number=Sing	18	obl	_	_
+15	у	у	ADJ	_	_	17	amod	_	_
+16	турист	турист	NOUN	_	Case=Nom|Number=Sing	17	nmod	_	_
+17	маршрутым	маршрут	NOUN	_	Case=Acc|Number=Sing	18	obj	_	_
+18	почаш	почаш	VERB	_	VerbForm=Inf	19	acl	_	_
+19	грантым	грант	NOUN	_	Case=Acc|Number=Sing	20	obj	_	_
+20	сеҥен	сеҥаш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+21	налын	налаш	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux:aspect	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = mhr-fewshot-0031
+# text = Ешартыш тиште да тудын Юникодше:
+# text_en = The addition letter and its Unicode code:
+# source_id = mhr:wiki:db42e4d1891b58a2cf09
+# source_sent_id = 69858
+# annotation_status = PARSER_FST_REVIEW
+1	Ешартыш	ешартыш	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	тиште	тиште	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+3	да	да	CCONJ	_	_	5	cc	_	_
+4	тудын	тудо	DET	_	PronType=Prs	5	nmod	_	_
+5	Юникодше	Юникод	PROPN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	conj	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	1	punct	_	_
+
+# sent_id = mhr-fewshot-0032
+# text = Кыдал Озакъял ял деч 5 километр кечывалвел-эрвел могырно верланен.
+# text_en = It is located 5 kilometers southeast of the village of Sredny Ozakyal. 
+# source_id = mhr:wiki:04edebeb8a87717d8f88
+# source_sent_id = 142197
+# annotation_status = PARSER_FST_REVIEW
+1	Кыдал	кыдал	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	Озакъял	Озакъял	PROPN	_	Case=Nom|Number=Sing	3	compound	_	_
+3	ял	ял	NOUN	_	Case=Nom|Number=Sing	9	obl	_	_
+4	деч	деч	ADP	_	AdpType=Post	3	case	_	_
+5	5	5	NUM	_	NumForm=Digit|NumType=Card	6	nummod	_	_
+6	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	кечывалвел-эрвел	кечывалвел-эрвел	NOUN	_	Case=Nom|Number=Sing	9	obl	_	_
+8	могырно	могырно	NOUN	ADP	AdpType=Post	7	case	_	_
+9	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = mhr-fewshot-0033
+# text = У верыште балто-финн ӱлыл тӱшкалан негызым пыштен.
+# text_en = In the new place, it laid the foundation for the southern Baltic-Finnic subgroup.
+# source_id = mhr:wiki:b31cb39fc6b585312f91
+# source_sent_id = 87245
+# annotation_status = PARSER_FST_REVIEW
+1	У	у	ADJ	_	_	2	amod	_	_
+2	верыште	вер	NOUN	_	Case=Ine|Number=Sing	7	obl	_	_
+3	балто-финн	балто-финн	ADJ	_	_	5	amod	_	_
+4	ӱлыл	ӱлыл	ADJ	_	_	5	amod	_	_
+5	тӱшкалан	тӱшка	NOUN	_	Case=Dat|Number=Sing	7	obl	_	_
+6	негызым	негыз	NOUN	_	Case=Acc|Number=Sing	7	obj	_	_
+7	пыштен	пышташ	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = mhr-fewshot-0036
+# text = Азаново сола деч 3 километр кечывалвел-эрвелне лийын шоген.
+# text_en = It was located 3 kilometers southeast of the village of Azanovo.
+# source_id = mhr:wiki:3b8a7fcdf504975c2f16
+# source_sent_id = 143144
+# annotation_status = PARSER_FST_REVIEW
+1	Азаново	Азаново	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	3	3	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+6	кечывалвел-эрвелне	кечывалвел-эрвелне	ADV	_	_	7	advmod	_	_
+7	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+8	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:aspect	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0037
+# text = Регенсола мут ончыктен кертеш:
+# text_en = The word "Regensola" can mean:
+# source_id = mhr:wiki:75d6f9962b62bf4b39d8
+# source_sent_id = 140190
+# annotation_status = PARSER_FST_REVIEW
+1	Регенсола	Регенсола	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	мут	мут	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+3	ончыктен	ончыкташ	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+4	кертеш	керташ	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	3	punct	_	_
+
+# sent_id = mhr-fewshot-0039
+# text = Кремль — тошто руш ола кӧргысӧ карман.
+# text_en = A kremlin is a fortress inside an old Russian city.
+# source_id = mhr:wiki:de8277af5e3aacef4977
+# source_sent_id = 114350
+# annotation_status = PARSER_FST_REVIEW
+1	Кремль	кремль	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
+2	—	—	PUNCT	_	_	7	punct	_	_
+3	тошто	тошто	ADJ	_	_	5	amod	_	_
+4	руш	руш	ADJ	_	_	5	amod	_	_
+5	ола	ола	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+6	кӧргысӧ	кӧргысӧ	ADP	_	AdpType=Post	5	case	_	_
+7	карман	карман	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = mhr-fewshot-0042
+# text = Калянур () — Российыште Марий Элын У Роҥго кундемыштыже верланыше Вечын ял шотан илемыш пурышо ял.
+# text_en = Kalyanur is a village belonging to the Vechy rural settlement, which is located in Novy Toryal District, Mari El, Russia.
+# source_id = mhr:wiki:9415c7f99e68258757eb
+# source_sent_id = 124362
+# annotation_status = PARSER_FST_REVIEW
+1	Калянур	Калянур	PROPN	_	Case=Nom|Number=Sing	17	nsubj	_	_
+2	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	1	punct	_	_
+4	—	—	PUNCT	_	_	17	punct	_	_
+5	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	11	obl	_	_
+6	Марий	марий	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	Элын	эл	NOUN	_	Case=Gen|Number=Sing	10	nmod	_	_
+8	У	у	ADJ	_	_	9	amod	_	_
+9	Роҥго	Роҥго	PROPN	_	Case=Nom|Number=Sing	10	compound	_	_
+10	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	obl	_	_
+11	верланыше	верланаш	VERB	_	VerbForm=Part|Voice=Act	15	acl	_	_
+12	Вечын	Вечын	PROPN	_	Case=Nom|Number=Sing	15	compound	_	_
+13	ял	ял	NOUN	_	Case=Nom|Number=Sing	14	obl	_	_
+14	шотан	шотан	ADJ	_	_	15	amod	_	_
+15	илемыш	илем	NOUN	_	Case=Ill|Number=Sing	16	obl	_	_
+16	пурышо	пураш	VERB	_	VerbForm=Part|Voice=Act	17	acl	_	_
+17	ял	ял	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = mhr-fewshot-0043
+# text = Немыч йылме дене кутырат.
+# text_en = They speak German.
+# source_id = mhr:wiki:7a4ad11f2433cd365e4f
+# source_sent_id = 50126
+# annotation_status = PARSER_FST_REVIEW
+1	Немыч	немыч	ADJ	_	_	2	amod	_	_
+2	йылме	йылме	NOUN	_	Case=Nom|Number=Sing	4	obl	_	_
+3	дене	дене	ADP	_	AdpType=Post	2	case	_	_
+4	кутырат	кутыраш	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = mhr-fewshot-0044
+# text = Илышыже да творчествыже нерген литератур
+# text_en = Literature about his life and work.
+# source_id = mhr:wiki:495736ce34c60b77fdbe
+# source_sent_id = 177065
+# annotation_status = PARSER_FST_REVIEW
+1	Илышыже	илыш	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
+2	да	да	CCONJ	_	_	3	cc	_	_
+3	творчествыже	творчестве	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	1	conj	_	_
+4	нерген	нерген	ADP	_	AdpType=Post	1	case	_	_
+5	литератур	литератур	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+
+# sent_id = mhr-fewshot-0045
+# text = Муржинов Григорий Петрович – Йошкар Шӱдыр орденын кавалерже, 1941–1945 ийласе Кугу Ачамланде сарын участникше.
+# text_en = Grigory Petrovich Murzhinov was a recipient of the Order of the Red Star and a participant in the Great Patriotic War of 1941–1945.
+# source_id = mhr:wiki:0e88c36d113eef5b2d83
+# source_sent_id = 181942
+# annotation_status = PARSER_FST_REVIEW
+1	Муржинов	Муржинов	PROPN	_	Case=Nom|Number=Sing	8	nsubj	_	_
+2	Григорий	Григорий	PROPN	_	Case=Nom|Number=Sing	2	flat:name	_	_
+3	Петрович	Петрович	PROPN	_	Case=Nom|Number=Sing	2	flat:name	_	_
+4	–	–	PUNCT	_	_	8	punct	_	_
+5	Йошкар	йошкар	ADJ	_	Variant=Short	6	amod	_	_
+6	Шӱдыр	шӱдыр	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	орденын	орден	NOUN	_	Case=Gen|Number=Sing	8	nmod	_	_
+8	кавалерже	кавалер	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	17	punct	_	_
+10	1941	1941	NUM	_	NumForm=Digit|NumType=Card	13	nummod	_	SpaceAfter=No
+11	–	–	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	1945	1945	NUM	_	NumForm=Digit|NumType=Card	10	nmod	_	_
+13	ийласе	ийласе	ADJ	_	_	16	amod	_	_
+14	Кугу	кугу	ADJ	_	_	16	amod	_	_
+15	Ачамланде	ачамланде	ADJ	_	_	16	amod	_	_
+16	сарын	сар	NOUN	_	Case=Gen|Number=Sing	17	nmod	_	_
+17	участникше	участник	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0046
+# text = Верысе школышто нылымше класс марте тунемын.
+# text_en = He studied at the local school through the fourth grade.
+# source_id = mhr:wiki:e10616e03de9bdc122ca
+# source_sent_id = 101297
+# annotation_status = PARSER_FST_REVIEW
+1	Верысе	верысе	ADJ	_	_	2	amod	_	_
+2	школышто	школ	NOUN	_	Case=Ine|Number=Sing	6	obl	_	_
+3	нылымше	нылымше	ADJ	_	NumType=Ord	4	amod	_	_
+4	класс	класс	NOUN	_	Case=Nom|Number=Sing	6	obl	_	_
+5	марте	марте	ADP	_	AdpType=Post	4	case	_	_
+6	тунемын	тунемаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = mhr-fewshot-0047
+# text = Эшполдо ял деч 3 километр йӱдвелне лийын шоген.
+# text_en = It was located 3 kilometers north of the village of Eshpoldo.
+# source_id = mhr:wiki:89e6b6354c6f02f9e275
+# source_sent_id = 120073
+# annotation_status = PARSER_FST_REVIEW
+1	Эшполдо	Эшполдо	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ял	ял	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	3	3	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+6	йӱдвелне	йӱдвелне	ADV	_	_	7	advmod	_	_
+7	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+8	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:aspect	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0048
+# text = Пайскурык сола деч 6 километр йӱдвел-касвел могырно верланен.
+# text_en = It is located 6 kilometers northwest of Payskuryk.
+# source_id = mhr:wiki:b658e2d0370e7e815454
+# source_sent_id = 151433
+# annotation_status = PARSER_FST_REVIEW
+1	Пайскурык	Пайскурык	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	6	6	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	йӱдвел-касвел	йӱдвел-касвел	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0049
+# text = Россоны деч 16 километр касвел могырно верланен.
+# text_en = It is located 16 kilometers west of Rossony.
+# source_id = mhr:wiki:64671e3ca22d80de2e1b
+# source_sent_id = 197371
+# annotation_status = PARSER_FST_REVIEW
+1	Россоны	Россоны	PROPN	_	Case=Nom|Number=Sing	7	obl	_	_
+2	деч	деч	ADP	_	AdpType=Post	1	case	_	_
+3	16	16	NUM	_	NumForm=Digit|NumType=Card	4	nummod	_	_
+4	километр	километр	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	касвел	касвел	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+6	могырно	могырно	ADP	_	AdpType=Post	5	case	_	_
+7	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = mhr-fewshot-0051
+# text = 1940-ан ийлаште Келдаксола ял Изи Каракша ял деке ушалтын, кызыт Шкетан уремже лиеш.
+# text_en = In the 1940s, the village of Keldaksola was incorporated into the village of Izi Karaksha; it is now Shketan Street. 
+# source_id = mhr:wiki:ea65138caa2fe468f4c5
+# source_sent_id = 136220
+# annotation_status = PARSER_FST_REVIEW
+1	1940-ан	1940	ADJ	_	NumType=Ord	2	amod	_	_
+2	ийлаште	ий	NOUN	_	Case=Ine|Number=Plur	9	obl:tmod	_	_
+3	Келдаксола	Келдаксола	PROPN	_	Case=Nom|Number=Sing	4	compound	_	_
+4	ял	ял	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	_
+5	Изи	изи	ADJ	_	_	7	amod	_	_
+6	Каракша	Каракша	PROPN	_	Case=Nom|Number=Sing	7	compound	_	_
+7	ял	ял	NOUN	_	Case=Nom|Number=Sing	9	obl	_	_
+8	деке	деке	ADP	_	AdpType=Post	7	case	_	_
+9	ушалтын	ушалташ	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	кызыт	кызыт	ADV	_	_	14	advmod	_	_
+12	Шкетан	Шкетан	PROPN	_	Case=Nom|Number=Sing	13	nmod	_	_
+13	уремже	урем	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	14	xcomp	_	_
+14	лиеш	лияш	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = mhr-fewshot-0052
+# text = Паратский казна пӧрт () — Российыште Марий Элын Килемар кундемыштыже лийын шогышо пытыше илем.
+# text_en = Paratsky State House () was a former settlement in Kilemary District, Mari El, Russia.
+# source_id = mhr:wiki:d8b69a3005b2986b1fb8
+# source_sent_id = 157868
+# annotation_status = PARSER_FST_REVIEW
+1	Паратский	Паратский	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
+2	казна	казна	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	пӧрт	пӧрт	NOUN	_	Case=Nom|Number=Sing	15	nsubj	_	_
+4	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	3	punct	_	_
+6	—	—	PUNCT	_	_	15	punct	_	_
+7	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	12	obl	_	_
+8	Марий	марий	NOUN	_	Case=Nom|Number=Sing	9	nmod	_	_
+9	Элын	эл	NOUN	_	Case=Gen|Number=Sing	11	nmod	_	_
+10	Килемар	Килемар	PROPN	_	Case=Nom|Number=Sing	11	compound	_	_
+11	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	12	obl	_	_
+12	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	15	acl	_	_
+13	шогышо	шогаш	AUX	_	VerbForm=Part|Voice=Act	12	aux:aspect	_	_
+14	пытыше	пыташ	VERB	_	VerbForm=Part|Voice=Act	15	acl	_	_
+15	илем	илем	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = mhr-fewshot-0053
+# text = Тӱняште кокымшо эн кугу кумдыкан эл.
+# text_en = The world's second largest country by area.
+# source_id = mhr:wiki:235bb10a0c3b7dbc9bd7
+# source_sent_id = 23347
+# annotation_status = PARSER_FST_REVIEW
+1	Тӱняште	тӱня	NOUN	_	Case=Ine|Number=Sing	6	nmod	_	_
+2	кокымшо	кокымшо	ADJ	_	NumType=Ord	6	amod	_	_
+3	эн	эн	ADV	_	Degree=Sup	4	advmod	_	_
+4	кугу	кугу	ADJ	_	_	6	amod	_	_
+5	кумдыкан	кумдыкан	ADJ	_	_	6	amod	_	_
+6	эл	эл	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = mhr-fewshot-0054
+# text = Урал федерал йырвелыш пура.
+# text_en = It belongs to the Ural Federal District.
+# source_id = mhr:wiki:c6abf9a567c02a27f6cf
+# source_sent_id = 87559
+# annotation_status = PARSER_FST_REVIEW
+1	Урал	Урал	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
+2	федерал	федерал	ADJ	_	_	3	amod	_	_
+3	йырвелыш	йырвел	NOUN	_	Case=Lat|Number=Sing	4	obl	_	_
+4	пура	пураш	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = mhr-fewshot-0055
+# text = Бугульма кундемыште 2 ола шотан илем да 17 ял шотан илем уло.
+# text_en = Bugulma District has two urban settlements and 17 rural settlements.
+# source_id = mhr:wiki:58ba48987101762ee52a
+# source_sent_id = 113993
+# annotation_status = PARSER_FST_REVIEW
+1	Бугульма	Бугульма	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	кундемыште	кундем	NOUN	_	Case=Ine|Number=Sing	12	obl	_	_
+3	2	2	NUM	_	NumForm=Digit|NumType=Card	6	nummod	_	_
+4	ола	ола	NOUN	_	Case=Nom|Number=Sing	5	obl	_	_
+5	шотан	шотан	ADJ	_	_	6	amod	_	_
+6	илем	илем	NOUN	_	Case=Nom|Number=Sing	12	nsubj	_	_
+7	да	да	CCONJ	_	_	11	cc	_	_
+8	17	17	NUM	_	NumForm=Digit|NumType=Card	11	nummod	_	_
+9	ял	ял	NOUN	_	Case=Nom|Number=Sing	10	obl	_	_
+10	шотан	шотан	ADJ	_	_	11	amod	_	_
+11	илем	илем	NOUN	_	Case=Nom|Number=Sing	6	conj	_	_
+12	уло	уло	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = mhr-fewshot-0056
+# text = Рушэҥер ял деч 4 километр кечывалвелне лийын шоген.
+# text_en = It was located 4 kilometers south of the village of Rushenger.
+# source_id = mhr:wiki:4ed805b961ffacca9adb
+# source_sent_id = 120084
+# annotation_status = PARSER_FST_REVIEW
+1	Рушэҥер	Рушэҥер	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ял	ял	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	4	4	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+6	кечывалвелне	кечывалвелне	ADV	_	_	7	obl	_	_
+7	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+8	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:aspect	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0058
+# text = Аркадий Букетов-Сайн 1933 ийын шорыкйол тылзын 6-шо кечынже Марий АССР Морко кундем Эҥерӱмбал Шале ялеш кресаньык ешеш шочын.
+# text_en = Arkady Buketov-Sain was born on 6 January 1933 into a peasant family in the village of Engerumbal Shale, Morkinsky District, Mari ASSR.
+# source_id = mhr:wiki:edf0472da42b475a1280
+# source_sent_id = 118581
+# annotation_status = PARSER_FST_REVIEW
+1	Аркадий	Аркадий	PROPN	_	Case=Nom|Number=Sing	18	nsubj	_	_
+2	Букетов-Сайн	Букетов-Сайн	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+3	1933	1933	ADJ	_	NumForm=Digit|NumType=Ord	4	amod	_	_
+4	ийын	ий	NOUN	_	Case=Gen|Number=Sing	6	nmod	_	_
+5	шорыкйол	шорыкйол	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	тылзын	тылзе	NOUN	_	Case=Gen|Number=Sing	8	nmod	_	_
+7	6-шо	6	ADJ	_	NumForm=Digit|NumType=Ord	8	amod	_	_
+8	кечынже	кече	NOUN	_	Number=Sing|number[psor]=Sing|Person[psor]=3	18	obl:tmod	_	_
+9	Марий	марий	NOUN	_	Case=Nom|Number=Sing	10	nmod	_	_
+10	АССР	АССР	PROPN	_	Abbr=Yes	15	nmod	_	_
+11	Морко	Морко	PROPN	_	Case=Nom|Number=Sing	12	compound	_	_
+12	кундем	кундем	NOUN	_	Case=Nom|Number=Sing	15	nmod	_	_
+13	Эҥерӱмбал	Эҥерӱмбал	PROPN	_	Case=Nom|Number=Sing	15	compound	_	_
+14	Шале	Шале	PROPN	_	Case=Nom|Number=Sing	13	flat:name	_	_
+15	ялеш	ял	NOUN	_	Case=Lat|Number=Sing	18	obl	_	_
+16	кресаньык	кресаньык	NOUN	_	Case=Nom|Number=Sing	17	nmod	_	_
+17	ешеш	еш	NOUN	_	Case=Lat|Number=Sing	18	obl	_	_
+18	шочын	шочаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = mhr-fewshot-0059
+# text = Тушто шуктымо пашам иктешлыме да Россий Прездентын кундемлаште догазификацийым виктарыме шотышто кӱштымашыжым кузе шуктен толмо нерген мутланыме.
+# text_en = They discussed the work done there and how the Russian president's instruction on gasification in the regions had been carried out.
+# source_id = mhr:wiki:5ec0d9f7d39a87145985
+# source_sent_id = 195346
+# annotation_status = PARSER_FST_REVIEW
+1	Тушто	тушто	ADV	_	PronType=Dem	4	advmod	_	_
+2	шуктымо	шукташ	VERB	_	VerbForm=Part|Voice=Pass	3	acl	_	_
+3	пашам	паша	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
+4	иктешлыме	иктешлаш	VERB	_	VerbForm=Part|Voice=Pass	0	root	_	_
+5	да	да	CCONJ	_	_	17	cc	_	_
+6	Россий	Россий	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	Прездентын	президент	NOUN	_	Case=Gen|Number=Sing|Typo=Yes	12	nmod	_	_
+8	кундемлаште	кундем	NOUN	_	Case=Ine|Number=Plur	10	obl	_	_
+9	догазификацийым	догазификаций	NOUN	_	Case=Acc|Number=Sing	10	obj	_	_
+10	виктарыме	виктараш	VERB	_	VerbForm=Part|Voice=Pass	12	acl	_	_
+11	шотышто	шотышто	ADP	_	AdpType=Post	10	case	_	_
+12	кӱштымашыжым	кӱштымаш	NOUN	_	Case=Acc|Number=Plur|Person[psor]=3|VerbForm=Vnoun	14	obj	_	_
+13	кузе	кузе	ADV	_	PronType=Int	15	advmod	_	_
+14	шуктен	шукташ	VERB	_	ConvType=Gen|VerbForm=Conv	17	ccomp	_	_
+15	толмо	толаш	AUX	_	VerbForm=Part|Voice=Pass	14	aux:aspect	_	_
+16	нерген	нерген	ADP	_	AdpType=Post	14	mark	_	_
+17	мутланыме	мутланаш	VERB	_	VerbForm=Part|Voice=Pass	4	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = mhr-fewshot-0060
+# text = Олык марий йылмым кучылтыт.
+# text_en = They use the Meadow Mari language.
+# source_id = mhr:wiki:83d5a9bbf87fdd25bc7c
+# source_sent_id = 67540
+# annotation_status = PARSER_FST_REVIEW
+1	Олык	олык	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+2	марий	марий	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	йылмым	йылме	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
+4	кучылтыт	кучылташ	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = mhr-fewshot-0062
+# text = Ошладӱр ял деч 4 километр касвелне лийын шоген.
+# text_en = It was located 4 kilometers west of the village of Oshladur.
+# source_id = mhr:wiki:e266d79113fb3247aa10
+# source_sent_id = 140932
+# annotation_status = PARSER_FST_REVIEW
+1	Ошладӱр	Ошладӱр	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ял	ял	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	4	4	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+6	касвелне	касвелне	ADV	_	_	7	obl	_	_
+7	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+8	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:aspect	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0064
+# text = 14-ше тиште Олык марий да 15-ше тиште Курык марий тиштерыште.
+# text_en = The 14th letter of the Meadow Mari alphabet and the 15th letter of the Hill Mari alphabet.
+# source_id = mhr:wiki:d3b06aba06c66ef1880f
+# source_sent_id = 65445
+# annotation_status = PARSER_FST_REVIEW
+1	14-ше	14	ADJ	_	NumForm=Digit|NumType=Ord	2	amod	_	_
+2	тиште	тиште	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+3	Олык	олык	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
+4	марий	марий	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+5	да	да	CCONJ	_	_	7	cc	_	_
+6	15-ше	15	ADJ	_	NumForm=Digit|NumType=Ord	7	amod	_	_
+7	тиште	тиште	NOUN	_	Case=Nom|Number=Sing	2	conj	_	_
+8	Курык	курык	NOUN	_	Case=Nom|Number=Sing	10	nmod	_	_
+9	марий	марий	NOUN	_	Case=Nom|Number=Sing	10	nmod	_	_
+10	тиштерыште	тиштер	NOUN	_	Case=Ine|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+	1
+# sent_id = mhr-fewshot-0065
+# text = Тошто Крешын ял деч 1 километр касвелне лийын шоген.
+# text_en = It was located 1 kilometer west of the village of Toshto Kreshyn.
+# source_id = mhr:wiki:25420be06be92f6cd9f1
+# source_sent_id = 135703
+# annotation_status = PARSER_FST_REVIEW
+1	Тошто	тошто	ADJ	_	_	3	amod	_	_
+2	Крешын	Крешын	PROPN	_	Case=Gen|Number=Sing	3	compound	_	_
+3	ял	ял	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+4	деч	деч	ADP	_	AdpType=Post	3	case	_	_
+5	1	1	NUM	_	NumForm=Digit|NumType=Card	6	nummod	_	_
+6	километр	километр	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	касвелне	касвелне	ADV	_	_	8	advmod	_	_
+8	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+9	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:aspect	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = mhr-fewshot-0066
+# text_orig = 1989 ийыште шыжа тылзын 20-шо кечынже Касьяново ял шотлымо данный-влак лукталтын.
+# text = 1989 ийыште шыжа тылзын 20-шо кечынже Касьяново ял шотлымо данный-влак гыч лукталтын.
+# text_en = On 20 October 1989, the village of Kasyanovo was removed from the official register of settlements. 
+# source_id = mhr:wiki:36095402a12197bb6bca
+# source_sent_id = 143779
+# annotation_status = PARSER_FST_REVIEW
+1	1989	1989	NUM	_	NumForm=Digit|NumType=Ord	2	nummod	_	_
+2	ийыште	ий	NOUN	_	Case=Ine|Number=Sing	6	nmod	_	_
+3	шыжа	шыжа	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
+4	тылзын	тылзе	NOUN	_	Case=Gen|Number=Sing	6	nmod	_	_
+5	20-шо	20	ADJ	_	NumForm=Digit|NumType=Ord	6	amod	_	_
+6	кечынже	кече	NOUN	_	Number=Sing|Number[psor]=Sing|Person[psor]=3	12	obl:tmod	_	_
+7	Касьяново	Касьяново	PROPN	_	Case=Nom|Number=Sing	8	compound	_	_
+8	ял	ял	NOUN	_	Case=Nom|Number=Sing	12	nsubj:pass	_	_
+9	шотлымо	шотлаш	VERB	_	VerbForm=Part|Voice=Pass	10	acl	_	_
+10	данный-влак	данный	NOUN	_	Case=Nom|Number=Plur	11	obl	_	_
+11	гыч	гыч	ADP	_	AdpType=Post	10	case	_	_
+11	лукталтын	лукталташ	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = mhr-fewshot-0067
+# text = Ганга Талао - Маврикийыште Саванне кундемыште Индуизм тынын шнуй ер.
+# text_en = Ganga Talao is a sacred lake of the Hindu faith in Savanne District, Mauritius.
+# source_id = mhr:wiki:82d74927a8a25396ef53
+# source_sent_id = 191060
+# annotation_status = PARSER_FST_REVIEW
+1	Ганга	Ганга	PROPN	_	Case=Nom|Number=Sing	10	nsubj	_	_
+2	Талао	Талао	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+3	-	-	PUNCT	_	_	10	punct	_	_
+4	Маврикийыште	Маврикий	PROPN	_	Case=Ine|Number=Sing	6	nmod	_	_
+5	Саванне	саванне	PROPN	_	Case=Nom|Number=Sing	6	compound	_	_
+6	кундемыште	кундем	NOUN	_	Case=Ine|Number=Sing	10	nmod	_	_
+7	Индуизм	индуизм	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
+8	тынын	тын	NOUN	_	Case=Gen|Number=Sing	10	nmod	_	_
+9	шнуй	шнуй	ADJ	_	_	10	amod	_	_
+10	ер	ер	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = mhr-fewshot-0069
+# text = Кӱльмӱж — Российыште Одо Элын Сюмси кундемыштыже верланыше сола.
+# text_en = Kulmuzh is a village in Syumsinsky District of Udmurtia, Russia.
+# source_id = mhr:wiki:1e2348d768bdbff8421a
+# source_sent_id = 101125
+# annotation_status = PARSER_FST_REVIEW
+1	Кӱльмӱж	Кӱльмӱж	PROPN	_	Case=Nom|Number=Sing	9	nsubj	_	_
+2	—	—	PUNCT	_	_	9	punct	_	_
+3	Российыште	Российыш?Россий	PROPN	_	Case=Ine|Number=Sing	8	obl	_	_
+4	Одо	одо	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	Элын	эл	NOUN	_	Case=Gen|Number=Sing	7	nmod	_	_
+6	Сюмси	Сюмси	PROPN	_	Case=Nom|Number=Sing	7	compound	_	_
+7	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obl	_	_
+8	верланыше	верланаш	VERB	_	VerbForm=Part|Voice=Act	8	acl	_	_
+9	сола	сола	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = mhr-fewshot-0070
+# text = 1932 ийыште У Рычан да Раздор сола дене пырля Хуторской ялсоветыш пурен, 1981 ийыште посна ялсоветын статусшым налын.
+# text_en = In 1932, together with the villages of Novy Rychan and Razdor, it became part of the Khutorskoy village council; in 1981 it obtained the status of a separate village council.
+# source_id = mhr:wiki:5be01167a709676e57c6
+# source_sent_id = 192751
+# annotation_status = PARSER_FST_REVIEW
+1	1932	1932	NUM	_	NumForm=Digit|NumType=Ord	2	nummod	_	_
+2	ийыште	ий	NOUN	_	Case=Ine|Number=Sing	12	obl:tmod	_	_
+3	У	у	ADJ	_	_	4	amod	_	_
+4	Рычан	Рычан	PROPN	_	Case=Nom|Number=Sing	7	compound	_	_
+5	да	да	CCONJ	_	_	6	cc	_	_
+6	Раздор	Раздор	PROPN	_	Case=Nom|Number=Sing	4	conj	_	_
+7	сола	сола	NOUN	_	Case=Nom|Number=Sing	12	obl	_	_
+8	дене	дене	ADP	_	AdpType=Post	7	case	_	_
+9	пырля	пырля	ADV	_	_	12	advmod	_	_
+10	Хуторской	Хуторской	PROPN	_	Case=Nom|Number=Sing	11	compound	_	_
+11	ялсоветыш	ялсовет	NOUN	_	Case=Ill|Number=Sing	12	obl	_	_
+12	пурен	пураш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	19	punct	_	_
+14	1981	1981	NUM	_	NumForm=Digit|NumType=Ord	15	nummod	_	_
+15	ийыште	ий	NOUN	_	Case=Ine|Number=Sing	19	obl:tmod	_	_
+16	посна	посна	ADJ	_	_	17	amod	_	_
+17	ялсоветын	ялсовет	NOUN	_	Case=Gen|Number=Sing	18	nmod	_	_
+18	статусшым	статус	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	19	obj	_	_
+19	налын	налаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = mhr-fewshot-0071
+# text = Йӱксар сола деч 14 километр кечывалвел-касвел могырно верланен.
+# text_en = It is located 14 kilometers southwest of Yuksar.
+# source_id = mhr:wiki:86b7f31c50585fc7f893
+# source_sent_id = 157755
+# annotation_status = PARSER_FST_REVIEW
+1	Йӱксар	Йӱксар	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	8	nsubj	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	14	14	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	кечывалвел-касвел	кечывалвел-касвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0072
+# text = Пайскурык ял деч 4 километр йӱдвел-эрвел могырно верланен.
+# text_en = It is located 4 kilometers northeast of Payskuryk.
+# source_id = mhr:wiki:9181a0ddf43bd9ecc29e
+# source_sent_id = 149325
+# annotation_status = PARSER_FST_REVIEW
+1	Пайскурык	Пайскурык	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ял	ял	NOUN	_	Case=Nom|Number=Sing	8	nsubj	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	4	4	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	йӱдвел-эрвел	йӱдвел-эрвел	NOUN	_	_	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0074
+# text = Нефтекамск ола деч 8 километр йӱдвел-касвел могырно верланен.
+# text_en = It is located 8 kilometers northwest of Neftekamsk.
+# source_id = mhr:wiki:407e708d6782d49addc2
+# source_sent_id = 166734
+# annotation_status = PARSER_FST_REVIEW
+1	Нефтекамск	Нефтекамск	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ола	ола	NOUN	_	Case=Gen|Number=Sing	8	nsubj	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	8	8	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	йӱдвел-касвел	йӱдвел-касвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0075
+# text = 2013 ий пургыж тылзын 18-ше кечынже Марий Эл Республик Вуйлатышын 16-шо №-ан Указше негызым пыштен.
+# text_en = It was established under Decree No. 16 of the Head of the Mari El Republic, dated 18 February 2013.
+# source_id = mhr:wiki:26d26e546d8d58e1ffe2
+# source_sent_id = 167006
+# annotation_status = PARSER_FST_REVIEW
+1	2013	2013	ADJ	_	NumForm=Digit|NumType=Ord	2	amod	_	_
+2	ий	ий	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+3	пургыж	пургыж	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
+4	тылзын	тылзе	NOUN	_	Case=Gen|Number=Sing	6	nmod	_	_
+5	18-ше	18	ADJ	_	NumForm=Digit|NumType=Ord	6	amod	_	_
+6	кечынже	кече	NOUN	_	Number=Sing|Number[psor]=Sing|Person[psor]=3	15	obl:tmod	_	_
+7	Марий	марий	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
+8	Эл	эл	NOUN	_	Case=Nom|Number=Sing	9	nmod	_	_
+9	Республик	республик	NOUN	_	Case=Nom|Number=Sing	10	nmod	_	_
+10	Вуйлатышын	вуйлатыше	NOUN	_	Case=Gen|Number=Sing	13	nmod	_	_
+11	16-шо	16	ADJ	_	NumForm=Digit|NumType=Ord	12	amod	_	_
+12	№-ан	№	ADJ	_	_	13	amod	_	_
+13	Указше	указ	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	15	nsubj	_	_
+14	негызым	негыз	NOUN	_	Case=Acc|Number=Sing	15	obj	_	_
+15	пыштен	пышташ	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = mhr-fewshot-0076
+# text = Тидын лӱмеш кугу пайремым эртареныт, кугу яллаште гын ярминка лийын.
+# text_en = A large celebration was held in its honor, and in larger villages there was a fair.
+# source_id = mhr:wiki:18c5ceb8fea260b32437
+# source_sent_id = 219
+# annotation_status = PARSER_FST_REVIEW
+1	Тидын	тиде	PRON	_	Case=Gen|Number=Sing|PronType=Dem	5	obl	_	_
+2	лӱмеш	лӱмеш	ADP	_	AdpType=Post	1	case	_	_
+3	кугу	кугу	ADJ	_	_	4	amod	_	_
+4	пайремым	пайрем	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
+5	эртареныт	эртараш	VERB	_	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	11	punct	_	_
+7	кугу	кугу	ADJ	_	_	8	amod	_	_
+8	яллаште	ял	NOUN	_	Case=Ine|Number=Plur	11	obl	_	_
+9	гын	гын	PART	_	_	8	discourse	_	_
+10	ярминка	ярминка	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
+11	лийын	лияш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = mhr-fewshot-0077
+# text = Тиде йӱдым пеш кугу кредалмаш каен шоген, кресаньык-влак илаш-колаш ваш пижыныт, туге гынат олам налын кертын огытыл.
+# text_en = A fierce battle continued that night; the peasants fought for their lives, but they could not take the city.
+# source_id = mhr:wiki:ed277dbdf7d945058c3c
+# source_sent_id = 86087
+# annotation_status = PARSER_FST_REVIEW
+1	Тиде	тиде	DET	_	PronType=Dem	2	det	_	_
+2	йӱдым	йӱд	NOUN	_	Case=Acc|Number=Sing	6	obl:tmod	_	_
+3	пеш	пеш	ADV	_	_	4	advmod	_	_
+4	кугу	кугу	ADJ	_	_	5	amod	_	_
+5	кредалмаш	кредалмаш	NOUN	_	Case=Nom|Number=Sing|VerbForm=Vnoun	6	nsubj	_	_
+6	каен	каяш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+7	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:aspect	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	12	punct	_	_
+9	кресаньык-влак	кресаньык	NOUN	_	Case=Nom|Number=Plur	12	nsubj	_	_
+10	илаш-колаш	илаш-колаш	ADV	_	_	12	advmod	_	_
+11	ваш	ваш	ADV	_	_	12	advmod	_	_
+12	пижыныт	пижаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	17	punct	_	_
+14	туге	туге	ADV	_	ExtPos=CCONJ	17	cc	_	_
+15	гынат	гынат	PART	_	_	14	fixed	_	_
+16	олам	ола	NOUN	_	Case=Acc|Number=Sing	17	obj	_	_
+17	налын	налаш	VERB	_	ConvType=Gen|VerbForm=Conv	12	conj	_	_
+18	кертын	керташ	AUX	_	ConvType=Gen|VerbForm=Conv	17	aux	_	_
+19	огытыл	улаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	17	aux	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = mhr-fewshot-0078
+# text = Элнет сола деч 9 километр эрвелне лийын шоген.
+# text_en = It was located 9 kilometers east of the village of Elnet.
+# source_id = mhr:wiki:0d32458f057ef0daf059
+# source_sent_id = 128369
+# annotation_status = PARSER_FST_REVIEW
+1	Элнет	Элнет	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	9	9	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+6	эрвелне	эрвелне	ADV	_	_	7	advmod	_	_
+7	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+8	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:aspect	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0079
+# text = Пекшиксола ял деч 3 километр йӱдвел-эрвелне лийын шоген.
+# text_en = It was located 3 kilometers northeast of the village of Pekshiksola.
+# source_id = mhr:wiki:a04a9b0365d953c611a0
+# source_sent_id = 142097
+# annotation_status = PARSER_FST_REVIEW
+1	Пекшиксола	Пекшиксола	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ял	ял	PROPN	_	Case=Nom|Number=Sing	7	nsubj	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	3	3	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+6	йӱдвел-эрвелне	йӱдвел-эрвелне	ADV	_	_	7	advmod	_	_
+7	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+8	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:aspect	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0081
+# text = Токспай сола деч 2 километр йӱдвел-эрвелне лийын шоген.
+# text_en = It was located 2 kilometers northeast of the village of Tokspay.
+# source_id = mhr:wiki:3135642571ed7d40e82d
+# source_sent_id = 119728
+# annotation_status = PARSER_FST_REVIEW
+1	Токспай	Токспай	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	2	2	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+6	йӱдвел-эрвелне	йӱдвел-эрвелне	ADV	_	_	7	advmod	_	_
+7	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+8	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:aspect	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0082
+# text = Пурла Шем теҥызын серыштыже верланен.
+# text_en = It is located on the Black Sea coast.
+# source_id = mhr:wiki:3794f5506dfe3465e1b4
+# source_sent_id = 66718
+# annotation_status = PARSER_FST_REVIEW
+1	Пурла	пурла	ADJ	_	_	4	amod	_	_
+2	Шем	шем	ADJ	_	Variant=Short	3	amod	_	_
+3	теҥызын	теҥыз	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
+4	серыштыже	сер	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
+5	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = mhr-fewshot-0083
+# text = Филиппсола — Российыште Марий Элын Провой кундемыштыже верланыше Шолэҥер ял шотан илемыш пурышо ял.
+# text_en = Filippsola is a village belonging to the rural settlement of Sholenger in Orsha District, Mari El, Russia.
+# source_id = mhr:wiki:4a157b8ba97f6804cfc0
+# source_sent_id = 126736
+# annotation_status = PARSER_FST_REVIEW
+1	Филиппсола	Филиппсола	PROPN	_	Case=Nom|Number=Sing	14	nsubj	_	_
+2	—	—	PUNCT	_	_	14	punct	_	_
+3	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	8	obl	_	_
+4	Марий	марий	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	Элын	эл	NOUN	_	Case=Gen|Number=Sing	7	nmod	_	_
+6	Провой	Провой	PROPN	_	Case=Nom|Number=Sing	7	compound	_	_
+7	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obl	_	_
+8	верланыше	верланаш	VERB	_	VerbForm=Part|Voice=Act	12	acl	_	_
+9	Шолэҥер	Шолэҥер	PROPN	_	Case=Nom|Number=Sing	12	compound	_	_
+10	ял	ял	NOUN	_	Case=Nom|Number=Sing	11	obl	_	_
+11	шотан	шотан	ADJ	_	_	12	amod	_	_
+12	илемыш	илем	NOUN	_	Case=Ill|Number=Sing	13	obl	_	_
+13	пурышо	пураш	VERB	_	VerbForm=Part|Voice=Act	14	acl	_	_
+14	ял	ял	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = mhr-fewshot-0084
+# text = Чуваш тиштерыште 2-шо тиште .
+# text_en = The second letter of the Chuvash alphabet.
+# source_id = mhr:wiki:bc3b618ff62bd5a14629
+# source_sent_id = 66379
+# annotation_status = PARSER_FST_REVIEW
+1	Чуваш	чуваш	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	тиштерыште	тиштер	NOUN	_	Case=Ine|Number=Sing	4	nmod	_	_
+3	2-шо	2	ADJ	_	NumForm=Digit|NumType=Ord	4	amod	_	_
+4	тиште	тиште	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = mhr-fewshot-0085
+# text = Осман Империй ваштареш Грек Шкевуя верч Сарыш каен.
+# text_en = He went to war against the Ottoman Empire for Greek independence.
+# source_id = mhr:wiki:20d0d6ed875087afa66d
+# source_sent_id = 69323
+# annotation_status = PARSER_FST_REVIEW
+1	Осман	Осман	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	Империй	империй	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	ваштареш	ваштареш	ADP	_	AdpType=Post	2	case	_	_
+4	Грек	грек	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	Шкевуя	шкевуя	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+6	верч	верч	ADP	_	AdpType=Post	5	case	_	_
+7	Сарыш	сар	NOUN	_	Case=Ill|Number=Sing	8	obl	_	_
+8	каен	каяш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0086
+# text = Нурӱмбал () – Российыште Марий Элын Морко кундемыштыже верланыше Волаксола ял шотан илемыш пурышо ял.
+# text_en = Nurumbal () is a village in the Volaksola rural settlement of Morkinsky District, Mari El, Russia.
+# source_id = mhr:wiki:14e04336b37f18c9d02c
+# source_sent_id = 139251
+# annotation_status = PARSER_FST_REVIEW
+1	Нурӱмбал	Нурӱмбал	PROPN	_	Case=Nom|Number=Sing	16	nsubj	_	_
+2	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	1	punct	_	_
+4	–	–	PUNCT	_	_	16	punct	_	_
+5	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	10	obl	_	_
+6	Марий	марий	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	Элын	эл	NOUN	_	Case=Gen|Number=Sing	9	nmod	_	_
+8	Морко	Морко	PROPN	_	Case=Nom|Number=Sing	9	compound	_	_
+9	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl	_	_
+10	верланыше	верланаш	VERB	_	VerbForm=Part|Voice=Act	14	acl	_	_
+11	Волаксола	Волаксола	PROPN	_	Case=Nom|Number=Sing	14	compound	_	_
+12	ял	ял	NOUN	_	Case=Nom|Number=Sing	13	obl	_	_
+13	шотан	шотан	ADJ	_	_	14	amod	_	_
+14	илемыш	илем	NOUN	_	Case=Ill|Number=Sing	15	obl	_	_
+15	пурышо	пураш	VERB	_	VerbForm=Part|Voice=Act	16	acl	_	_
+16	ял	ял	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = mhr-fewshot-0087
+# text = Таче Медведево районышто вич илыме верым: Нужъял посёлкым, тыгак Нужъял ялым, Изи Лӱльпаным, Яныкайсолам да Лӱльпан ялым – ушышо газ пучым почыныт.
+# text_en = Today a connecting gas pipeline was opened to five settlements in Medvedevsky District: the settlement and village of Nuzhyal, Izi Lulpan, Yanykaysola, and the village of Lulpan.
+# source_id = mhr:wiki:235995028dc4c3549740
+# source_sent_id = 171185
+# annotation_status = PARSER_FST_REVIEW
+1	Таче	таче	ADV	_	_	26	advmod	_	_
+2	Медведево	Медведево	PROPN	_	Case=Nom|Number=Sing	3	compound	_	_
+3	районышто	район	NOUN	_	Case=Ine|Number=Sing	23	obl	_	_
+4	вич	вич	NUM	_	NumType=Card|Variant=Short	6	nummod	_	_
+5	илыме	илаш	VERB	_	VerbForm=Part|Voice=Pass	6	acl	_	_
+6	верым	вер	NOUN	_	Case=Acc|Number=Sing	23	obj	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	9	punct	_	_
+8	Нужъял	Нужъял	PROPN	_	Case=Nom|Number=Sing	9	compound	_	_
+9	посёлкым	посёлко	NOUN	_	Case=Acc|Number=Sing	6	appos	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	тыгак	тыгак	ADV	_	_	13	advmod	_	_
+12	Нужъял	Нужъял	PROPN	_	Case=Nom|Number=Sing	13	compound	_	_
+13	ялым	ял	NOUN	_	Case=Acc|Number=Sing	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	Изи	изи	ADJ	_	_	16	amod	_	_
+16	Лӱльпаным	Лӱльпан	PROPN	_	Case=Acc|Number=Sing	9	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	Яныкайсолам	Яныкайсола	PROPN	_	Case=Acc|Number=Sing	9	conj	_	_
+19	да	да	CCONJ	_	_	21	cc	_	_
+20	Лӱльпан	Лӱльпан	PROPN	_	Case=Nom|Number=Sing	21	compound	_	_
+21	ялым	ял	NOUN	_	Case=Acc|Number=Sing	9	conj	_	_
+22	–	–	PUNCT	_	_	26	punct	_	_
+23	ушышо	ушаш	VERB	_	VerbForm=Part|Voice=Act	25	acl	_	_
+24	газ	газ	NOUN	_	Case=Nom|Number=Sing	25	nmod	_	_
+25	пучым	пуч	NOUN	_	Case=Acc|Number=Sing	26	obj	_	_
+26	почыныт	почаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = mhr-fewshot-0088
+# text = Вӱд спорт тӱрлык дене Тӱнямбал чемпионатын программышкыж тыгай спорт тӱрлык-влак пурат:
+# text_en = The following sports are included in the World Championships program for water sports:
+# source_id = mhr:wiki:31d680a6bc9b187b8a16
+# source_sent_id = 42056
+# annotation_status = PARSER_FST_REVIEW
+1	Вӱд	вӱд	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	спорт	спорт	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	тӱрлык	тӱрлык	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+4	дене	дене	ADP	_	AdpType=Post	3	case	_	_
+5	Тӱнямбал	тӱнямбал	ADJ	_	_	6	amod	_	_
+6	чемпионатын	чемпионат	NOUN	_	Case=Gen|Number=Sing	7	nmod	_	_
+7	программышкыж	программе	NOUN	_	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	obl	_	_
+8	тыгай	тыгай	DET	_	PronType=Dem	10	amod	_	_
+9	спорт	спорт	NOUN	_	Case=Nom|Number=Sing	10	nmod	_	_
+10	тӱрлык-влак	тӱрлык	NOUN	_	Case=Nom|Number=Plur	11	nsubj	_	_
+11	пурат	пураш	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+
+# sent_id = mhr-fewshot-0089
+# text = Франций-кугу тӱзланыше стационар эл, йӧнозанлык производствын объёмжо почеш ик верым налеш.
+# text_en = France is a highly developed industrial country and holds a leading place in industrial production.
+# source_id = mhr:wiki:a53f1f7a20bbade59070
+# source_sent_id = 39610
+# annotation_status = PARSER_FST_REVIEW
+1	Франций	Франций	PROPN	_	Case=Nom|Number=Sing	6	nsubj	_	SpaceAfter=No
+2	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+3	кугу	кугу	ADJ	_	_	6	amod	_	_
+4	тӱзланыше	тӱзланыше	ADJ	_	_	6	amod	_	_
+5	стационар	стационар	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	эл	эл	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	14	punct	_	_
+8	йӧнозанлык	йӧнозанлык	NOUN	_	Case=Nom|Number=Sing	9	nmod	_	_
+9	производствын	производство	NOUN	_	Case=Gen|Number=Sing	10	nmod	_	_
+10	объёмжо	объём	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	14	obl	_	_
+11	почеш	почеш	ADP	_	AdpType=Post	10	case	_	_
+12	ик	ик	NUM	_	NumType=Card|Variant=Short	13	nummod	_	_
+13	верым	вер	NOUN	_	Case=Acc|Number=Sing	14	obj	_	_
+14	налеш	налаш	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = mhr-fewshot-0090
+# text = Йошкар-Ола мут дене тӱҥ шотышто Марий Эл Республикын рӱдӧ олажым лӱмдат.
+# text_en = The word "Yoshkar-Ola" primarily names the capital of the Mari El Republic.
+# source_id = mhr:wiki:51a3d794039215e34d21
+# source_sent_id = 62591
+# annotation_status = PARSER_FST_REVIEW
+1	Йошкар-Ола	Йошкар-Ола	PROPN	_	Case=Nom|Number=Sing	1	nmod	_	_
+2	мут	мут	NOUN	_	Case=Nom|Number=Sing	11	obl	_	_
+3	дене	дене	ADP	_	AdpType=Post	2	case	_	_
+4	тӱҥ	тӱҥ	ADV	_	_	11	advmod	_	_
+5	шотышто	шотышто	ADP	_	AdpType=Post	4	fixed	_	_
+6	Марий	марий	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	Эл	эл	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
+8	Республикын	республик	PROPN	_	Case=Gen|Number=Sing	10	nmod	_	_
+9	рӱдӧ	рӱдӧ	ADJ	_	_	10	amod	_	_
+10	олажым	ола	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	obj	_	_
+11	лӱмдат	лӱмдаш	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = mhr-fewshot-0091
+# text = Марий Эл Республикын Кугыжаныш Погынын Таумутшо.
+# text_en = Certificate of appreciation from the State Assembly of the Mari El Republic.
+# source_id = mhr:wiki:635e34c295e6e90bbec7
+# source_sent_id = 180933
+# annotation_status = PARSER_FST_REVIEW
+1	Марий	марий	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	Эл	эл	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	Республикын	республик	NOUN	_	Case=Gen|Number=Sing	5	nmod	_	_
+4	Кугыжаныш	кугыжаныш	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	Погынын	погын	NOUN	_	Case=Gen|Number=Sing	6	nmod	_	_
+6	Таумутшо	таумут	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = mhr-fewshot-0092
+# text = Пайскурык сола деч 7 километр кечывалвел-касвел могырно верланен.
+# text_en = It is located 7 kilometers southwest of Payskuryk.
+# source_id = mhr:wiki:ca4c3d0111211cafc9eb
+# source_sent_id = 149218
+# annotation_status = PARSER_FST_REVIEW
+1	Пайскурык	Пайскурык	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	7	7	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	кечывалвел-касвел	кечывалвел-касвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0093
+# text = Памар сола деч 3 километр кечывалвел-касвел могырно верланен.
+# text_en = It is located 3 kilometers southwest of Pamar.
+# source_id = mhr:wiki:0fb52645ab7c221c7265
+# source_sent_id = 17778
+# annotation_status = PARSER_FST_REVIEW
+1	Памар	Памар	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	3	3	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	кечывалвел-касвел	кечывалвел-касвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланен?верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0095
+# text = Опарин ял деч 9 километр кечывалвел-касвелне лийын шоген.
+# text_en = It was located 9 kilometers southwest of the village of Oparin.
+# source_id = mhr:wiki:958300b8b2a2b3a229bf
+# source_sent_id = 143725
+# annotation_status = PARSER_FST_REVIEW
+1	Опарин	Опарин	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ял	ял	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	9	9	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+6	кечывалвел-касвелне	кечывалвел-касвелне	ADV	_	_	7	advmod	_	_
+7	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+8	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:aspect	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0097
+# text = Марий Эл Республик Вуйлатышын Указше почеш премийым сулен налше-влаклан пуалтеш:
+# text_en = By decree of the Head of the Mari El Republic, the prize is awarded to the following recipients:
+# source_id = mhr:wiki:0468b34a39fddc9dd77e
+# source_sent_id = 166833
+# annotation_status = PARSER_FST_REVIEW
+1	Марий	марий	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	Эл	эл	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	Республик	республик	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
+4	Вуйлатышын	вуйлатыше	NOUN	_	Case=Gen|Number=Sing	5	nmod	_	_
+5	Указше	указ	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl	_	_
+6	почеш	почеш	ADP	_	AdpType=Post	5	case	_	_
+7	премийым	премий	NOUN	_	Case=Acc|Number=Sing	10	obj	_	_
+8	сулен	сулаш	VERB	_	ConvType=Gen|VerbForm=Conv	9	acl	_	_
+9	налше-влаклан	налше	NOUN	_	Case=Dat|Number=Plur	10	obl	_	_
+10	пуалтеш	пуаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	10	punct	_	_
+
+# sent_id = mhr-fewshot-0098
+# text = 1941–1945 ийласе Кугу Ачамланде сар деч вара ялыште илыше-влак воктен шогышо илыме верлашке кусненыт.
+# text_en = After the Great Patriotic War of 1941–1945, the village residents moved to nearby residential areas.
+# source_id = mhr:wiki:c6fb4192292c4c7fdd66
+# source_sent_id = 119798
+# annotation_status = PARSER_FST_REVIEW
+1	1941	1941	NUM	_	NumForm=Digit|NumType=Card	4	nummod	_	SpaceAfter=No
+2	–	–	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	1945	1945	NUM	_	NumForm=Digit|NumType=Card	1	nmod	_	_
+4	ийласе	ийласе	ADJ	_	_	7	amod	_	_
+5	Кугу	кугу	ADJ	_	_	7	amod	_	_
+6	Ачамланде	ачамланде	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	сар	сар	NOUN	_	Case=Nom|Number=Sing	16	obl	_	_
+8	деч	деч	ADP	_	AdpType=Post	7	case	_	_
+9	вара	вара	ADP	_	AdpType=Post	8	fixed	_	_
+10	ялыште	ял	NOUN	_	Case=Ine|Number=Sing	11	nmod	_	_
+11	илыше-влак	илыше	NOUN	_	Case=Nom|Number=Plur	16	nsubj	_	_
+12	воктен	воктен	ADV	_	_	13	advmod	_	_
+13	шогышо	шогаш	VERB	_	VerbForm=Part|Voice=Act	15	acl	_	_
+14	илыме	илыме	ADJ	_	_	15	amod	_	_
+15	верлашке	вер	NOUN	_	Case=Ill|Number=Plur	16	obl	_	_
+16	кусненыт	куснаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = mhr-fewshot-0099
+# text = Категория:Горькийысе кӱртньӧ корно
+# text_en = Category: Railway in Gorky.
+# source_id = mhr:wiki:ca8fd0334f758d9c9bf5
+# source_sent_id = 113733
+# annotation_status = PARSER_FST_REVIEW
+1	Категория	категория	X	_	Foreign=Yes	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	Горькийысе	Горький	PROPN	_	Case=Gen|Number=Sing	5	nmod	_	_
+4	кӱртньӧ	кӱртньӧ	NOUN	_	Case=Nom|Number=Sing	5	amod	_	_
+5	корно	корно	NOUN	_	Case=Nom|Number=Sing	1	appos	_	_
+
+# sent_id = mhr-fewshot-0101
+# text = Тыҥга мут ончыктен кертеш:
+# text_en = The word "Tynga" can mean:
+# source_id = mhr:wiki:2f46d53fbbc6578cab3b
+# source_sent_id = 147743
+# annotation_status = PARSER_FST_REVIEW
+1	Тыҥга	тыҥга	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	мут	мут	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+3	ончыктен	ончыкташ	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+4	кертеш	керташ	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	3	punct	_	_
+
+# sent_id = mhr-fewshot-0102
+# text = Кумъя казна пӧрт () — Российыште Марий Элын Килемар кундемыштыже лийын шогышо пытыше илем.
+# text_en = Kumya State House () was a former settlement in Kilemary District, Mari El, Russia.
+# source_id = mhr:wiki:144b7914a304d0fd2eec
+# source_sent_id = 157310
+# annotation_status = PARSER_FST_REVIEW
+1	Кумъя	Кумъя	PROPN	_	Case=Gen|Number=Sing	3	nmod	_	_
+2	казна	казна	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	пӧрт	пӧрт	NOUN	_	Case=Nom|Number=Sing	15	nsubj	_	_
+4	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	3	punct	_	_
+6	—	—	PUNCT	_	_	15	punct	_	_
+7	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	12	obl	_	_
+8	Марий	марий	NOUN	_	Case=Nom|Number=Sing	9	nmod	_	_
+9	Элын	эл	NOUN	_	Case=Gen|Number=Sing	11	nmod	_	_
+10	Килемар	Килемар	PROPN	_	Case=Nom|Number=Sing	11	compound	_	_
+11	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	12	obl	_	_
+12	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	15	acl	_	_
+13	шогышо	шогаш	AUX	_	VerbForm=Part|Voice=Act	12	aux:aspect	_	_
+14	пытыше	пыташ	VERB	_	VerbForm=Part|Voice=Act	15	acl	_	_
+15	илем	илем	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = mhr-fewshot-0104
+# text = Калык йодыштмаш деч вара косметикым лӱмдаш тыгай мут-влак студийыш толеденыт: чурийтӱр, чурийвылыш, чурийтӱс.
+# text_en = After a public survey, these words were proposed to the studio as names for the cosmetics: churiitur, churiivylish, and churiitus.
+# source_id = mhr:wiki:39680274770213ba40ee
+# source_sent_id = 41537
+# annotation_status = PARSER_FST_REVIEW
+1	Калык	калык	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	йодыштмаш	йодыштмаш	NOUN	_	Case=Nom|Number=Sing|VerbForm=Vnoun	10	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	вара	вара	ADP	_	AdpType=Post	3	fixed	_	_
+5	косметикым	косметике	NOUN	_	Case=Acc|Number=Sing	6	obj	_	_
+6	лӱмдаш	лӱмдаш	VERB	_	VerbForm=Inf	10	advcl	_	_
+7	тыгай	тыгай	DET	_	PronType=Dem	8	det	_	_
+8	мут-влак	мут	NOUN	_	Case=Nom|Number=Plur	10	nsubj	_	_
+9	студийыш	студий	NOUN	_	Case=Ill|Number=Sing	10	obl	_	_
+10	толеденыт	толедаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	12	punct	_	_
+12	чурийтӱр	чурийтӱр	NOUN	_	Case=Nom|Number=Sing	10	appos	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	чурийвылыш	чурийвылыш	NOUN	_	Case=Nom|Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	чурийтӱс	чурийтӱс	NOUN	_	Case=Nom|Number=Sing	12	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = mhr-fewshot-0105
+# text = Масканур — Российыште Марий Элын Морко кундемыштыже верланыше ял.
+# text_en = Maskanur is a village in Morkinsky District, Mari El, Russia.
+# source_id = mhr:wiki:28af0db18778bfbe23ee
+# source_sent_id = 63920
+# annotation_status = PARSER_FST_REVIEW
+1	Масканур	Масканур	PROPN	_	Case=Nom|Number=Sing	9	nsubj	_	_
+2	—	—	PUNCT	_	_	9	punct	_	_
+3	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	8	obl	_	_
+4	Марий	марий	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	Элын	эл	PROPN	_	Case=Gen|Number=Sing	7	nmod	_	_
+6	Морко	Морко	PROPN	_	Case=Nom|Number=Sing	7	compound	_	_
+7	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obl	_	_
+8	верланыше	верланаш	VERB	_	VerbForm=Part|Voice=Act	9	acl	_	_
+9	ял	ял	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = mhr-fewshot-0106
+# text = Усола сола деч 4 километр кечывалвел-эрвел могырно верланен.
+# text_en = It is located 4 kilometers southeast of Usola.
+# source_id = mhr:wiki:229b7145173610fb9d39
+# source_sent_id = 147930
+# annotation_status = PARSER_FST_REVIEW
+1	Усола	Усола	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	4	4	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	кечывалвел-эрвел	кечывалвел-эрвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0107
+# text = Морко ола сынан посёлко деч 12 километр йӱдвел-эрвел могырно верланен.
+# text_en = It is located 12 kilometers northeast of Morko.
+# source_id = mhr:wiki:3da900dcc9778ff39c11
+# source_sent_id = 136789
+# annotation_status = PARSER_FST_REVIEW
+1	Морко	Морко	PROPN	_	Case=Nom|Number=Sing	4	compound	_	_
+2	ола	ола	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
+3	сынан	сынан	ADP	_	AdpType=Post	2	case	_	_
+4	посёлко	посёлко	NOUN	_	Case=Nom|Number=Sing	10	obl	_	_
+5	деч	деч	ADP	_	AdpType=Post	4	case	_	_
+6	12	12	NUM	_	NumForm=Digit|NumType=Card	7	nummod	_	_
+7	километр	километр	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
+8	йӱдвел-эрвел	йӱдвел-эрвел	NOUN	_	Case=Nom|Number=Sing	10	obl	_	_
+9	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+10	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = mhr-fewshot-0108
+# text = Юл эҥерын пурла эҥерйолжо.
+# text_en = A right tributary of the Volga River.
+# source_id = mhr:wiki:9709ecd693144bf99b50
+# source_sent_id = 90298
+# annotation_status = PARSER_FST_REVIEW
+1	Юл	Юл	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	эҥерын	эҥер	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
+3	пурла	пурла	ADJ	_	_	4	amod	_	_
+4	эҥерйолжо	эҥерйол	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = mhr-fewshot-0109
+# text = Менделеев Рушла химик мерын негызлыше лийын, да 1876 ийыште Петербургысо шанче академий член-корреспондент лийын, но тудын кандидатурыжым тореш лийыныт.
+# text_en = Mendeleev was a founder of the Russian Chemical Society, and in 1876 he became a corresponding member of the Academy of Sciences in St. Petersburg, although his candidacy was opposed.
+# source_id = mhr:wiki:30d2fc57b74aa331cd8d
+# source_sent_id = 34087
+# annotation_status = PARSER_FST_REVIEW
+1	Менделеев	Менделеев	PROPN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+2	Рушла	рушла	ADJ	_	_	4	amod	_	_
+3	химик	химик	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
+4	мерын	мер	NOUN	_	Case=Gen|Number=Sing	5	nmod	_	_
+5	негызлыше	негызлыше	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+6	лийын	лияш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	да	да	CCONJ	_	_	14	cc	_	_
+9	1876	1876	ADJ	_	NumForm=Digit|NumType=Ord	10	amod	_	_
+10	ийыште	ий	NOUN	_	Case=Ine|Number=Sing	14	obl:tmod	_	_
+11	Петербургысо	Петербургысо	ADJ	_	_	13	amod	_	_
+12	шанче	шанче	NOUN	_	Case=Nom|Number=Sing	13	nmod	_	_
+13	академий	академий	NOUN	_	Case=Nom|Number=Sing	14	nmod	_	_
+14	член-корреспондент	член-корреспондент	NOUN	_	Case=Nom|Number=Sing	5	conj	_	_
+15	лийын	лияш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	14	punct	_	_
+17	но	но	CCONJ	_	_	19	cc	_	_
+18	тудын	тудо	PRON	_	Case=Gen|Number=Sing|PronType=Prs	19	nmod	_	_
+19	кандидатурыжым	кандидатур	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	conj	_	_
+20	тореш	тореш	ADP	_	AdpType=Post	19	case	_	_
+21	лийыныт	лияш	AUX	_	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = mhr-fewshot-0110
+# text = Килемар ола сынан посёлко деч 22 километр йӱдвелне лийын шоген.
+# text_en = It was located 22 kilometers north of the urban-type settlement of Kilemary.
+# source_id = mhr:wiki:6b7f30f54304dcb1f56a
+# source_sent_id = 159461
+# annotation_status = PARSER_FST_REVIEW
+1	Килемар	Килемар	PROPN	_	Case=Nom|Number=Sing	4	compound	_	_
+2	ола	ола	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
+3	сынан	сынан	ADP	_	AdpType=Post	2	case	_	_
+4	посёлко	посёлко	NOUN	_	Case=Nom|Number=Sing	9	obl	_	_
+5	деч	деч	ADP	_	AdpType=Post	4	case	_	_
+6	22	22	NUM	_	NumForm=Digit|NumType=Card	7	nummod	_	_
+7	километр	километр	NOUN	_	Case=Nom|Number=Sing	9	obl	_	_
+8	йӱдвелне	йӱдвелне	ADV	_	_	9	advmod	_	_
+9	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+10	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux:aspect	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = mhr-fewshot-0111
+# text = Но Солт-Лейк сити оласе Олимпиадыште Екатерина Миронова 7-ше верым налын.
+# text_en = But at the Salt Lake City Olympics, Ekaterina Mironova placed seventh.
+# source_id = mhr:wiki:4bbd774a323d8dc7ff71
+# source_sent_id = 34961
+# annotation_status = PARSER_FST_REVIEW
+1	Но	но	CCONJ	_	_	10	cc	_	_
+2	Солт-Лейк	Солт-Лейк	PROPN	_	Case=Nom|Number=Sing	4	obl	_	_
+3	сити	сити	PROPN	_	_	2	flat:name	_	_
+4	оласе	оласе	ADJ	_	_	5	amod	_	_
+5	Олимпиадыште	олимпиаде	NOUN	_	Case=Ine|Number=Sing	10	obl	_	_
+6	Екатерина	Екатерина	PROPN	_	Case=Nom|Number=Sing	10	nsubj	_	_
+7	Миронова	Миронова	PROPN	_	Case=Nom|Number=Sing	6	flat:nsubj	_	_
+8	7-ше	7	ADJ	_	NumForm=Digit|NumType=Ord	9	amod	_	_
+9	верым	вер	NOUN	_	Case=Acc|Number=Sing	10	obj	_	_
+10	налын	налаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = mhr-fewshot-0112
+# text = Ожно таве-шамыч лийыныт, кызыт тиде ялыште водопровод вӱдым йӱыт.
+# text_en = There used to be wells; now people in this village drink water from the mains.
+# source_id = mhr:wiki:3ba77e26cd139720cc6a
+# source_sent_id = 91562
+# annotation_status = PARSER_FST_REVIEW
+1	Ожно	ожно	ADV	_	_	3	advmod	_	_
+2	таве-шамыч	таве	NOUN	_	Case=Nom|Number=Plur	3	nsubj	_	_
+3	лийыныт	лияш	VERB	_	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	10	punct	_	_
+5	кызыт	кызыт	ADV	_	_	10	advmod	_	_
+6	тиде	тиде	DET	_	PronType=Dem	7	det	_	_
+7	ялыште	ял	NOUN	_	Case=Ine|Number=Sing	10	obl	_	_
+8	водопровод	водопровод	NOUN	_	Case=Nom|Number=Sing	9	nmod	_	_
+9	вӱдым	вӱд	NOUN	_	Case=Acc|Number=Sing	10	obj	_	_
+10	йӱыт	йӱаш	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = mhr-fewshot-0113
+# text = 1940-ан ийлаште Апаксола ял Изи Каракша ял деке ушалтын.
+# text_en = In the 1940s, the village of Apaksola was incorporated into the village of Izi Karaksha. 
+# source_id = mhr:wiki:aa2a973b3a88e3e758fe
+# source_sent_id = 136162
+# annotation_status = PARSER_FST_REVIEW
+1	1940-ан	1940	ADJ	_	NumForm=Digit|NumType=Ord	2	amod	_	_
+2	ийлаште	ий	NOUN	_	Case=Ine|Number=Plur	9	obl:tmod	_	_
+3	Апаксола	Апаксола	PROPN	_	Case=Nom|Number=Sing	4	compound	_	_
+4	ял	ял	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	_
+5	Изи	изи	ADJ	_	_	6	amod	_	_
+6	Каракша	Каракша	PROPN	_	Case=Nom|Number=Sing	7	compound	_	_
+7	ял	ял	NOUN	_	Case=Nom|Number=Sing	9	obl	_	_
+8	деке	деке	ADP	_	AdpType=Post	7	case	_	_
+9	ушалтын	ушаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
+
+# sent_id = mhr-fewshot-0115
+# text = Марий Чодыраял мут ончыктен кертеш:
+# text_en = The term "Mari Chodyrayal" can mean:
+# source_id = mhr:wiki:0b7df9a2d3adbb4bf6d1
+# source_sent_id = 153078
+# annotation_status = PARSER_FST_REVIEW
+1	Марий	марий	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	Чодыраял	Чодыраял	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	мут	мут	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+4	ончыктен	ончыкташ	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+5	кертеш	керташ	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	_
+
+# sent_id = mhr-fewshot-0117
+# text = Йӱдвел теҥыз кӱлешан Европысо корно да тӱҥ колым кучымаш вер кужеш лийын.
+# text_en = The North Sea has long been an important European shipping route and a major fishing ground.
+# source_id = mhr:wiki:2816a52f804b2f51cafc
+# source_sent_id = 93927
+# annotation_status = PARSER_FST_REVIEW
+1	Йӱдвел	йӱдвел	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	теҥыз	теҥыз	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+3	кӱлешан	кӱлешан	ADJ	_	_	5	amod	_	_
+4	Европысо	Европысо	ADJ	_	_	5	amod	_	_
+5	корно	корно	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+6	да	да	CCONJ	_	_	8	cc	_	_
+7	тӱҥ	тӱҥ	ADJ	_	_	10	amod	_	_
+8	колым	кол	NOUN	_	Case=Acc|Number=Sing	9	obj	_	_
+9	кучымаш	кучымаш	NOUN	_	Case=Nom|Number=Sing|VerbForm=Vnoun	10	nmod	_	_
+10	вер	вер	NOUN	_	Case=Nom|Number=Sing	5	conj	_	_
+11	кужеш	кужеш	ADV	_	_	5	advmod	_	_
+12	лийын	лияш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = mhr-fewshot-0118
+# text = Марий википедий 2009-ше ий 10-шо сӱремыште почылтын ыле (тиде кечын Марий Элыште Икымше Марий Самырыктукым Слёт тӱҥалын), да 12-шо сӱрем гыч пайдаланыше-влак Марий википедийыш пурен кертыныт.
+# text_en = The Mari Wikipedia was opened on 10 June 2009 (the day the First Mari Youth Congress began in Mari El), and users were able to enter the Mari Wikipedia from 12 June.
+# source_id = mhr:wiki:56668993fd2fd144e001
+# source_sent_id = 110311
+# annotation_status = PARSER_FST_REVIEW
+1	Марий	марий	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	википедий	википедий	NOUN	_	Case=Nom|Number=Sing	7	nsubj:pass	_	_
+3	2009-ше	2009	ADJ	_	NumForm=Digit|NumType=Ord	4	amod	_	_
+4	ий	ий	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+5	10-шо	10	ADJ	_	NumForm=Digit|NumType=Ord	6	amod	_	_
+6	сӱремыште	сӱрем	NOUN	_	Case=Ine|Number=Sing	7	obl:tmod	_	_
+7	почылтын	почылташ	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	ыле	улаш	AUX	_	Tense=Past	7	aux	_	_
+9	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+10	тиде	тиде	DET	_	PronType=Dem	11	det	_	_
+11	кечын	кече	NOUN	_	Case=Gen|Number=Sing	18	obl:tmod	_	_
+12	Марий	марий	NOUN	_	Case=Nom|Number=Sing	13	nmod	_	_
+13	Элыште	эл	NOUN	_	Case=Ine|Number=Sing	18	obl	_	_
+14	Икымше	икымше	ADJ	_	_	17	amod	_	_
+15	Марий	марий	NOUN	_	Case=Nom|Number=Sing	17	amod	_	_
+16	Самырыктукым	самырыктукым	NOUN	_	Case=Nom|Number=Sing	17	nmod	_	_
+17	Слёт	слёт	NOUN	_	Case=Nom|Number=Sing	18	nsubj	_	_
+18	тӱҥалын	тӱҥалаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	28	punct	_	_
+21	да	да	CCONJ	_	_	28	cc	_	_
+22	12-шо	12	ADJ	_	NumForm=Digit|NumType=Ord	23	amod	_	_
+23	сӱрем	сӱрем	NOUN	_	Case=Nom|Number=Sing	28	obl	_	_
+24	гыч	гыч	ADP	_	AdpType=Post	23	case	_	_
+25	пайдаланыше-влак	пайдаланыше	NOUN	_	Case=Nom|Number=Plur	28	nsubj	_	_
+26	Марий	марий	NOUN	_	Case=Nom|Number=Sing	27	nmod	_	_
+27	википедийыш	википедий	NOUN	_	Case=Ill|Number=Sing	28	obl	_	_
+28	пурен	пураш	VERB	_	ConvType=Gen|VerbForm=Conv	7	conj	_	_
+29	кертыныт	керташ	AUX	_	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	28	aux	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = mhr-fewshot-0119
+# text = Александр Коковихин 1967 ийын сорла тылзын 31-ше кечынже Йошкар-Олаште шочын.
+# text_en = Alexander Kokovikhin was born on 31 August 1967 in Yoshkar-Ola.
+# source_id = mhr:wiki:0935d4cc63a6090740b5
+# source_sent_id = 30583
+# annotation_status = PARSER_FST_REVIEW
+1	Александр	Александр	PROPN	_	Case=Nom|Number=Sing	10	nsubj	_	_
+2	Коковихин	Коковихин	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+3	1967	1967	NUM	_	NumForm=Digit|NumType=Ord	8	amod	_	_
+4	ийын	ий	NOUN	_	Case=Gen|Number=Sing	8	nmod	_	_
+5	сорла	сорла	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	тылзын	тылзе	NOUN	_	Case=Gen|Number=Sing	8	nmod	_	_
+7	31-ше	31	ADJ	_	NumForm=Digit|NumType=Ord	8	amod	_	_
+8	кечынже	кече	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl:tmod	_	_
+9	Йошкар-Олаште	Йошкар-Ола	PROPN	_	Case=Ine|Number=Sing	10	obl	_	_
+10	шочын	шочаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = mhr-fewshot-0120
+# text = Марий-влак олык марий йылмым кучылтыт.
+# text_en = The Mari people use the Meadow Mari language.
+# source_id = mhr:wiki:33b7fff84dfe8edeedae
+# source_sent_id = 167733
+# annotation_status = PARSER_FST_REVIEW
+1	Марий-влак	марий	NOUN	_	Case=Nom|Number=Plur	5	nsubj	_	_
+2	олык	олык	NOUN	_	Case=Nom|Number=Sing	4	amod	_	_
+3	марий	марий	NOUN	_	Case=Nom|Number=Sing	4	amod	_	_
+4	йылмым	йылме	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
+5	кучылтыт	кучылташ	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = mhr-fewshot-0121
+# text = Корембал — Российыште Марий Элын Шернур кундемын Чылдемыр ял шотан илемыштыже лийын шогышо пытыше ял.
+# text_en = Korembal is a former village in the Chyldemyr rural settlement of Sernur District, Mari El, Russia.
+# source_id = mhr:wiki:9727ded6a515b7c9a975
+# source_sent_id = 117342
+# annotation_status = PARSER_FST_REVIEW
+1	Корембал	Корембал	PROPN	_	Case=Nom|Number=Sing	15	nsubj	_	_
+2	—	—	PUNCT	_	_	15	punct	_	_
+3	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	11	nmod	_	_
+4	Марий	марий	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	Элын	эл	NOUN	_	Case=Gen|Number=Sing	11	nmod	_	_
+6	Шернур	Шернур	PROPN	_	Case=Nom|Number=Sing	7	compound	_	_
+7	кундемын	кундем	NOUN	_	Case=Gen|Number=Sing	11	nmod	_	_
+8	Чылдемыр	Чылдемыр	PROPN	_	Case=Nom|Number=Sing	11	compound	_	_
+9	ял	ял	NOUN	_	Case=Nom|Number=Sing	10	obl	_	_
+10	шотан	шотан	ADJ	_	_	11	amod	_	_
+11	илемыштыже	илем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	12	obl	_	_
+12	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	15	acl	_	_
+13	шогышо	шогаш	AUX	_	VerbForm=Part|Voice=Act	12	aux:aspect	_	_
+14	пытыше	пыташ	VERB	_	VerbForm=Part|Voice=Act	15	acl	_	_
+15	ял	ял	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = mhr-fewshot-0122
+# text = Сола гоч Оръю эҥер йоген эрта.
+# text_en = The Oryu River flows through the village.
+# source_id = mhr:wiki:4b37fa452f19c69f1243
+# source_sent_id = 118736
+# annotation_status = PARSER_FST_REVIEW
+1	Сола	сола	NOUN	_	Case=Nom|Number=Sing	5	obl	_	_
+2	гоч	гоч	ADP	_	AdpType=Post	1	case	_	_
+3	Оръю	Оръю	PROPN	_	Case=Nom|Number=Sing	4	compound	_	_
+4	эҥер	эҥер	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+5	йоген	йогаш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+6	эрта	эрташ	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	compound:svc	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = mhr-fewshot-0123
+# text = Нине синоним-влак коклаште смысл шот дене нимогай кыл лийын ок керт.
+# text_en = These synonyms may have no semantic connection with one another.
+# source_id = mhr:wiki:44cc79a9826b3a3d4b23
+# source_sent_id = 169461
+# annotation_status = PARSER_FST_REVIEW
+1	Нине	нине	DET	_	PronType=Dem	2	det	_	_
+2	синоним-влак	синоним	NOUN	_	Case=Nom|Number=Plur	8	nmod	_	_
+3	коклаште	коклаште	ADP	_	AdpType=Post	2	case	_	_
+4	смысл	смысл	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	шот	шот	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
+6	дене	дене	ADP	_	AdpType=Post	5	case	_	_
+7	нимогай	нимогай	DET	_	PronType=Neg	8	det	_	_
+8	кыл	кыл	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	_
+9	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+10	ок	огеш	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	9	aux	_	_
+11	керт	керташ	AUX	_	Connegative=Yes|VerbForm=Fin	9	aux	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = mhr-fewshot-0124
+# text = 1953-шо ийыште Торяъл кундемысе Ошканер шымияш школым тунем пытарымек, Йошкар-Оласе педучилищыш тунемаш пурен.
+# text_en = In 1953, after graduating from the seven-year Oshkaner school in Toryal District, he entered the pedagogical college in Yoshkar-Ola.
+# source_id = mhr:wiki:565303baeff52d14338f
+# source_sent_id = 1694
+# annotation_status = PARSER_FST_REVIEW
+1	1953	1953	ADJ	_	NumForm=Digit|NumType=Ord	2	amod	_	_
+2	ийыште	ий	NOUN	_	Case=Ine|Number=Sing	14	obl:tmod	_	_
+3	Торяъл	Торяъл	PROPN	_	Case=Nom|Number=Sing	4	obl	_	_
+4	кундемысе	кундемысе	ADJ	_	_	7	amod	_	_
+5	Ошканер	Ошканер	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
+6	шымияш	шымияш	ADJ	_	_	7	amod	_	_
+7	школым	школ	NOUN	_	Case=Acc|Number=Sing	8	obj	_	_
+8	тунем	тунемаш	VERB	_	ConvType=Gen|VerbForm=Conv	14	advcl	_	_
+9	пытарымек	пытараш	AUX	_	ConvType=Ant|VerbForm=Conv	8	aux:aspect	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	14	punct	_	_
+11	Йошкар-Оласе	Йошкар-Оласе	ADJ	_	_	12	amod	_	_
+12	педучилищыш	педучилище	NOUN	_	Case=Ill|Number=Sing	14	obl	_	_
+13	тунемаш	тунемаш	VERB	_	VerbForm=Inf	14	xcomp	_	_
+14	пурен	пураш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = mhr-fewshot-0127
+# text = Кушнанур () — Российыште Марий Элын Морко кундемыштыже верланыше Семисола ял шотан илемыш пурышо ял.
+# text_en = Kushnanur () is a village in the Semisola rural settlement of Morkinsky District, Mari El, Russia.
+# source_id = mhr:wiki:d35bbefbc8c88ddf36d3
+# source_sent_id = 138056
+# annotation_status = PARSER_FST_REVIEW
+1	Кушнанур	Кушнанур	PROPN	_	Case=Nom|Number=Sing	16	nsubj	_	_
+2	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	1	punct	_	_
+4	—	—	PUNCT	_	_	16	punct	_	_
+5	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	10	obl	_	_
+6	Марий	марий	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	Элын	эл	NOUN	_	Case=Gen|Number=Sing	9	nmod	_	_
+8	Морко	Морко	PROPN	_	Case=Nom|Number=Sing	9	compound	_	_
+9	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl	_	_
+10	верланыше	верланаш	VERB	_	VerbForm=Part|Voice=Act	14	acl	_	_
+11	Семисола	Семисола	PROPN	_	Case=Nom|Number=Sing	14	compound	_	_
+12	ял	ял	NOUN	_	Case=Nom|Number=Sing	13	obl	_	_
+13	шотан	шотан	ADJ	_	_	14	amod	_	_
+14	илемыш	илем	NOUN	_	Case=Ill|Number=Sing	15	obl	_	_
+15	пурышо	пураш	VERB	_	VerbForm=Part|Voice=Act	16	acl	_	_
+16	ял	ял	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = mhr-fewshot-0128
+# text = Козлов Евгений Яковлевич — Йошкар Тисте орденын кавалерже, 1941–1945 ийласе Кугу Ачамланде сарын участникше.
+# text_en = Evgeny Yakovlevich Kozlov was a recipient of the Order of the Red Banner and a participant in the Great Patriotic War of 1941–1945.
+# source_id = mhr:wiki:0a8a4fa57b0c759d804d
+# source_sent_id = 160185
+# annotation_status = PARSER_FST_REVIEW
+1	Козлов	Козлов	PROPN	_	Case=Nom|Number=Sing	8	nsubj	_	_
+2	Евгений	Евгений	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+3	Яковлевич	Яковлевич	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+4	—	—	PUNCT	_	_	8	punct	_	_
+5	Йошкар	йошкар	ADJ	_	Variant=Short	6	amod	_	_
+6	Тисте	тисте	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	орденын	орден	NOUN	_	Case=Gen|Number=Sing	8	nmod	_	_
+8	кавалерже	кавалер	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	17	punct	_	_
+10	1941	1941	NUM	_	NumForm=Digit|NumType=Card	4	nummod	_	SpaceAfter=No
+11	–	–	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	1945	1945	NUM	_	NumForm=Digit|NumType=Card	10	nmod	_	_
+13	ийласе	ийласе	ADJ	_	_	16	amod	_	_
+14	Кугу	кугу	ADJ	_	Case=Nom	16	amod	_	_
+15	Ачамланде	ачамланде	NOUN	_	Case=Nom|Number=Sing	16	nmod	_	_
+16	сарын	сар	NOUN	_	Case=Gen|Number=Sing	17	nmod	_	_
+17	участникше	участник	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0129
+# text = Кожла — нугыдын (пырля) кушкын шогышо кож-влак але утларакшым кож гыч гына лийын шогышо иман чодыра.
+# text_en = A spruce forest is a group of densely growing spruces or a coniferous forest consisting mainly or exclusively of spruces.
+# source_id = mhr:wiki:c4b6dfc31032f533f5e0
+# source_sent_id = 165686
+# annotation_status = PARSER_FST_REVIEW
+1	Кожла	кожла	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	_
+2	—	—	PUNCT	_	_	9	punct	_	_
+3	нугыдын	нугыдын	ADV	_	_	7	advmod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	пырля	пырля	ADV	_	_	3	parataxis	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	кушкын	кушкаш	VERB	_	ConvType=Gen|VerbForm=Conv	9	acl	_	_
+8	шогышо	шогаш	AUX	_	VerbForm=Part|Voice=Act	7	aux:aspect	_	_
+9	кож-влак	кож	NOUN	_	Case=Nom|Number=Plur	0	root	_	_
+10	але	але	CCONJ	_	_	18	cc	_	_
+11	утларакшым	утларакшым	ADV	_	_	15	advmod	_	_
+12	кож	кож	NOUN	_	Case=Nom|Number=Sing	15	obl	_	_
+13	гыч	гыч	ADP	_	AdpType=Post	12	case	_	_
+14	гына	гына	PART	_	_	12	advmod:emph	_	_
+15	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	18	acl	_	_
+16	шогышо	шогаш	AUX	_	VerbForm=Part|Voice=Act	15	aux:aspect	_	_
+17	иман	иман	ADJ	_	_	18	amod	_	_
+18	чодыра	чодыра	NOUN	_	Case=Nom|Number=Sing	9	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = mhr-fewshot-0130
+# text = Универсалле энциклопедий - айдеме да тӱня нерген чыла шинчымашым погышо энциклопедий.
+# text_en = A universal encyclopedia collects knowledge about humanity and the world.
+# source_id = mhr:wiki:271302ce24a84b7cc68f
+# source_sent_id = 17818
+# annotation_status = PARSER_FST_REVIEW
+1	Универсалле	универсалле	ADJ	_	_	2	amod	_	_
+2	энциклопедий	энциклопедий	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
+3	-	-	PUNCT	_	_	11	punct	_	_
+4	айдеме	айдеме	NOUN	_	Case=Nom|Number=Sing	9	nmod	_	_
+5	да	да	CCONJ	_	_	6	cc	_	_
+6	тӱня	тӱня	NOUN	_	Case=Nom|Number=Sing	4	conj	_	_
+7	нерген	нерген	ADP	_	AdpType=Post	4	case	_	_
+8	чыла	чыла	DET	_	PronType=Tot	9	det	_	_
+9	шинчымашым	шинчымаш	NOUN	_	Case=Acc|Number=Sing	10	obj	_	_
+10	погышо	погаш	VERB	_	VerbForm=Part|Voice=Act	11	acl	_	_
+11	энциклопедий	энциклопедий	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = mhr-fewshot-0131
+# text = Ял воктен кок пӱя уло, Курша эҥер йоген эрта.
+# text_en = There are two springs near the village, and the Kursha River flows past.
+# source_id = mhr:wiki:417374167c6ff3824170
+# source_sent_id = 116467
+# annotation_status = PARSER_FST_REVIEW
+1	Ял	ял	NOUN	_	Case=Nom|Number=Sing	5	obl	_	_
+2	воктен	воктен	ADP	_	AdpType=Post	1	case	_	_
+3	кок	кок	NUM	_	NumType=Card|Variant=Short	4	nummod	_	_
+4	пӱя	пӱя	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+5	уло	улаш	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	Курша	Курша	PROPN	_	Case=Nom|Definite=Ind|Number=Sing	8	amod	_	_
+8	эҥер	эҥер	NOUN	_	Case=Nom|Number=Sing	10	nsubj	_	_
+9	йоген	йогаш	VERB	_	ConvType=Gen|VerbForm=Conv	5	parataxis	_	_
+10	эрта	эрташ	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	compound:svc	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = mhr-fewshot-0132
+# text = Политик — политике шотышто пашам ыштыше еҥ.
+# text_en = A politician is a person who works in politics.
+# source_id = mhr:wiki:88b38791713f162f1df2
+# source_sent_id = 24519
+# annotation_status = PARSER_FST_REVIEW
+1	Политик	политик	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
+2	—	—	PUNCT	_	_	7	punct	_	_
+3	политике	политике	NOUN	_	Case=Nom|Number=Sing	6	obl	_	_
+4	шотышто	шотышто	ADP	_	AdpType=Post	3	case	_	_
+5	пашам	паша	NOUN	_	Case=Acc|Number=Sing	6	obj	_	_
+6	ыштыше	ышташ	VERB	_	VerbForm=Part|Voice=Act	7	acl	_	_
+7	еҥ	еҥ	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = mhr-fewshot-0135
+# text = Мер Каҥашыш пура.
+# text_en = He is a member of the Public Council. 
+# source_id = mhr:wiki:e20d66915d7da7aaefef
+# source_sent_id = 90615
+# annotation_status = PARSER_FST_REVIEW
+1	Мер	мер	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	Каҥашыш	каҥаш	NOUN	_	Case=Ill|Number=Sing	3	obl	_	_
+3	пура	пураш	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = mhr-fewshot-0135-1
+# text = Мер Каҥашын еҥже-влак.
+# text_en = Members of the Public Council.
+# source_id = mhr:wiki:e20d66915d7da7aaefef
+# source_sent_id = 90615
+# annotation_status = PARSER_FST_REVIEW
+1	Мер	мер	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	Каҥашын	каҥаш	NOUN	_	Case=Gen|Number=Sing	3	nmod	_	_
+3	еҥже-влак	еҥ	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+
+# sent_id = mhr-fewshot-0136
+# text = Кукмарий ял деч 4 километр кечывалвел-эрвел могырно верланен.
+# text_en = It is located 4 kilometers southeast of Kukmariy.
+# source_id = mhr:wiki:b2fa7252e1cefe309f80
+# source_sent_id = 125843
+# annotation_status = PARSER_FST_REVIEW
+1	Кукмарий	Кукмарий	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ял	ял	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	4	4	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	кечывалвел-эрвел	кечывалвел-эрвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0138
+# text = Рӱдӧ федерал йырвелыш пура.
+# text_en = It belongs to the Central Federal District.
+# source_id = mhr:wiki:e9dc05fd3d0d9cf219f2
+# source_sent_id = 87858
+# annotation_status = PARSER_FST_REVIEW
+1	Рӱдӧ	рӱдӧ	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+2	федерал	федерал	ADJ	_	_	3	amod	_	_
+3	йырвелыш	йырвел	NOUN	_	Case=Ill|Number=Sing	4	obl	_	_
+4	пура	пура	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = mhr-fewshot-0140
+# text = Пайрем шочмын пура да ик але кок арня жап шуйна.
+# text_en = The festival begins and lasts one or two weeks.
+# source_id = mhr:wiki:0a2b7f3935a1a81d9078
+# source_sent_id = 26263
+# annotation_status = PARSER_FST_REVIEW
+1	Пайрем	пайрем	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	шочмын	шочмын	NOUN	_	Case=Gen|Number=Sing	3	obl:tmod	_	_
+3	пура	пураш	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	да	да	CCONJ	_	_	10	cc	_	_
+5	ик	ик	NUM	_	NumType=Card|Variant=Short	8	nummod	_	_
+6	але	але	CCONJ	_	_	7	cc	_	_
+7	кок	кок	NUM	_	NumType=Card|Variant=Short	5	conj	_	_
+8	арня	арня	NOUN	_	Case=Nom|Number=Sing	9	nmod	_	_
+9	жап	жап	NOUN	_	Case=Nom|Number=Sing	10	obl:tmod	_	_
+10	шуйна	шуйнаш	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = mhr-fewshot-0141
+# text = Моско олан Суриков Институтышто тунемо.
+# text_en = He studied at the Surikov Institute in Moscow.
+# source_id = mhr:wiki:9de1ded158426e346975
+# source_sent_id = 171798
+# annotation_status = PARSER_FST_REVIEW
+1	Моско	Моско	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	олан	ола	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
+3	Суриков	Суриков	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
+4	Институтышто	институт	NOUN	_	Case=Ine|Number=Sing	5	obl	_	_
+5	тунемо	тунемаш	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Typo=Yes|VerbForm=Fin	0	root	_	CorrectForm=тунеме|SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = mhr-fewshot-0142
+# text = МАССР Президиум Верховный Советын Указше почеш 1966 ийыште Зименки ял шотлымо данный-влак гыч лукталтын.
+# text_en = By decree of the Presidium of the Supreme Soviet of the Mari ASSR, the village of Zimenki was removed from the register in 1966. 
+# source_id = mhr:wiki:d81408e7d17ca940bb94
+# source_sent_id = 121738
+# annotation_status = PARSER_FST_REVIEW
+1	МАССР	МАССР	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
+2	Президиум	президиум	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+3	Верховный	верховный	ADJ	_	_	4	amod	_	_
+4	Советын	совет	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
+5	Указше	указ	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	14	obl	_	_
+6	почеш	почеш	ADP	_	AdpType=Post	5	case	_	_
+7	1966	1966	NUM	_	NumForm=Digit|NumType=Card	8	nummod	_	_
+8	ийыште	ий	NOUN	_	Case=Ine|Number=Sing	14	obl:tmod	_	_
+9	Зименки	Зименки	PROPN	_	Case=Nom|Number=Sing	10	compound	_	_
+10	ял	ял	NOUN	_	Case=Nom|Number=Sing	14	nsubj:pass	_	_
+11	шотлымо	шотлаш	VERB	_	VerbForm=Part|Voice=Pass	12	acl	_	_
+12	данный-влак	данный	NOUN	_	Case=Nom|Number=Plur	14	obl	_	_
+13	гыч	гыч	ADP	_	AdpType=Post	12	case	_	_
+14	лукталтын	лукталташ	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = mhr-fewshot-0143
+# text = МАССР Президиум Верховный Советын Указше почеш 1973 ийыште сорла тылзын 27-ше кечынже Кугу Торъял, Кӱшыл Торъял.
+# text_en = By decree of the Presidium of the Supreme Soviet of the Mari ASSR, on 27 August 1973, Bolshoy Toryal and Verkhny Toryal.
+# source_id = mhr:wiki:144a0471ca18ba136164
+# source_sent_id = 121195
+# annotation_status = PARSER_FST_REVIEW
+1	МАССР	МАССР	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
+2	Президиум	президиум	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+3	Верховный	верховный	ADJ	_	_	4	amod	_	_
+4	Советын	совет	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
+5	Указше	указ	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	14	obl	_	_
+6	почеш	почеш	ADP	_	AdpType=Post	5	case	_	_
+7	1973	1973	NUM	_	NumForm=Digit|NumType=Card	8	amod	_	_
+8	ийыште	ий	NOUN	_	Case=Ine|Number=Sing	12	nmod	_	_
+9	сорла	сорла	NOUN	_	Case=Nom|Number=Sing	10	nmod	_	_
+10	тылзын	тылзе	NOUN	_	Case=Gen|Number=Sing	12	nmod	_	_
+11	27-ше	27	ADJ	_	NumForm=Digit|NumType=Ord	12	amod	_	_
+12	кечынже	кече	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	14	obl:tmod	_	_
+13	Кугу	кугу	ADJ	_	_	14	amod	_	_
+14	Торъял	Торъял	PROPN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	Кӱшыл	кӱшыл	ADJ	_	_	17	conj	_	_
+17	Торъял	Торъял	PROPN	_	Case=Nom|Number=Sing	14	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = mhr-fewshot-0145
+# text = Ошладӱр ял деч 1 километр йӱдвел-эрвел могырно верланен.
+# text_en = It is located 1 kilometers northeast of Oshladyr.
+# source_id = mhr:wiki:360889daf4a9382e724b
+# source_sent_id = 140953
+# annotation_status = PARSER_FST_REVIEW
+1	Ошладӱр	Ошладӱр	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ял	ял	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	1	1	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	йӱдвел-эрвел	йӱдвел-эрвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	_	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0146
+# text = Арде сола деч 12 километр йӱдвелне лийын шоген.
+# text_en = It was located 12 kilometers north of the village of Arda.
+# source_id = mhr:wiki:97bb2f308ea569b74f55
+# source_sent_id = 158202
+# annotation_status = PARSER_FST_REVIEW
+1	Арде	Арде	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	12	12	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+6	йӱдвелне	йӱдвелне	ADV	_	_	7	advmod	_	_
+7	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+8	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:aspect	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0147
+# text = Российыште авиаспорт пашам РОСТО организаций эскера.
+# text_en = In Russia, air sports are overseen by the ROSTO organization.
+# source_id = mhr:wiki:dbcc991a09f7512d1d38
+# source_sent_id = 44251
+# annotation_status = PARSER_FST_REVIEW
+1	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	6	obl	_	_
+2	авиаспорт	авиаспорт	NOUN	_	Case=Gen|Number=Sing	3	nmod	_	_
+3	пашам	паша	NOUN	_	Case=Acc|Number=Sing	6	obj	_	_
+4	РОСТО	РОСТО	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	организаций	организаций	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
+6	эскера	эскераш	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = mhr-fewshot-0149
+# text = Налын мундыражым, Шöртньö шӱртылажым Юмын ӱдыр шаҥгак Кас кавам тӱрлен.
+# text_en = Taking her ball, her golden threads, God's daughter long ago embroidered the evening sky. 
+# source_id = mhr:wiki:80412f58e42cc52d4718
+# source_sent_id = 165608
+# annotation_status = PARSER_FST_REVIEW
+1	Налын	налаш	VERB	_	ConvType=Gen|VerbForm=Conv	11	advcl	_	_
+2	мундыражым	мундыра	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	Шöртньö	шöртньö	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	CorrectForm=Шӧртньӧ
+5	шӱртылажым	шӱртӧ	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	2	conj	_	_
+6	Юмын	юмо	NOUN	_	Case=Gen|Number=Sing	7	nmod	_	_
+7	ӱдыр	ӱдыр	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
+8	шаҥгак	шаҥгак	ADV	_	_	11	advmod	_	_
+9	Кас	кас	NOUN	_	Case=Nom|Number=Sing	10	nmod	_	_
+10	кавам	кава	NOUN	_	Case=Acc|Number=Sing	11	obj	_	_
+11	тӱрлен	тӱрлаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+
+# sent_id = mhr-fewshot-0149-1
+# text = Мый алят ом вашке, Шып ончем кавашке, Кок куэ коклаште, Шкетын лӱҥгалтен.
+# text_en = I am still in no hurry; I look silently at the sky, swinging alone between two birches.
+# source_id = mhr:wiki:80412f58e42cc52d4718
+# source_sent_id = 165608
+# annotation_status = PARSER_FST_REVIEW
+1	Мый	мый	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	алят	алят	ADV	_	_	4	advmod	_	_
+3	ом	ом	AUX	_	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	вашке	вашкаш	VERB	_	Connegative=Yes|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	Шып	шып	ADV	_	_	7	advmod	_	_
+7	ончем	ончаш	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	conj	_	_
+8	кавашке	кава	NOUN	_	Case=Ill|Number=Sing	7	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	SpaceAfter=No
+10	Кок	кок	NUM	_	NumType=Card|Variant=Short	11	nummod	_	_
+11	куэ	куэ	NOUN	_	Case=Nom|Number=Sing	15	obl	_	_
+12	коклаште	коклаште	ADP	_	AdpType=Post	11	case	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	
+14	Шкетын	шкетын	ADV	_	_	15	advmod	_	_
+15	лӱҥгалтен	лӱҥгалташ	VERB	_	ConvType=Gen|VerbForm=Conv	7	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = mhr-fewshot-0150
+# text = Зайцев Илья Григорьевич — Йошкар Шӱдыр орденын кавалерже, 1941–1945 ийласе Кугу Ачамланде сарын участникше.
+# text_en = Ilya Grigoryevich Zaytsev was a recipient of the Order of the Red Star and a participant in the Great Patriotic War of 1941–1945.
+# source_id = mhr:wiki:cd44b948bb36f0a74f8e
+# source_sent_id = 146797
+# annotation_status = PARSER_FST_REVIEW
+1	Зайцев	Зайцев	PROPN	_	Case=Nom|Number=Sing	8	nsubj	_	_
+2	Илья	Илья	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+3	Григорьевич	Григорьевич	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+4	—	—	PUNCT	_	_	8	punct	_	_
+5	Йошкар	йошкар	ADJ	_	Variant=Short	6	amod	_	_
+6	Шӱдыр	шӱдыр	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	орденын	орден	NOUN	_	Case=Gen|Number=Sing	8	nmod	_	_
+8	кавалерже	кавалер	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	17	punct	_	_
+10	1941	1941	NUM	_	NumForm=Digit|NumType=Card	13	nummod	_	SpaceAfter=No
+11	–	–	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	1945	1945	NUM	_	NumForm=Digit|NumType=Card	10	nmod	_	_
+13	ийласе	ийласе	ADJ	_	_	16	amod	_	_
+14	Кугу	кугу	ADJ	_	_	16	amod	_	_
+15	Ачамланде	ачамланде	NOUN	_	Case=Nom|Number=Sing	16	nmod	_	_
+16	сарын	сар	NOUN	_	Case=Gen|Number=Sing	17	nmod	_	_
+17	участникше	участник	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0152
+# text = Пургыжлан ты кечын ӱшанаш ок лий: шокшо денат шымата, йӱштӧ денат чывышта.
+# text_en = You cannot trust the blizzard on this day: it caresses you even with warmth, and pinches you even with cold. 
+# source_id = mhr:wiki:aaf7051ad08364740872
+# source_sent_id = 633
+# annotation_status = PARSER_FST_REVIEW
+1	Пургыжлан	пургыж	NOUN	_	Case=Dat|Number=Sing	4	iobj	_	_
+2	ты	ты	DET	_	PronType=Dem	3	det	_	_
+3	кечын	кече	NOUN	_	Case=Gen|Number=Sing	4	obl:tmod	_	_
+4	ӱшанаш	ӱшанаш	VERB	_	VerbForm=Inf	0	root	_	_
+5	ок	огеш	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	aux	_	_
+6	лий	лияш	AUX	_	Connegative=Yes|VerbForm=Fin	4	aux	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	10	punct	_	_
+8	шокшо	шокшо	NOUN	_	Case=Nom|Number=Sing	10	obl	_	_
+9	денат	дене	ADP	_	AdpType=Post	8	case	_	_
+10	шымата	шыматаш	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	йӱштӧ	йӱштӧ	NOUN	_	Case=Nom|Number=Sing	14	obl	_	_
+13	денат	дене	ADP	_	AdpType=Post	12	case	_	_
+14	чывышта	чывышташ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = mhr-fewshot-0153
+# text = Лум — кава гыч велыше пачката ий кристалл-влак.
+# text_en = Snow consists of clusters of ice crystals falling from the sky.
+# source_id = mhr:wiki:811111bd72286b40f8da
+# source_sent_id = 19716
+# annotation_status = PARSER_FST_REVIEW
+1	Лум	Лум	NOUN	_	Case=Nom|Number=Sing	8	nsubj	_	_
+2	—	—	PUNCT	_	_	8	punct	_	_
+3	кава	кава	NOUN	_	Case=Nom|Number=Sing	5	obl	_	_
+4	гыч	гыч	ADP	_	AdpType=Post	3	case	_	_
+5	велыше	велаш	VERB	_	VerbForm=Part	8	acl	_	_
+6	пачката	пачката	ADJ	_	_	8	amod	_	_
+7	ий	ий	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
+8	кристалл-влак	кристалл	NOUN	_	Case=Nom|Number=Plur	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0154
+# text = Микал почиҥга — Российыште Марий Элын У Торъял кундемыштыже лийын шогышо пытыше ял.
+# text_en = Mikal Pochinga is a former village in Novy Toryal District, Mari El, Russia.
+# source_id = mhr:wiki:f8c4ba1722dff757e179
+# source_sent_id = 153071
+# annotation_status = PARSER_FST_REVIEW
+1	Микал	Микал	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	почиҥга	почиҥга	NOUN	_	Case=Nom|Number=Sing	13	nsubj	_	_
+3	—	—	PUNCT	_	_	13	punct	_	_
+4	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	10	obl	_	_
+5	Марий	марий	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	Элын	эл	PROPN	_	Case=Gen|Number=Sing	9	nmod	_	_
+7	У	у	ADJ	_	_	8	amod	_	_
+8	Торъял	Торъял	PROPN	_	Case=Nom|Number=Sing	9	compound	_	_
+9	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl	_	_
+10	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	13	acl	_	_
+11	шогышо	шогаш	AUX	_	VerbForm=Part|Voice=Act	10	aux:aspect	_	_
+12	пытыше	пыташ	VERB	_	VerbForm=Part|Voice=Act	13	acl	_	_
+13	ял	ял	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = mhr-fewshot-0155
+# text = Но рӱдолам сайлыме жапыште Марий кундемыште эн кугу олалан Козьмодемьянск ола шотлалтын.
+# text_en = But when the capital was being chosen, Kozmodemyansk was considered the largest city in the Mari region.
+# source_id = mhr:wiki:20ede5ce06afd1634038
+# source_sent_id = 50597
+# annotation_status = PARSER_FST_REVIEW
+1	Но	но	CCONJ	_	_	12	cc	_	_
+2	рӱдолам	рӱдола	NOUN	_	Case=Acc|Number=Sing	3	obj	_	_
+3	сайлыме	сайлаш	VERB	_	VerbForm=Part|Voice=Pass	4	acl	_	_
+4	жапыште	жап	NOUN	_	Case=Ine|Number=Sing	12	obl	_	_
+5	Марий	марий	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	кундемыште	кундем	9	_	Case=Ine|Number=Sing	9	nmod	_	_
+7	эн	эн	ADV	_	Degree=Sup	8	advmod	_	_
+8	кугу	кугу	ADJ	_	_	9	amod	_	_
+9	олалан	ола	NOUN	_	Case=Dat|Number=Sing	12	xcomp	_	_
+10	Козьмодемьянск	Козьмодемьянск	PROPN	_	Case=Nom|Number=Sing	11	compound	_	_
+11	ола	ола	NOUN	_	Case=Nom|Number=Sing	12	nsubj	_	_
+12	шотлалтын	шотлалташ	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = mhr-fewshot-0156
+# text = Кӱчыкъер воктен лийын шоген.
+# text_en = It was near Kuchykyer.
+# source_id = mhr:wiki:6f91fdc211fa79603340
+# source_sent_id = 116857
+# annotation_status = PARSER_FST_REVIEW
+1	Кӱчыкъер	Кӱчыкъер	PROPN	_	Case=Nom|Number=Sing	4	obl	_	_
+2	воктен	воктен	ADP	_	AdpType=Post	1	case	_	_
+3	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+4	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:aspect	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = mhr-fewshot-0159
+# text = Финн-угор шанче але финно-угроведений да финно-угристике — финн-угор калык-влакын йылмыштым, сылнымутыштым, эртымгорныштым да монь тунемше шанче-влак тӱшка.
+# text_en = Finno-Ugric studies, or Finno-Ugristics, is a group of disciplines studying the languages, literature, history, and other aspects of Finno-Ugric peoples.
+# source_id = mhr:wiki:eca84d5af135e3f1c2eb
+# source_sent_id = 114179
+# annotation_status = PARSER_FST_REVIEW
+1	Финн-угор	финн-угор	ADJ	_	_	2	amod	_	_
+2	шанче	шанче	NOUN	_	Case=Nom|Number=Sing	19	nsubj	_	_
+3	але	але	CCONJ	_	_	4	cc	_	_
+4	финно-угроведений	финно-угроведений	NOUN	_	Case=Nom|Number=Sing	2	conj	_	_
+5	да	да	CCONJ	_	_	6	cc	_	_
+6	финно-угристике	финно-угристике	NOUN	_	Case=Nom|Number=Sing	4	conj	_	_
+7	—	—	PUNCT	_	_	19	punct	_	_
+8	финн-угор	финн-угор	ADJ	_	_	9	amod	_	_
+9	калык-влакын	калык	NOUN	_	Case=Gen|Number=Plur	10	nmod	_	_
+10	йылмыштым	йылме	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3	17	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	сылнымутыштым	сылнымут	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	эртымгорныштым	эртымгорно	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3	10	conj	_	_
+15	да	да	CCONJ	_	_	16	cc	_	_
+16	монь	монь	PART	_	_	10	conj	_	_
+17	тунемше	тунемаш	VERB	_	VerbForm=Part|Voice=Act	18	acl	_	_
+18	шанче-влак	шанче	NOUN	_	Case=Nom|Number=Plur	19	nmod	_	_
+19	тӱшка	тӱшка	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = mhr-fewshot-0160
+# text = Кызыт коми-влак тӱҥ шотышто Коми Элыште да Пермь мландыште илат, нунын кок рӱдӧ олашт уло - Сыктывкар да Кудымкар.
+# text_en = Today the Komi mainly live in the Komi Republic and Perm Krai; they have two capitals, Syktyvkar and Kudymkar.
+# source_id = mhr:wiki:3c6f179c13b8859d18ea
+# source_sent_id = 93012
+# annotation_status = PARSER_FST_REVIEW
+1	Кызыт	кызыт	ADV	_	_	10	advmod	_	_
+2	коми-влак	коми	NOUN	_	Case=Nom|Number=Plur	10	nsubj	_	_
+3	тӱҥ	тӱҥ	ADJ	_	ExtPos=ADV	10	advmod	_	_
+4	шотышто	шотышто	ADP	_	AdpType=Post	3	fixed	_	_
+5	Коми	коми	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	Элыште	эл	PROPN	_	Case=Ine|Number=Sing	10	obl	_	_
+7	да	да	CCONJ	_	_	9	cc	_	_
+8	Пермь	Пермь	PROPN	_	Case=Nom|Number=Sing	9	nmod	_	_
+9	мландыште	мланде	NOUN	_	Case=Ine|Number=Sing	6	conj	_	_
+10	илат	илаш	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	16	punct	_	_
+12	нунын	нуно	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	15	nmod	_	_
+13	кок	кок	NUM	_	NumType=Card|Variant=Short	15	nummod	_	_
+14	рӱдӧ	рӱдӧ	NOUN	_	Case=Nom|Number=Sing	15	nmod	_	_
+15	олашт	ола	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	16	nsubj	_	_
+16	уло	улаш	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+17	-	-	PUNCT	_	_	18	punct	_	_
+18	Сыктывкар	Сыктывкар	PROPN	_	Case=Nom|Number=Sing	15	appos	_	_
+19	да	да	CCONJ	_	_	20	cc	_	_
+20	Кудымкар	Кудымкар	PROPN	_	Case=Nom|Number=Sing	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = mhr-fewshot-0161
+# text = Часамла — юмылан кумалаш ыштыме изи пӧрт.
+# text_en = A chapel is a small building made for prayer.
+# source_id = mhr:wiki:af2eeae5931ea1c2f55d
+# source_sent_id = 89784
+# annotation_status = PARSER_FST_REVIEW
+1	Часамла	часамла	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
+2	—	—	PUNCT	_	_	7	punct	_	_
+3	юмылан	юмо	NOUN	_	Case=Dat|Number=Sing	4	iobj	_	_
+4	кумалаш	кумалаш	VERB	_	VerbForm=Inf	5	xcomp	_	_
+5	ыштыме	ышташ	VERB	_	VerbForm=Part|Voice=Pass	7	acl	_	_
+6	изи	изи	ADJ	_	_	7	amod	_	_
+7	пӧрт	пӧрт	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = mhr-fewshot-0163
+# text = Ильна ола деч 280 километр кечывалвелмогырно верланен.
+# text_en = It is located 280 kilometers south of Ilna.
+# source_id = mhr:wiki:b1b303edbfd37710d42b
+# source_sent_id = 43956
+# annotation_status = PARSER_FST_REVIEW
+1	Ильна	Ильна	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ола	ола	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	280	280	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	кечывалвел	кечывалвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	SpaceAfter=No|CorrectSpaceAfter=Yes
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0164
+# text = Кораксола ял деч 5 километр кечывалвел-эрвел могырно верланен.
+# text_en = It is located 5 kilometers southeast of Koraksola.
+# source_id = mhr:wiki:d39745542777e9e9bdf0
+# source_sent_id = 139628
+# annotation_status = PARSER_FST_REVIEW
+1	Кораксола	Кораксола	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ял	ял	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	5	5	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	кечывалвел-эрвел	кечывалвел-эрвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0167
+# text = Чылдемыр ял деч 4 километр кечывалвел могырно верланен.
+# text_en = It is located 4 kilometers south of Chyldemyr.
+# source_id = mhr:wiki:44116a0977182aa8b33c
+# source_sent_id = 117107
+# annotation_status = PARSER_FST_REVIEW
+1	Чылдемыр	Чылдемыр	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ял	ял	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	4	4	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	кечывалвел	кечывалвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0168
+# text = Шушманка () — Российыште Марий Элын Йӱрнӧ кундемыштыже верланыше Козиково ял шотан илемыш пурышо посёлко.
+# text_en = Shushmanka () is a settlement in the Kozikovo rural settlement of Yurinsky District, Mari El, Russia.
+# source_id = mhr:wiki:c2cad1b9bb4aa913c245
+# source_sent_id = 160104
+# annotation_status = PARSER_FST_REVIEW
+1	Шушманка	Шушманка	PROPN	_	Case=Nom|Number=Sing	16	nsubj	_	_
+2	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	1	punct	_	_
+4	—	—	PUNCT	_	_	16	punct	_	_
+5	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	10	obl	_	_
+6	Марий	марий	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	Элын	эл	NOUN	_	Case=Gen|Number=Sing	9	nmod	_	_
+8	Йӱрнӧ	Йӱрнӧ	PROPN	_	Case=Nom|Number=Sing	9	compound	_	_
+9	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl	_	_
+10	верланыше	верланаш	VERB	_	VerbForm=Part|Voice=Act	14	acl	_	_
+11	Козиково	Козиково	PROPN	_	Case=Nom|Number=Sing	14	nmod	_	_
+12	ял	ял	NOUN	_	Case=Nom|Number=Sing	13	obl	_	_
+13	шотан	шотан	ADJ	_	_	14	amod	_	_
+14	илемыш	илем	NOUN	_	Case=Ill|Number=Sing	15	obl	_	_
+15	пурышо	пураш	VERB	_	VerbForm=Part|Voice=Act	16	acl	_	_
+16	посёлко	посёлко	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = mhr-fewshot-0170
+# text = Арде сола деч 2 километр касвел могырно верланен.
+# text_en = It is located 2 kilometers west of Arde.
+# source_id = mhr:wiki:a820bdffcf579c4a5bd0
+# source_sent_id = 158168
+# annotation_status = PARSER_FST_REVIEW
+1	Арде	Арде	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	2	2	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	касвел	касвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0171
+# text = Российысе Сар Вийыште штат сомылвер - наводчик-оператор.
+# text_en = In the Russian Armed Forces, the authorized position is gunner-operator.
+# source_id = mhr:wiki:a7205c4358edfcea85db
+# source_sent_id = 41972
+# annotation_status = PARSER_FST_REVIEW
+1	Российысе	Российысе	ADJ	_	_	2	amod	_	_
+2	Сар	сар	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	Вийыште	вий	NOUN	_	Case=Ine|Number=Sing	5	nmod	_	_
+4	штат	штат	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	сомылвер	сомылвер	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
+6	-	-	PUNCT	_	_	7	punct	_	_
+7	наводчик-оператор	наводчик-оператор	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = mhr-fewshot-0172
+# text = Сысоево ял деч 3 километр тораште лийын шоген.
+# text_en = It was located 3 kilometers from the village of Sysoyevo.
+# source_id = mhr:wiki:ece4afb6edc77419b654
+# source_sent_id = 145402
+# annotation_status = PARSER_FST_REVIEW
+1	Сысоево	Сысоево	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ял	ял	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	3	3	NUM	_	NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+6	тораште	тораште	ADP	_	AdpType=Post	5	case	_	_
+7	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+8	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:aspect	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0173
+# text = Михайловка ял деч 2 километр эрвел могырно верланен.
+# text_en = It is located 2 kilometers east of Mikhaylovka.
+# source_id = mhr:wiki:a6931a350d7a09d72e74
+# source_sent_id = 123773
+# annotation_status = PARSER_FST_REVIEW
+1	Михайловка	Михайловка	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	ял	ял	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	2	2	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	эрвел	эрвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0174
+# text = Изи Корамас мут ончыктен кертеш:
+# text_en = The term "Izi Koramas" can mean:
+# source_id = mhr:wiki:1f00eb98e114d04e2caa
+# source_sent_id = 113612
+# annotation_status = PARSER_FST_REVIEW
+1	Изи	изи	ADJ	_	_	2	amod	_	_
+2	Корамас	Корамас	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	мут	мут	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+4	ончыктен	ончыкташ	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+5	кертеш	керташ	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	4	punct	_	_
+
+# sent_id = mhr-fewshot-0175
+# text = Кириллице дене коряк йылмысе тиште-влак:
+# text_en = The letters of the Koryak language in Cyrillic:
+# source_id = mhr:wiki:13938eca3f3c9eba4d9e
+# source_sent_id = 70480
+# annotation_status = PARSER_FST_REVIEW
+1	Кириллице	кириллице	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+2	дене	дене	ADP	_	AdpType=Post	1	case	_	_
+3	коряк	коряк	NOUN	_	Case=Nom|Number=Sing	4	obl	_	_
+4	йылмысе	йылмысе	ADJ	_	_	5	amod	_	_
+5	тиште-влак	тиште	NOUN	_	Case=Nom|Number=Plur	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	_
+
+# sent_id = mhr-fewshot-0176
+# text = шке уставым пуртышо да регистрироватлыше
+# text_en = Having adopted and registered its own charter.
+# source_id = mhr:wiki:1afd5696978e073883fe
+# source_sent_id = 66362
+# annotation_status = PARSER_FST_REVIEW
+1	шке	шке	DET	_	Reflex=Yes	2	det	_	_
+2	уставым	устав	NOUN	_	Case=Acc|Number=Sing	3	obj	_	_
+3	пуртышо	пурташ	VERB	_	VerbForm=Part|Voice=Act	0	root	_	_
+4	да	да	CCONJ	_	_	5	cc	_	_
+5	регистрироватлыше	регистрироватлаш	VERB	_	VerbForm=Part|Voice=Act	3	conj	_	_
+
+# sent_id = mhr-fewshot-0177
+# text = Кок эн кугу ола мландыште.
+# text_en = The two largest cities in the country.
+# source_id = mhr:wiki:4d8fb7ef9d06b7d4df5d
+# source_sent_id = 90785
+# annotation_status = PARSER_FST_REVIEW
+1	Кок	кок	NUM	_	NumType=Card|Variant=Short	4	nummod	_	_
+2	эн	эн	ADV	_	Degree=Sup	3	advmod	_	_
+3	кугу	кугу	ADJ	_	_	4	amod	_	_
+4	ола	ола	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+5	мландыште	мланде	NOUN	_	Case=Ine|Number=Sing	4	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = mhr-fewshot-0178
+# text = Ола Финн вӱдлук серыштыже верланен.
+# text_en = The city lies on the shore of the Gulf of Finland.
+# source_id = mhr:wiki:32f400cf5f66e5543fd9
+# source_sent_id = 15368
+# annotation_status = PARSER_FST_REVIEW
+1	Ола	ола	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+2	Финн	финн	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	вӱдлук	вӱдлук	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
+4	серыштыже	сер	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
+5	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = mhr-fewshot-0179
+# text = МАССР Президиум Верховный Советын Указше почеш 1973 ийыште Руй ял Кугу Руй ял деке ушалтын.
+# text_en = By decree of the Presidium of the Supreme Soviet of the Mari ASSR, the village of Ruy was incorporated into Bolshoy Ruy in 1973. 
+# source_id = mhr:wiki:561e5d6f1e6d9ef56c2a
+# source_sent_id = 122924
+# annotation_status = PARSER_FST_REVIEW
+1	МАССР	МАССР	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
+2	Президиум	президиум	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+3	Верховный	верховный	ADJ	_	_	4	amod	_	_
+4	Советын	совет	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
+5	Указше	указ	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	14	obl	_	_
+6	почеш	почеш	ADP	_	AdpType=Post	5	case	_	_
+7	1973	1973	ADJ	_	NumForm=Digit|NumType=Ord	8	amod	_	_
+8	ийыште	ий	NOUN	_	Case=Ine|Number=Sing	15	obl:tmod	_	_
+9	Руй	Руй	PROPN	_	Case=Nom|Number=Sing	10	compound	_	_
+10	ял	ял	NOUN	_	Case=Nom|Number=Sing	15	nsubj	_	_
+11	Кугу	кугу	ADJ	_	_	13	amod	_	_
+12	Руй	Руй	PROPN	_	Case=Nom|Number=Sing	13	compound	_	_
+13	ял	ял	NOUN	_	Case=Nom|Number=Sing	15	obl	_	_
+14	деке	деке	ADP	_	AdpType=Post	13	case	_	_
+15	ушалтын	ушалташ	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = mhr-fewshot-0180
+# text = Марийсола деч 4 километр йӱдвел-касвел могырно верланен.
+# text_en = It is located 4 kilometers northwest of Mariysola.
+# source_id = mhr:wiki:ffcf66e68410e26fa191
+# source_sent_id = 118144
+# annotation_status = PARSER_FST_REVIEW
+1	Марийсола	Марийсола	PROPN	_	Case=Nom|Number=Sing	7	obl	_	_
+2	деч	деч	ADP	_	AdpType=Post	1	case	_	_
+3	4	4	NUM	_	NumForm=Digit|NumType=Card	4	nummod	_	_
+4	километр	километр	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	йӱдвел-касвел	йӱдвел-касвел	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+6	могырно	могырно	ADP	_	AdpType=Post	5	case	_	_
+7	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = mhr-fewshot-0181
+# text = 1970-ан ийла мучаште Мариял ял пытен.
+# text_en = The village of Mariyal disappeared at the end of the 1970s. 
+# source_id = mhr:wiki:5355ff8349296b45ce3d
+# source_sent_id = 142419
+# annotation_status = PARSER_FST_REVIEW
+1	1970-ан	1970	ADJ	_	NumForm=Digit|NumType=Ord	2	amod	_	_
+2	ийла	ий	NOUN	_	Case=Nom|Number=Plur	6	obl	_	_
+3	мучаште	мучаште	ADP	_	AdpType=Post	2	case	_	_
+4	Мариял	Мариял	PROPN	_	Case=Nom|Number=Sing	5	compound	_	_
+5	ял	ял	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
+6	пытен	пыташ	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = mhr-fewshot-0182
+# text = Кугу Шале ял деч 3 километр кечывалвел-эрвел могырно верланен.
+# text_en = It is located 3 kilometers southeast of Kugu Shale.
+# source_id = mhr:wiki:0ba451e3976d4d3f359b
+# source_sent_id = 137780
+# annotation_status = PARSER_FST_REVIEW
+1	Кугу	кугу	ADJ	_	_	2	amod	_	_
+2	Шале	Шале	PROPN	_	Case=Nom|Number=Sing	3	compound	_	_
+3	ял	ял	NOUN	_	Case=Nom|Number=Sing	9	obl	_	_
+4	деч	деч	ADP	_	AdpType=Post	3	case	_	_
+5	3	3	NUM	_	NumForm=Digit|NumType=Card	6	nummod	_	_
+6	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	кечывалвел-эрвел	кечывалвел-эрвел	NOUN	_	Case=Nom|Number=Sing	9	obl	_	_
+8	могырно	могырно	ADP	_	AdpType=Post	7	case	_	_
+9	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = mhr-fewshot-0183
+# text = Михайловка ял деч 9 километр эрвел могырно верланен.
+# text_en = It is located 9 kilometers east of Mikhaylovka.
+# source_id = mhr:wiki:3d3b7cce3620ae0fae7b
+# source_sent_id = 125095
+# annotation_status = PARSER_FST_REVIEW
+1	Михайловка	Михайловка	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ял	ял	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	9	9	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	эрвел	эрвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0184
+# text = Ял сынан але ола сынан посёлко лийын кертеш.
+# text_en = It can be a rural settlement or an urban-type settlement.
+# source_id = mhr:wiki:c64474f2f2c4da8faa53
+# source_sent_id = 93346
+# annotation_status = PARSER_FST_REVIEW
+1	Ял	ял	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+2	сынан	сынан	ADP	_	AdpType=Post	1	case	_	_
+3	але	але	CCONJ	_	_	4	cc	_	_
+4	ола	ола	NOUN	_	Case=Nom|Number=Sing	1	conj	_	_
+5	сынан	сынан	ADP	_	AdpType=Post	4	case	_	_
+6	посёлко	посёлко	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
+7	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+8	кертеш	керташ	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0185
+# text = Ошет мут ончыктен кертеш:
+# text_en = The word "Oshet" can mean:
+# source_id = mhr:wiki:c6a73edbf7eff998d8be
+# source_sent_id = 119669
+# annotation_status = PARSER_FST_REVIEW
+1	Ошет	Ошет	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	мут	мут	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+3	ончыктен	ончыкташ	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+4	кертеш	керташ	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	3	punct	_	_
+
+# sent_id = mhr-fewshot-0186
+# text = Захарята — Российыште Марий Элын У Торъял кундемыштыже лийын шогышо пытыше ял.
+# text_en = Zakharyata is a former village in Novy Toryal District, Mari El, Russia.
+# source_id = mhr:wiki:23f6c0bbb310d3e50477
+# source_sent_id = 123792
+# annotation_status = PARSER_FST_REVIEW
+1	Захарята	Захарята	PROPN	_	Case=Nom|Number=Sing	12	nsubj	_	_
+2	—	—	PUNCT	_	_	12	punct	_	_
+3	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	9	obl	_	_
+4	Марий	марий	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	Элын	эл	PROPN	_	Case=Gen|Number=Sing	8	nmod	_	_
+6	У	у	ADJ	_	_	7	amod	_	_
+7	Торъял	Торъял	PROPN	_	Case=Nom|Number=Sing	8	compound	_	_
+8	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	obl	_	_
+9	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	12	acl	_	_
+10	шогышо	шогаш	AUX	_	VerbForm=Part|Voice=Act	9	aux:aspect	_	_
+11	пытыше	пыташ	VERB	_	VerbForm=Part|Voice=Act	12	acl	_	_
+12	ял	ял	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = mhr-fewshot-0187
+# text = Кельмаксола ял деч 1,5 километр кечывалвел-касвел могырно верланен.
+# text_en = It is located 1.5 kilometers southwest of Kelmaksola.
+# source_id = mhr:wiki:f239b08dfe54d680a9a5
+# source_sent_id = 124749
+# annotation_status = PARSER_FST_REVIEW
+1	Кельмаксола	Кельмаксола	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ял	ял	PROPN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	1,5	1,5	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	кечывалвел-касвел	кечывалвел-касвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0188
+# text = Кугу Какшан эҥерын пурла эҥерйолжо.
+# text_en = A right tributary of the Bolshaya Kokshaga River.
+# source_id = mhr:wiki:b899c7e2268ce0619932
+# source_sent_id = 44304
+# annotation_status = PARSER_FST_REVIEW
+1	Кугу	кугу	ADJ	_	Case=Nom|Number=Sing	2	amod	_	_
+2	Какшан	Какшан	PROPN	_	Case=Nom|Number=Sing	3	compound	_	_
+3	эҥерын	эҥер	NOUN	_	Case=Gen|Number=Sing	5	nmod	_	_
+4	пурла	пурла	ADJ	_	_	5	amod	_	_
+5	эҥерйолжо	эҥерйол	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = mhr-fewshot-0189
+# text = Марамзин Афанасий Федорович — кок Йошкар Шӱдыр орден-влакын кавалерже, 1941–1945 ийласе Кугу Ачамланде сарын участникше.
+# text_en = Afanasiy Fyodorovich Maramzin received two Orders of the Red Star and participated in the Great Patriotic War of 1941–1945.
+# source_id = mhr:wiki:ff7bb24d9630c3d33aec
+# source_sent_id = 146057
+# annotation_status = PARSER_FST_REVIEW
+1	Марамзин	Марамзин	PROPN	_	Case=Nom|Number=Sing	9	nsubj	_	_
+2	Афанасий	Афанасий	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+3	Федорович	Федорович	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+4	—	—	PUNCT	_	_	9	punct	_	_
+5	кок	кок	NUM	_	NumType=Card|Variant=Short	8	nummod	_	_
+6	Йошкар	йошкар	ADJ	_	Variant=Short	7	amod	_	_
+7	Шӱдыр	шӱдыр	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
+8	орденын	орден	NOUN	_	Case=Gen|Number=Sing	9	nmod	_	_
+9	кавалерже	кавалер	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	18	punct	_	_
+11	1941	1941	NUM	_	NumForm=Digit|NumType=Card	14	nummod	_	SpaceAfter=No
+12	–	–	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	1945	1945	NUM	_	NumForm=Digit|NumType=Card	11	nmod	_	_
+14	ийласе	ийласе	ADJ	_	_	17	amod	_	_
+15	Кугу	кугу	ADJ	_	_	17	amod	_	_
+16	Ачамланде	ачамланде	NOUN	_	Case=Nom|Number=Sing	17	nmod	_	_
+17	сарын	сар	NOUN	_	Case=Gen|Number=Sing	18	nmod	_	_
+18	участникше	участник	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = mhr-fewshot-0190
+# text = Александров Семён Александрович — Йошкар Шӱдыр орденын кавалерже, 1941–1945 ийласе Кугу Ачамланде сарын участникше.
+# text_en = Semyon Alexandrovich Alexandrov received the Order of the Red Star and participated in the Great Patriotic War of 1941–1945.
+# source_id = mhr:wiki:669d15311d22d3d1b6dc
+# source_sent_id = 139884
+# annotation_status = PARSER_FST_REVIEW
+1	Александров	Александров	PROPN	_	Case=Nom|Number=Sing	8	nsubj	_	_
+2	Семён	Семён	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+3	Александрович	Александрович	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+4	—	—	PUNCT	_	_	8	punct	_	_
+5	Йошкар	йошкар	ADJ	_	Variant=Short	6	amod	_	_
+6	Шӱдыр	шӱдыр	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	орденын	орден	NOUN	_	Case=Gen|Number=Sing	8	nmod	_	_
+8	кавалерже	кавалер	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	17	punct	_	_
+10	1941	1941	NUM	_	NumForm=Digit|NumType=Card	13	nummod	_	SpaceAfter=No
+11	–	–	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	1945	1945	NUM	_	NumForm=Digit|NumType=Card	10	nmod	_	_
+13	ийласе	ийласе	ADJ	_	_	16	amod	_	_
+14	Кугу	кугу	ADJ	_	_	16	amod	_	_
+15	Ачамланде	ачамланде	NOUN	_	Case=Nom|Number=Sing	16	nmod	_	_
+16	сарын	сар	NOUN	_	Case=Gen|Number=Sing	17	nmod	_	_
+17	участникше	участник	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0193
+# text = Роҥго сола деч 9 километр касвел могырно верланен.
+# text_en = It is located 9 kilometers west of Ronggo.
+# source_id = mhr:wiki:2733241b966d615b7084
+# source_sent_id = 126320
+# annotation_status = PARSER_FST_REVIEW
+1	Роҥго	Роҥго	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	9	9	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	касвел	касвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0194
+# text = Арде сола деч 10 километр кечывалвелне лийын шоген.
+# text_en = It was located 10 kilometers southwest of the village of Arda.
+# source_id = mhr:wiki:dd0d0dab22324cd89301
+# source_sent_id = 158658
+# annotation_status = PARSER_FST_REVIEW
+1	Арде	Арде	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	10	10	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+6	кечывалвелне	кечывалвелне	ADV	_	_	7	advmod	_	_
+7	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+8	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:aspect	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0196
+# text = Юлъял () – Российыште Киров велын Яраҥ кундемыштыже верланыше Шкаланка ял шотан илемыш пурышо ял.
+# text_en = Yulyal () is a village in the Shkalanka rural settlement of Yaransky District, Kirov Oblast, Russia.
+# source_id = mhr:wiki:9ef7b0c1bb3c43d3ec4e
+# source_sent_id = 183479
+# annotation_status = PARSER_FST_REVIEW
+1	Юлъял	Юлъял	PROPN	_	Case=Nom|Number=Sing	16	nsubj	_	_
+2	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	1	punct	_	_
+4	–	–	PUNCT	_	_	16	punct	_	_
+5	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	10	obl	_	_
+6	Марий	марий	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	Элын	эл	NOUN	_	Case=Gen|Number=Sing	9	nmod	_	_
+8	Яраҥ	Яраҥ	PROPN	_	Case=Nom|Number=Sing	9	compound	_	_
+9	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl	_	_
+10	верланыше	верланаш	VERB	_	VerbForm=Part|Voice=Act	14	acl	_	_
+11	Шкаланка	Шкаланка	PROPN	_	Case=Nom|Number=Sing	14	compound	_	_
+12	ял	ял	NOUN	_	Case=Nom|Number=Sing	13	obl	_	_
+13	шотан	шотан	ADJ	_	_	14	amod	_	_
+14	илемыш	илем	NOUN	_	Case=Ill|Number=Sing	15	obl	_	_
+15	пурышо	пураш	VERB	_	VerbForm=Part|Voice=Act	16	acl	_	_
+16	ял	ял	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = mhr-fewshot-0197
+# text = 108 минут деч вара тудо сайын, Саратов велысе Энгельс ола деч тораште огыл, шинчын.
+# text_en = After 108 minutes, he landed safely near the city of Engels in Saratov Oblast.
+# source_id = mhr:wiki:c1afce1a0cc5c3a40b52
+# source_sent_id = 94586
+# annotation_status = PARSER_FST_REVIEW
+1	108	108	NUM	_	NumForm=Digit|NumType=Card	2	nummod	_	_
+2	минут	минут	NOUN	_	Case=Nom|Number=Sing	16	obl:tmod	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	вара	вара	ADP	_	AdpType=Post	3	fixed	_	_
+5	тудо	тудо	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+6	сайын	сайын	ADV	_	_	16	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	13	punct	_	_
+8	Саратов	Саратов	PROPN	_	Case=Nom|Number=Sing	9	obl	_	_
+9	велысе	велысе	ADJ	_	_	11	amod	_	_
+10	Энгельс	Энгельс	PROPN	_	Case=Nom|Number=Sing	11	compound	_	_
+11	ола	ола	NOUN	_	Case=Nom|Number=Sing	13	obl	_	_
+12	деч	деч	ADP	_	AdpType=Post	11	case	_	_
+13	тораште	тораште	ADV	_	_	16	advmod	_	_
+14	огыл	огыл	PART	_	Polarity=Neg	13	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	13	punct	_	_
+16	шинчын	шинчаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = mhr-fewshot-0199
+# text = Тӱлымаш — айдемын, янлыкын да кушкылын шке гай организмым ышташ моштымашыже.
+# text_en = Reproduction is the ability of a human, animal, or plant to produce another organism of its own kind.
+# source_id = mhr:wiki:f7a2fb23131445ddf472
+# source_sent_id = 21825
+# annotation_status = PARSER_FST_REVIEW
+1	Тӱлымаш	тӱлымаш	NOUN	_	Case=Nom|Number=Sing|VerbForm=Vnoun	12	nsubj	_	_
+2	—	—	PUNCT	_	_	12	punct	_	_
+3	айдемын	айдеме	NOUN	_	Case=Gen|Number=Plur	12	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	янлыкын	янлык	NOUN	_	Case=Gen|Number=Sing	3	conj	_	_
+6	да	да	CCONJ	_	_	7	cc	_	_
+7	кушкылын	кушкыл	NOUN	_	Case=Gen|Number=Sing	3	conj	_	_
+8	шке	шке	PRON	_	Reflex=Yes	10	nmod	_	_
+9	гай	гай	ADP	_	AdpType=Post	8	case	_	_
+10	организмым	организм	NOUN	_	Case=Acc|Number=Sing	11	obj	_	_
+11	ышташ	ышташ	VERB	_	VerbForm=Inf	12	acl	_	_
+12	моштымашыже	моштымаш	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = mhr-fewshot-0200
+# text = Кокласола — Российыште Марий Элын Юлсер кундемыштыже верланыше марий ял.
+# text_en = Koklasola is a Mari village in Volzhsky District, Mari El, Russia.
+# source_id = mhr:wiki:6a2e47661a34ab7d2504
+# source_sent_id = 115044
+# annotation_status = PARSER_FST_REVIEW
+1	Кокласола	Кокласола	PROPN	_	Case=Nom|Number=Sing	10	nsubj	_	_
+2	—	—	PUNCT	_	_	10	punct	_	_
+3	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	8	obl	_	_
+4	Марий	марий	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	Элын	эл	PROPN	_	Case=Gen|Number=Sing	7	nmod	_	_
+6	Юлсер	Юлсер	PROPN	_	Case=Nom|Number=Sing	7	compound	_	_
+7	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obl	_	_
+8	верланыше	верланаш	VERB	_	VerbForm=Part|Voice=Act	10	acl	_	_
+9	марий	марий	NOUN	_	Case=Nom|Number=Sing	10	amod	_	_
+10	ял	ял	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = mhr-fewshot-0201
+# text = Токпайэҥер посёлко деч 5 километр йӱдвел-касвел могырно верланен.
+# text_en = It is located 5 kilometers northwest of the settlement of Tokpayenger.
+# source_id = mhr:wiki:7bcfafc4cef11d4f084f
+# source_sent_id = 124428
+# annotation_status = PARSER_FST_REVIEW
+1	Токпайэҥер	Токпайэҥер	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	посёлко	посёлко	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	5	5	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	йӱдвел-касвел	йӱдвел-касвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0202
+# text = Тӱнтер () — Российыште Марий Элын Марий Тӱрек кундемыштыже верланыше Марий ял шотан илемыш пурышо ял.
+# text_en = Tunter is a village in the Mari rural settlement, Mari-Turek district, Mari El, Russia.
+# source_id = mhr:wiki:4ffd83c23a7657ba20de
+# source_sent_id = 144840
+# annotation_status = PARSER_FST_REVIEW
+1	Тӱнтер	Тӱнтер	PROPN	_	Case=Nom|Number=Sing	17	nsubj	_	_
+2	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	1	punct	_	_
+4	—	—	PUNCT	_	_	17	punct	_	_
+5	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	11	obl	_	_
+6	Марий	марий	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	Элын	эл	NOUN	_	Case=Gen|Number=Sing	10	nmod	_	_
+8	Марий	марий	NOUN	_	Case=Nom|Number=Sing	9	nmod	_	_
+9	Тӱрек	Тӱрек	PROPN	_	Case=Nom|Number=Sing	10	compound	_	_
+10	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	obl	_	_
+11	верланыше	верланаш	VERB	_	VerbForm=Part|Voice=Act	15	acl	_	_
+12	Марий	марий	NOUN	_	Case=Nom|Number=Sing	15	compound	_	_
+13	ял	ял	NOUN	_	Case=Nom|Number=Sing	14	obl	_	_
+14	шотан	шотан	ADJ	_	_	15	amod	_	_
+15	илемыш	илем	NOUN	_	Case=Ill|Number=Sing	16	obl	_	_
+16	пурышо	пураш	VERB	_	VerbForm=Part|Voice=Act	17	acl	_	_
+17	ял	ял	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = mhr-fewshot-0203
+# text = Пижма ял деч 3,8 километр йӱдвел-эрвел могырно верланен.
+# text_en = It is located 3.8 kilometers northeast of Pizhma.
+# source_id = mhr:wiki:e06bdb16ad3f8f41872c
+# source_sent_id = 141760
+# annotation_status = PARSER_FST_REVIEW
+1	Пижма	Пижма	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ял	ял	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	3,8	3,8	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	йӱдвел-эрвел	йӱдвел-эрвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0204
+# text = 1973-ан ийыште Ӱлыл Вончӱмбал ял Кӱшыл Вончӱмбал ял дене пырля ик пырляштарыме Вончӱмбал ялыш савырненыт.
+# text_en = In 1973, Lower Vonchymbal and Upper Vonchymbal were merged into the village of Vonchymbal. The village of Lower Vonzhepol (Lower Vonchymbal, Lower Village, Lower, Ylylsola).
+# source_id = mhr:wiki:9bc8236dd3a1782c45db
+# source_sent_id = 138480
+# annotation_status = PARSER_FST_REVIEW
+1	1973-ан	1973	ADJ	_	NumForm=Digit|NumType=Ord	2	amod	_	_
+2	ийыште	ий	NOUN	_	Case=Ine|Number=Sing	15	obl	_	_
+3	Ӱлыл	ӱлыл	ADJ	_	_	4	amod	_	_
+4	Вончӱмбал	Вончӱмбал	PROPN	_	Case=Nom|Number=Sing	5	compound	_	_
+5	ял	ял	NOUN	_	Case=Nom|Number=Sing	17	nmod	_	_
+6	Кӱшыл	кӱшыл	ADJ	_	Case=Nom|Number=Sing	8	amod	_	_
+7	Вончӱмбал	Вончӱмбал	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
+8	ял	ял	NOUN	_	Case=Nom|Number=Sing	12	obl	_	_
+9	дене	дене	ADP	_	AdpType=Post	8	case	_	_
+10	пырля	пырля	NOUN	_	_	15	obl	_	_
+11	ик	ик	ADV	_	_	12	advmod	_	_
+12	пырляштарыме	пырляштараш	ADJ	_	Case=Nom	14	amod	_	_
+13	Вончӱмбал	Вончӱмбал	PROPN	_	Case=Nom|Number=Sing	14	nmod	_	_
+14	ялыш	ял	NOUN	_	Case=Ill|Number=Sing	15	obl	_	_
+15	савырненыт	савырнаш	VERB	_	Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = mhr-fewshot-0205
+# text = Эҥермучаш () — Российыште Марий Элын У Роҥго кундемыштыже верланыше Ӱшнӱр ял шотан илемыш пурышо ял.
+# text_en = Engermuchash is a village in the Ushnur rural settlement, Novy Toryal district, Mari El, Russia.
+# source_id = mhr:wiki:512e05c85f741da3fc8e
+# source_sent_id = 125987
+# annotation_status = PARSER_FST_REVIEW
+1	Эҥермучаш	Эҥермучаш	PROPN	_	Case=Nom|Number=Sing	17	nsubj	_	_
+2	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	1	punct	_	_
+4	—	—	PUNCT	_	_	17	punct	_	_
+5	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	11	obl	_	_
+6	Марий	марий	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	Элын	эл	NOUN	_	Case=Gen|Number=Sing	10	nmod	_	_
+8	У	у	ADJ	_	_	9	amod	_	_
+9	Роҥго	Роҥго	PROPN	_	Case=Nom|Number=Sing	10	compound	_	_
+10	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	obl	_	_
+11	верланыше	верланаш	VERB	_	VerbForm=Part|Voice=Act	15	acl	_	_
+12	Ӱшнӱр	Ӱшнӱр	PROPN	_	Case=Nom|Number=Sing	13	compound	_	_
+13	ял	ял	NOUN	_	Case=Nom|Number=Sing	14	obl	_	_
+14	шотан	шотан	ADJ	_	_	15	amod	_	_
+15	илемыш	илем	NOUN	_	Case=Ill|Number=Sing	16	obl	_	_
+16	пурышо	пураш	VERB	_	VerbForm=Part|Voice=Act	17	acl	_	_
+17	ял	ял	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = mhr-fewshot-0206
+# text = 1930 ийлаште Басов почиҥга Макарсола ял деке ушалтын.
+# text_en = In the 1930s, Basov hamlet was incorporated into Makarsola village.
+# source_id = mhr:wiki:a657cff33410842cae89
+# source_sent_id = 154749
+# annotation_status = PARSER_FST_REVIEW
+1	1930	1930	ADJ	_	NumForm=Digit|NumType=Ord	2	amod	_	_
+2	ийлаште	ий	NOUN	_	Case=Ine|Number=Plur	8	obl	_	_
+3	Басов	Басов	PROPN	_	Case=Nom|Number=Sing	4	compound	_	_
+4	почиҥга	почиҥга	NOUN	_	Case=Nom|Number=Sing	8	nsubj	_	_
+5	Макарсола	Макарсола	PROPN	_	Case=Nom|Number=Sing	6	compound	_	_
+6	ял	ял	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	деке	деке	ADP	_	AdpType=Post	6	case	_	_
+8	ушалтын	ушалташ	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
+
+# sent_id = mhr-fewshot-0207
+# text = Тыште пытартыш жапыште турнир эрта.
+# text_en = Recently, a tournament has been held here.
+# source_id = mhr:wiki:39a8cd2abc55883c7814
+# source_sent_id = 42329
+# annotation_status = PARSER_FST_REVIEW
+1	Тыште	тыште	ADV	_	PronType=Dem	5	obl	_	_
+2	пытартыш	пытартыш	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	жапыште	жап	NOUN	_	Case=Ine|Number=Sing	5	obl	_	_
+4	турнир	турнир	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+5	эрта	эрташ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = mhr-fewshot-0208
+# text = Пайскурык сола деч 2,5 километр кечывалвел-касвел могырно верланен.
+# text_en = It is located 2.5 kilometers southwest of Payskuryk.
+# source_id = mhr:wiki:600baaeeee03d610f5ce
+# source_sent_id = 150053
+# annotation_status = PARSER_FST_REVIEW
+1	Пайскурык	Пайскурык	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	2,5	2,5	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	кечывалвел-касвел	кечывалвел-касвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0209
+# text = Митькан () — Российыште Марий Элын Маскасола кундемыштыже верланыше Пекшиксола ял шотан илемыш пурышо ял.
+# text_en = Mitkan is a village in the Pekshiksola rural settlement, Medvedevo district, Mari El, Russia.
+# source_id = mhr:wiki:b186a78d872d0d92dd66
+# source_sent_id = 141909
+# annotation_status = PARSER_FST_REVIEW
+1	Митькан	Митькан	PROPN	_	Case=Nom|Number=Sing	16	nsubj	_	_
+2	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	1	punct	_	_
+4	—	—	PUNCT	_	_	16	punct	_	_
+5	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	11	obl	_	_
+6	Марий	марий	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	Элын	эл	NOUN	_	Case=Gen|Number=Sing	10	nmod	_	_
+8	Маскасола	Маскасола	PROPN	_	Case=Nom|Number=Sing	9	compound	_	_
+9	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl	_	_
+10	верланыше	верланаш	VERB	_	VerbForm=Part|Voice=Act	14	acl	_	_
+11	Пекшиксола	Пекшиксола	PROPN	_	Case=Nom|Number=Sing	14	compound	_	_
+12	ял	ял	NOUN	_	Case=Nom|Number=Sing	13	obl	_	_
+13	шотан	шотан	ADJ	_	_	14	amod	_	_
+14	илемыш	илем	NOUN	_	Case=Ill|Number=Sing	15	obl	_	_
+15	пурышо	пураш	VERB	_	VerbForm=Part|Voice=Act	16	acl	_	_
+16	ял	ял	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = mhr-fewshot-0210
+# text = Чӱксола ял деч 10 километр касвелне лийын шоген.
+# text_en = It was located 10 kilometers west of Chyksola village.
+# source_id = mhr:wiki:2efad77c2eb77875e940
+# source_sent_id = 122884
+# annotation_status = PARSER_FST_REVIEW
+1	Чӱксола	Чӱксола	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ял	ял	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	10	10	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+6	касвелне	касвелне	ADV	_	_	7	advmod	_	_
+7	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+8	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:aspect	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0211
+# text = Пӱнчыдӱр казна пӧрт () — Российыште Марий Элын Килемар кундемыштыже лийын шогышо пытыше илем.
+# text_en = Pynchydyr state house is a former settlement in Kilemary district, Mari El, Russia.
+# source_id = mhr:wiki:6f3b62a6240b891e43cc
+# source_sent_id = 157340
+# annotation_status = PARSER_FST_REVIEW
+1	Пӱнчыдӱр	Пӱнчыдӱр	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
+2	казна	казна	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
+3	пӧрт	пӧрт	NOUN	_	Case=Nom|Number=Sing	15	nsubj	_	_
+4	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	3	punct	_	_
+6	—	—	PUNCT	_	_	15	punct	_	_
+7	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	12	obl	_	_
+8	Марий	марий	NOUN	_	Case=Nom|Number=Sing	9	nmod	_	_
+9	Элын	эл	NOUN	_	Case=Gen|Number=Sing	11	nmod	_	_
+10	Килемар	Килемар	PROPN	_	Case=Nom|Number=Sing	11	compound	_	_
+11	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	12	obl	_	_
+12	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	15	acl	_	_
+13	шогышо	шогаш	AUX	_	VerbForm=Part|Voice=Act	12	aux:aspect	_	_
+14	пытыше	пыташ	VERB	_	VerbForm=Part|Voice=Act	15	acl	_	_
+15	илем	илем	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = mhr-fewshot-0212
+# text = 1973 ийын вӱдшор тылзыштыже Кораксола ял шотлымо данный-влак гыч лукталтын.
+# text_en = In April 1973, Koraksola village was removed from the registration records.
+# source_id = mhr:wiki:bbcc068e9c05f32e82ea
+# source_sent_id = 143135
+# annotation_status = PARSER_FST_REVIEW
+1	1973	1973	ADJ	_	NumForm=Digit|NumType=Ord	2	amod	_	_
+2	ийын	ийы	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
+3	вӱдшор	вӱдшор	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
+4	тылзыштыже	тылзе	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl:tmod	_	_
+5	Кораксола	Кораксола	PROPN	_	Case=Nom|Number=Sing	6	compound	_	_
+6	ял	ял	NOUN	_	Case=Nom|Number=Sing	10	nsubj:pass	_	_
+7	шотлымо	шотлаш	VERB	_	CVerbForm=Part|Voice=Pass	8	acl	_	_
+8	данный-влак	данный	NOUN	_	Case=Nom|Number=Plur	10	obl	_	_
+9	гыч	гыч	ADP	_	AdpType=Post	8	case	_	_
+10	лукталтын	лукталташ	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = mhr-fewshot-0213
+# text = Упшо сола деч 4 километр йӱдвелне лийын шоген.
+# text_en = It was located 4 kilometers north of Upsho.
+# source_id = mhr:wiki:04c631eb656cc442133f
+# source_sent_id = 135081
+# annotation_status = PARSER_FST_REVIEW
+1	Упшо	Упшо	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	4	4	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+6	йӱдвелне	йӱдвелне	ADV	_	_	7	advmod	_	_
+7	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+8	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:aspect	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0214
+# text = Сардаял ял деч 7 километр кечывалвел-эрвелне лийын шоген.
+# text_en = It was located 7 kilometers southeast of Sardayal village.
+# source_id = mhr:wiki:6edf20c4d96ef47439a4
+# source_sent_id = 146134
+# annotation_status = PARSER_FST_REVIEW
+1	Сардаял	Сардаял	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ял	ял	PROPN	_	Case=Nom|Number=Sing	7	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	7	7	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+6	кечывалвел-эрвелне	кечывалвел-эрвелне	ADV	_	_	7	advmod	_	_
+7	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+8	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:aspect	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0215
+# text = Байбулда () – Российыште Свердловск велын Арти оласе йырвелыштыже верланыше Йыванал ял шотан илемыш пурышо ял.
+# text_en = Baybulda is a village in the Yyvanal rural settlement, Arti urban district, Sverdlovsk region, Russia.
+# source_id = mhr:wiki:7683d6f773e9c6974678
+# source_sent_id = 165898
+# annotation_status = PARSER_FST_REVIEW
+1	Байбулда	Байбулда	PROPN	_	Case=Nom|Number=Sing	17	nsubj	_	_
+2	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	1	punct	_	_
+4	–	–	PUNCT	_	_	17	punct	_	_
+5	Российыште	Россий	NOUN	_	Case=Ine|Number=Sing	11	obl	_	_
+6	Свердловск	Свердловск	PROPN	_	Case=Nom|Number=Sing	10	nmod	_	_
+7	велын	вел	NOUN	_	Case=Gen|Number=Sing	10	nmod	_	_
+8	Арти	Арти	PROPN	_	Case=Nom|Number=Sing	9	obl	_	_
+9	оласе	оласе	ADJ	_	_	10	amod	_	_
+10	йырвелыштыже	йырвел	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	obl	_	_
+11	верланыше	верланаш	VERB	_	VerbForm=Part|Voice=Act	15	acl	_	_
+12	Йыванал	Йыванал	PROPN	_	Case=Nom|Number=Sing	15	compound	_	_
+13	ял	ял	NOUN	_	Case=Nom|Number=Sing	14	obl	_	_
+14	шотан	шотан	ADJ	_	_	15	amod	_	_
+15	илемыш	илем	NOUN	_	Case=Ill|Number=Sing	17	nmod	_	_
+16	пурышо	пураш	VERB	_	VerbForm=Part|Voice=Act	17	acl	_	_
+17	ял	ял	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = mhr-fewshot-0216
+# text = Виловат сола деч 2,5 километр кечывалвел могырно верланен.
+# text_en = It is located 2.5 kilometers south of Vilovat.
+# source_id = mhr:wiki:683559f7121e9394ec0b
+# source_sent_id = 152602
+# annotation_status = PARSER_FST_REVIEW
+1	Виловат	Виловат	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	2,5	2,5	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	кечывалвел	кечывалвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0217
+# text = Кулаково сола деч 4 километр йӱдвел-касвел могырно верланен.
+# text_en = It is located 4 kilometers northwest of Kulakovo.
+# source_id = mhr:wiki:bcae5b725bb3727dd292
+# source_sent_id = 151070
+# annotation_status = PARSER_FST_REVIEW
+1	Кулаково	Кулаково	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	4	4	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	йӱдвел-касвел	йӱдвел-касвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0218
+# text = Кириллице негызеш кызытсе якут тиштер 1939 ийыште пеҥгыдемдалтын.
+# text_en = The modern Cyrillic-based Yakut alphabet was approved in 1939.
+# source_id = mhr:wiki:24f66f0d9d38d691c199
+# source_sent_id = 69958
+# annotation_status = PARSER_FST_REVIEW
+1	Кириллице	кириллице	NOUN	_	Case=Gen|Number=Sing	5	nmod	_	_
+2	негызеш	негызеш	ADP	_	AdpType=Post	1	case	_	_
+3	кызытсе	кызытсе	ADJ	_	_	5	amod	_	_
+4	якут	якут	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	тиштер	тиштер	NOUN	_	Case=Nom|Number=Sing	8	nsubj	_	_
+6	1939	1939	NUM	_	NumForm=Digit|NumType=Ord	7	amod	_	_
+7	ийыште	ий	NOUN	_	Case=Ine|Number=Sing	8	obl:tmod	_	_
+8	пеҥгыдемдалтын	пеҥгыдемдалташ	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0219
+# text = Весшӱргӧ ял деч 3 километр эрвел могырно верланен.
+# text_en = It is located 3 kilometers east of Vesshyrgo village.
+# source_id = mhr:wiki:60423acda7be9421e793
+# source_sent_id = 139146
+# annotation_status = PARSER_FST_REVIEW
+1	Весшӱргӧ	Весшӱргӧ	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ял	ял	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	3	3	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	эрвел	эрвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0220
+# text = МАССР Президиум Верховный Советын Указше почеш 1965 ийыште сорла тылзын 19-ше кечынже Купсола ден Кӱшыл Тушнур ялла ик пырляштарыме Тушнур ялыш савырненыт.
+# text_en = By decree of the Presidium of the Supreme Soviet of the Mari ASSR, Kupsоla and Upper Tushnur were merged into Tushnur village on August 19, 1965.
+# source_id = mhr:wiki:e9979fd254acc7087c03
+# source_sent_id = 121450
+# annotation_status = PARSER_FST_REVIEW
+1	МАССР	МАССР	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
+2	Президиум	президиум	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+3	Верховный	верховный	ADJ	_	_	4	amod	_	_
+4	Советын	совет	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
+5	Указше	указ	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	22	obl	_	_
+6	почеш	почеш	ADP	_	AdpType=Post	5	case	_	_
+7	1965	1965	ADJ	_	NumForm=Digit|NumType=Ord	8	amod	_	_
+8	ийыште	ий	NOUN	_	Case=Ine|Number=Sing	12	nmod	_	_
+9	сорла	сорла	NOUN	_	Case=Nom|Number=Sing	10	nmod	_	_
+10	тылзын	тылзе	NOUN	_	Case=Gen|Number=Sing	12	nmod	_	_
+11	19-ше	19	ADJ	_	NumForm=Digit|NumType=Ord	12	amod	_	_
+12	кечынже	кече	NOUN	_	Number=Sing|Number[psor]=Sing|Person[psor]=3	22	obl:tmod	_	_
+13	Купсола	Купсола	PROPN	_	Case=Nom|Number=Sing	17	compound	_	_
+14	ден	ден	CCONJ	_	_	16	cc	_	_
+15	Кӱшыл	кӱшыл	ADJ	_	_	16	amod	_	_
+16	Тушнур	Тушнур	PROPN	_	Case=Nom|Number=Sing	13	conj	_	_
+17	ялла	ял	NOUN	_	Case=Nom|Number=Plur	22	nsubj	_	_
+18	ик	ик	NUM	_	NumType=Card|Variant=Short	21	nummod	_	_
+19	пырляштарыме	пырляштараш	VERB	_	VerbForm=Part|Voice=Pass	21	acl	_	_
+20	Тушнур	Тушнур	PROPN	_	Case=Nom|Number=Sing	21	compound	_	_
+21	ялыш	ял	NOUN	_	Case=Ill|Number=Sing	22	obl	_	_
+22	савырненыт	савырнаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = mhr-fewshot-0221
+# text = Пурсанур сола деч 4 километр йӱдвел могырно верланен.
+# text_en = It is located 4 kilometers north of Pursanur.
+# source_id = mhr:wiki:999898486517cda1ef3d
+# source_sent_id = 141696
+# annotation_status = PARSER_FST_REVIEW
+1	Пурсанур	Пурсанур	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	8	obj	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	4	4	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	йӱдвел	йӱдвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0222
+# text = МАССР Президиум Верховный Советын Указше почеш 1979 ийыште сӱрем тылзын 2-шо кечынже Шолэҥер посёлко деке ушалтын.
+# text_en = By decree of the Presidium of the Supreme Soviet of the Mari ASSR, it was incorporated into Sholenger settlement on July 2, 1979.
+# source_id = mhr:wiki:93903bfc90a7dfb484ff
+# source_sent_id = 127861
+# annotation_status = PARSER_FST_REVIEW
+1	МАССР	МАССР	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
+2	Президиум	президиум	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+3	Верховный	верховный	ADJ	_	_	4	amod	_	_
+4	Советын	совет	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
+5	Указше	указ	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	16	obl	_	_
+6	почеш	почеш	ADP	_	AdpType=Post	5	case	_	_
+7	1979	1979	NUM	_	NumForm=Digit|NumType=Card	12	amod	_	_
+8	ийыште	ий	NOUN	_	Case=Ine|Number=Sing	12	nmod	_	_
+9	сӱрем	сӱрем	NOUN	_	Case=Gen|Number=Sing	10	nmod	_	_
+10	тылзын	тылзе	NOUN	_	Case=Gen|Number=Sing	12	nmod	_	_
+11	2-шо	2	ADJ	_	NumForm=Digit|NumType=Ord	12	amod	_	_
+12	кечынже	кече	NOUN	_	Number=Sing|Number[psor]=Sing|Person[psor]=3	16	obl:tmod	_	_
+13	Шолэҥер	Шолэҥер	PROPN	_	Case=Nom|Number=Sing	14	compound	_	_
+14	посёлко	посёлко	NOUN	_	Case=Nom|Number=Sing	16	obl	_	_
+15	деке	деке	ADP	_	AdpType=Post	14	case	_	_
+16	ушалтын	ушалташ	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpaceAfter=No
+
+# sent_id = mhr-fewshot-0223
+# text = Камша ола деч 16 километр йӱдвел могырно верланен.
+# text_en = It is located 16 kilometers north of Kamsha.
+# source_id = mhr:wiki:dda22212dee89dfa34f5
+# source_sent_id = 67487
+# annotation_status = PARSER_FST_REVIEW
+1	Камша	Камша	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ола	ола	NOUN	_	Case=Gen|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	16	16	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	йӱдвел	йӱдвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0224
+# text = МАССР-ын Кӱшыл Каҥашын Вуйвержын Кӱштыкшӧ почеш 1973 ийыште идым тылзын 27-ше кечынже Корембал ден Вичкудо ялла ик илыме верыш ушненыт — Лужалу ялыш.
+# text_en = By decree of the Presidium of the Supreme Soviet of the Mari ASSR, Korembal and Vichkudo were merged into one settlement, Luzhalu, on September 27, 1973.
+# source_id = mhr:wiki:6567c3a70ba6d96ec978
+# source_sent_id = 117278
+# annotation_status = PARSER_FST_REVIEW
+1	МАССР-ын	МАССР	PROPN	_	Case=Gen|Number=Sing	4	nmod	_	_
+2	Кӱшыл	кӱшыл	ADJ	_	_	3	amod	_	_
+3	Каҥашын	каҥаш	PROPN	_	Case=Gen|Number=Sing	4	nmod	_	_
+4	Вуйвержын	вуйвер	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
+5	Кӱштыкшӧ	кӱштык	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	20	obl	_	_
+6	почеш	почеш	ADP	_	AdpType=Post	5	case	_	_
+7	1973	1973	NUM	_	NumForm=Digit|NumType=Ord	8	amod	_	_
+8	ийыште	ий	NOUN	_	Case=Ine|Number=Sing	12	obl	_	_
+9	идым	идым	NOUN	_	Case=Nom|Number=Sing	10	nmod	_	_
+10	тылзын	тылзе	NOUN	_	Case=Gen|Number=Sing	12	nmod	_	_
+11	27-ше	27	ADJ	_	NumForm=Digit|NumType=Ord	12	amod	_	_
+12	кечынже	кече	NOUN	_	Number=Sing|Number[psor]=Sing|Person[psor]=3	20	obl:tmod	_	_
+13	Корембал	Корембал	PROPN	_	Case=Nom|Number=Sing	16	compound	_	_
+14	ден	ден	CCONJ	_	_	15	cc	_	_
+15	Вичкудо	Вичкудо	PROPN	_	Case=Nom|Number=Sing	13	conj	_	_
+16	ялла	ял	NOUN	_	Case=Nom|Number=Plur	20	nsubj	_	_
+17	ик	ик	NUM	_	NumType=Card|Variant=Short	18	nummod	_	_
+18	илыме	илаш	VERB	_	VerbForm=Part|Voice=Pass	19	acl	_	_
+19	верыш	вер	NOUN	_	Case=Ill|Number=Sing	20	obl	_	_
+20	ушненыт	ушнаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+21	—	—	PUNCT	_	_	23	punct	_	_
+22	Лужалу	Лужалу	PROPN	_	Case=Nom|Number=Sing	23	compound	_	_
+23	ялыш	ял	NOUN	_	Case=Ill|Number=Sing	19	appos	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = mhr-fewshot-0225
+# text = Шнаран сола деч 3 километр кечывалвел-эрвелне лийын шоген.
+# text_en = It was located 3 kilometers southeast of Shnaran.
+# source_id = mhr:wiki:97add6394028f562192e
+# source_sent_id = 124237
+# annotation_status = PARSER_FST_REVIEW
+1	Шнаран	Шнаран	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	3	3	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+6	кечывалвел-эрвелне	кечывалвел-эрвелне	ADV	_	_	7	advmod	_	_
+7	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+8	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:aspect	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0226
+# text = Кириллице негызеш кызытсе ительмен тиштерыш руш тиштер гыч буква-влак да икмыняр ешартыш тиште да лигатур-влак пурат.
+# text_en = The modern Cyrillic-based Itelmen alphabet contains letters from the Russian alphabet, several additional letters, and ligatures.
+# source_id = mhr:wiki:34add78e52cfb0cc6725
+# source_sent_id = 69846
+# annotation_status = PARSER_FST_REVIEW
+1	Кириллице	кириллице	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+2	негызеш	негызеш	ADP	_	AdpType=Post	1	case	_	_
+3	кызытсе	кызытсе	ADJ	_	_	5	amod	_	_
+4	ительмен	ительмен	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	тиштерыш	тиштер	NOUN	_	Case=Ill|Number=Sing	16	obl	_	_
+6	руш	руш	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	тиштер	тиштер	NOUN	_	Case=Nom|Number=Sing	9	nmod	_	_
+8	гыч	гыч	ADP	_	AdpType=Post	7	case	_	_
+9	буква-влак	буква	NOUN	_	Case=Nom|Number=Plur	16	nsubj	_	_
+10	да	да	CCONJ	_	_	13	cc	_	_
+11	икмыняр	икмыняр	DET	_	PronType=Ind	13	det	_	_
+12	ешартыш	ешартыш	NOUN	_	Case=Nom|Number=Sing	13	nmod	_	_
+13	тиште	тиште	NOUN	_	Case=Nom|Number=Sing	9	conj	_	_
+14	да	да	CCONJ	_	_	15	cc	_	_
+15	лигатур-влак	лигатур	NOUN	_	Case=Nom|Number=Plur	9	conj	_	_
+16	пурат	пураш	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = mhr-fewshot-0227
+# text = Винница деч 39 километр кечывалвел-эрвел могырно верланен.
+# text_en = It is located 39 kilometers southeast of Vinnytsia.
+# source_id = mhr:wiki:de6fafad4d784bccec59
+# source_sent_id = 196110
+# annotation_status = PARSER_FST_REVIEW
+1	Винница	Винница	PROPN	_	Case=Nom|Number=Sing	7	obl	_	_
+2	деч	деч	ADP	_	AdpType=Post	1	case	_	_
+3	39	39	NUM	_	NumForm=Digit|NumType=Card	4	nummod	_	_
+4	километр	километр	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	кечывалвел-эрвел	кечывалвел-эрвел	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+6	могырно	могырно	ADP	_	AdpType=Post	5	case	_	_
+7	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = mhr-fewshot-0228
+# text = Кугу Ярамарий ял деч 9 километр йӱдвел-касвелне Ӱшӱт эҥер воктене лийын шоген.
+# text_en = It was located beside the Ushut River, 9 kilometers northwest of Kugu Yaramariy village.
+# source_id = mhr:wiki:7d2deb74d05fbcd6e36e
+# source_sent_id = 137404
+# annotation_status = PARSER_FST_REVIEW
+1	Кугу	кугу	ADJ	_	_	3	amod	_	_
+2	Ярамарий	Ярамарий	PROPN	_	Case=Nom|Number=Sing	3	compound	_	_
+3	ял	ял	NOUN	_	Case=Nom|Number=Sing	11	obl	_	_
+4	деч	деч	ADP	_	AdpType=Post	3	case	_	_
+5	9	9	NUM	_	NumForm=Digit|NumType=Card	6	nummod	_	_
+6	километр	километр	NOUN	_	Case=Nom|Number=Sing	11	obl	_	_
+7	йӱдвел-касвелне	йӱдвел-касвелне	ADV	_	_	11	advmod	_	_
+8	Ӱшӱт	Ӱшӱт	PROPN	_	Case=Nom|Number=Sing	9	compound	_	_
+9	эҥер	эҥер	NOUN	_	Case=Nom|Number=Sing	11	obl	_	_
+10	воктене	воктене	ADP	_	AdpType=Post	9	case	_	_
+11	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+12	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:aspect	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = mhr-fewshot-0229
+# text = Эмансола сола деч 2 километр эрвел могырно верланен.
+# text_en = It is located 2 kilometers east of Emansola.
+# source_id = mhr:wiki:8af7ccdac6da52e97e00
+# source_sent_id = 147685
+# annotation_status = PARSER_FST_REVIEW
+1	Эмансола	Эмансола	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	2	2	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	эрвел	эрвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0230
+# text = Волаксола ял деч 6 километр кечывалвел-эрвел могырно верланен.
+# text_en = It is located 6 kilometers southeast of Volaksola village.
+# source_id = mhr:wiki:dc4389bf56bc3b601d6a
+# source_sent_id = 139160
+# annotation_status = PARSER_FST_REVIEW
+1	Волаксола	Волаксола	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ял	ял	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
+4	6	6	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	кечывалвел-эрвел	кечывалвел-эрвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0231
+# text = Кожласола деч 3 километр тораште лийын шоген.
+# text_en = It was located 3 kilometers from Kozhlasola.
+# source_id = mhr:wiki:193eed85fb0993e0d9e4
+# source_sent_id = 126603
+# annotation_status = PARSER_FST_REVIEW
+1	Кожласола	Кожласола	PROPN	_	Case=Nom|Number=Sing	6	obl	_	_
+2	деч	деч	ADP	_	AdpType=Post	1	case	_	_
+3	3	3	NUM	_	NumForm=Digit|NumType=Card	4	nummod	_	_
+4	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	obl	_	_
+5	тораште	тораште	ADP	_	AdpType=Post	4	case	_	_
+6	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+7	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:aspect	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = mhr-fewshot-0232
+# text = Киев деч 537 километр йӱдвел-касвел могырно верланен.
+# text_en = It is located 537 kilometers northwest of Kyiv.
+# source_id = mhr:wiki:2f54772cce76754b8961
+# source_sent_id = 65978
+# annotation_status = PARSER_FST_REVIEW
+1	Киев	Киев	PROPN	_	Case=Nom|Number=Sing	7	obl	_	_
+2	деч	деч	ADP	_	AdpType=Post	1	case	_	_
+3	537	537	NUM	_	NumForm=Digit|NumType=Card	4	nummod	_	_
+4	километр	километр	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	йӱдвел-касвел	йӱдвел-касвел	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+6	могырно	могырно	ADP	_	AdpType=Post	5	case	_	_
+7	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = mhr-fewshot-0233
+# text = Кугу Вочарма () – Российыште Марий Элын Марий Тӱрек кундемыштыже верланыше Косолап ял шотан илемыш пурышо ял.
+# text_en = Kugu Vocharma is a village in the Kosolap rural settlement, Mari-Turek district, Mari El, Russia.
+# source_id = mhr:wiki:579357f8f2537e1e768e
+# source_sent_id = 145066
+# annotation_status = PARSER_FST_REVIEW
+1	Кугу	кугу	ADJ	_	_	2	amod	_	_
+2	Вочарма	Вочарма	PROPN	_	Case=Nom|Number=Sing	18	nsubj	_	_
+3	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	2	punct	_	_
+5	–	–	PUNCT	_	_	18	punct	_	_
+6	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	12	obl	_	_
+7	Марий	марий	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
+8	Элын	эл	PROPN	_	Case=Gen|Number=Sing	11	nmod	_	_
+9	Марий	марий	NOUN	_	Case=Nom|Number=Sing	10	nmod	_	_
+10	Тӱрек	Тӱрек	PROPN	_	Case=Nom|Number=Sing	11	compound	_	_
+11	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	12	obl	_	_
+12	верланыше	верланаш	VERB	_	VerbForm=Part|Voice=Act	16	acl	_	_
+13	Косолап	Косолап	PROPN	_	Case=Nom|Number=Sing	16	compound	_	_
+14	ял	ял	NOUN	_	Case=Nom|Number=Sing	15	obl	_	_
+15	шотан	шотан	ADJ	_	_	16	amod	_	_
+16	илемыш	илем	NOUN	_	Case=Ill|Number=Sing	17	obl	_	_
+17	пурышо	пураш	VERB	_	VerbForm=Part|Voice=Act	18	acl	_	_
+18	ял	ял	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = mhr-fewshot-0234
+# text = Льнозавод () — Российыште Марий Элын У Торъял кундемыштыже верланыше Чӱксола ял шотан илемыш пурышо посёлко.
+# text_en = Lnozavod is a settlement in the Chyksola rural settlement, Novy Toryal district, Mari El, Russia.
+# source_id = mhr:wiki:f48eb7d5e8cd5c7895b2
+# source_sent_id = 123602
+# annotation_status = PARSER_FST_REVIEW
+1	Льнозавод	Льнозавод	PROPN	_	Case=Nom|Number=Sing	17	nsubj	_	_
+2	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	1	punct	_	_
+4	—	—	PUNCT	_	_	17	punct	_	_
+5	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	11	obl	_	_
+6	Марий	марий	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	Элын	эл	NOUN	_	Case=Gen|Number=Sing	10	nmod	_	_
+8	У	у	ADJ	_	_	9	amod	_	_
+9	Торъял	Торъял	PROPN	_	Case=Nom|Number=Sing	10	compound	_	_
+10	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	obl	_	_
+11	верланыше	верланаш	VERB	_	VerbForm=Part|Voice=Act	15	acl	_	_
+12	Чӱксола	Чӱксола	PROPN	_	Case=Nom|Number=Sing	15	compound	_	_
+13	ял	ял	NOUN	_	Case=Nom|Number=Sing	14	obl	_	_
+14	шотан	шотан	ADJ	_	_	15	amod	_	_
+15	илемыш	илем	NOUN	_	Case=Ill|Number=Sing	16	obl	_	_
+16	пурышо	пураш	VERB	_	VerbForm=Part|Voice=Act	17	acl	_	_
+17	посёлко	посёлко	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = mhr-fewshot-0235
+# text = Мустай ял деч 6 километр кечывалвел-касвелне Руй эҥерын серыштыже лийын шоген.
+# text_en = It was located on the bank of the Ruy River, 6 kilometers southwest of Mustay village.
+# source_id = mhr:wiki:9fcfe7ef082a81586c49
+# source_sent_id = 120667
+# annotation_status = PARSER_FST_REVIEW
+1	Мустай	Мустай	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ял	ял	NOUN	_	Case=Nom|Number=Sing	10	obl	_	_
+3	деч	деч	ADP	_	AdpType	2	case	_	_
+4	6	6	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
+5	километр	километр	NOUN	_	Case=Nom|Number=Sing	10	obl	_	_
+6	кечывалвел-касвелне	кечывалвел-касвелне	ADV	_	_	10	advmod	_	_
+7	Руй	Руй	PROPN	_	Case=Nom|Number=Sing	8	compound	_	_
+8	эҥерын	эҥер	NOUN	_	Case=Gen|Number=Sing	9	nmod	_	_
+9	серыштыже	сер	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl	_	_
+10	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+11	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:aspect	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = mhr-fewshot-0236
+# text = Кашутин Венедикт Степанович — Йошкар Шӱдыр орденын кавалерже, 1941–1945 ийласе Кугу Ачамланде сарын участникше.
+# text_en = Venedikt Stepanovich Kashutin was a holder of the Order of the Red Star and a participant in the Great Patriotic War of 1941-1945.
+# source_id = mhr:wiki:5f87cc929b159c222c21
+# source_sent_id = 151129
+# annotation_status = PARSER_FST_REVIEW
+1	Кашутин	Кашутин	PROPN	_	Case=Nom|Number=Sing	8	nsubj	_	_
+2	Венедикт	Венедикт	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+3	Степанович	Степанович	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+4	—	—	PUNCT	_	_	8	punct	_	_
+5	Йошкар	йошкар	ADJ	_	Variant=Short	6	amod	_	_
+6	Шӱдыр	шӱдыр	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	орденын	орден	NOUN	_	Case=Gen|Number=Sing	8	nmod	_	_
+8	кавалерже	кавалер	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	17	punct	_	_
+10	1941	1941	NUM	_	NumForm=Digit|NumType=Card	13	nummod	_	SpaceAfter=No
+11	–	–	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	1945	1945	NUM	_	NumForm=Digit|NumType=Card	10	nmod	_	_
+13	ийласе	ийласе	ADJ	_	_	16	amod	_	_
+14	Кугу	кугу	ADJ	_	_	16	amod	_	_
+15	Ачамланде	ачамланде	ADJ	_	_	16	amod	_	_
+16	сарын	сар	NOUN	_	Case=Gen|Number=Sing	17	nmod	_	_
+17	участникше	участник	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = mhr-fewshot-0237
+# text = 64-ше квартал чодыра участок () — Российыште Марий Элын Провой кундемыштыже лийын шогышо пытыше участок.
+# text_en = The forest section of quarter 64 is a former forestry section in Zvenigovo district, Mari El, Russia.
+# source_id = mhr:wiki:5f376efe9944a4980e93
+# source_sent_id = 126747
+# annotation_status = PARSER_FST_REVIEW
+1	64-ше	64	ADJ	_	NumForm=Digit|NumType=Ord	2	amod	_	_
+2	квартал	квартал	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
+3	чодыра	чодыра	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
+4	участок	участок	NOUN	_	Case=Nom|Number=Sing	16	nsubj	_	_
+5	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	4	punct	_	_
+7	—	—	PUNCT	_	_	16	punct	_	_
+8	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	13	obl	_	_
+9	Марий	марий	PROPN	_	Case=Nom|Number=Sing	10	nmod	_	_
+10	Элын	эл	PROPN	_	Case=Gen|Number=Sing	12	nmod	_	_
+11	Провой	Провой	PROPN	_	Case=Nom|Number=Sing	12	compound	_	_
+12	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	13	obl	_	_
+13	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	16	acl	_	_
+14	шогышо	шогаш	AUX	_	VerbForm=Part|Voice=Act	13	aux:aspect	_	_
+15	пытыше	пыташ	VERB	_	VerbForm=Part|Voice=Act	16	acl	_	_
+16	участок	участок	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = mhr-fewshot-0238
+# text = Рубль мут ончыктен кертеш:
+# text_en = The word ruble can mean:
+# source_id = mhr:wiki:af889794eb74546b50a1
+# source_sent_id = 104756
+# annotation_status = PARSER_FST_REVIEW
+1	Рубль	рубль	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	мут	мут	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+3	ончыктен	ончыкташ	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
+4	кертеш	керташ	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	4	punct	_	_
+
+# sent_id = mhr-fewshot-0239
+# text = Кугэҥер деч 2 километр йӱдвел могырно Мушко эҥерын шола серыштыже верланен.
+# text_en = It is located on the left bank of the Mushko River, 2 kilometers north of Kugenger.
+# source_id = mhr:wiki:2b8ef336b7da0d6b2ef8
+# source_sent_id = 119263
+# annotation_status = PARSER_FST_REVIEW
+1	Кугэҥер	Кугэҥер	PROPN	_	Case=Nom|Number=Sing	11	obl	_	_
+2	деч	деч	ADP	_	AdpType=Post	1	case	_	_
+3	2	2	NUM	_	NumForm=Digit|NumType=Card	4	nummod	_	_
+4	километр	километр	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
+5	йӱдвел	йӱдвел	NOUN	_	Case=Nom|Number=Sing	11	obl	_	_
+6	могырно	могырно	ADP	_	AdpType=Post	5	case	_	_
+7	Мушко	Мушко	PROPN	_	Case=Nom|Number=Sing	8	compound	_	_
+8	эҥерын	эҥер	NOUN	_	Case=Gen|Number=Sing	10	nmod	_	_
+9	шола	шола	ADJ	_	_	10	amod	_	_
+10	серыштыже	сер	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	obl	_	_
+11	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = mhr-fewshot-0240
+# text = Тапшер () — Российыште Марий Элын У Роҥго кундемыштыже верланыше Ӱшнӱр ял шотан илемыш пурышо ял.
+# text_en = Tapsher is a village in the Ushnur rural settlement, Novy Toryal district, Mari El, Russia.
+# source_id = mhr:wiki:11e21c6472ccf6b473a0
+# source_sent_id = 84550
+# annotation_status = PARSER_FST_REVIEW
+1	Тапшер	Тапшер	PROPN	_	Case=Nom|Number=Sing	17	nsubj	_	_
+2	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	1	punct	_	_
+4	—	—	PUNCT	_	_	17	punct	_	_
+5	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	11	obl	_	_
+6	Марий	марий	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	Элын	эл	NOUN	_	Case=Gen|Number=Sing	10	nmod	_	_
+8	У	у	ADJ	_	Number=Sing	9	amod	_	_
+9	Роҥго	Роҥго	PROPN	_	Case=Nom|Number=Sing	10	compound	_	_
+10	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	obl	_	_
+11	верланыше	верланаш	VERB	_	VerbForm=Part|Voice=Act	15	acl	_	_
+12	Ӱшнӱр	Ӱшнӱр	PROPN	_	Case=Nom|Number=Sing	15	compound	_	_
+13	ял	ял	NOUN	_	Case=Nom|Number=Sing	14	obl	_	_
+14	шотан	шотан	ADJ	_	_	15	amod	_	_
+15	илемыш	илем	NOUN	_	Case=Ill|Number=Sing	16	obl	_	_
+16	пурышо	пураш	VERB	_	VerbForm=Part|Voice=Act	17	acl	_	_
+17	ял	ял	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = mhr-fewshot-0241
+# text = Комсомольский () — Российыште Марий Элын Морко кундемыштыже верланыше Кокласола ял шотан илемыш пурышо посёлко.
+# text_en = Komsomolsky is a settlement in the Koklasola rural settlement, Morko district, Mari El, Russia.
+# source_id = mhr:wiki:ff25d33f92baad345c46
+# source_sent_id = 138750
+# annotation_status = PARSER_FST_REVIEW
+1	Комсомольский	Комсомольский	PROPN	_	Case=Nom|Number=Sing	16	nsubj	_	_
+2	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	1	punct	_	_
+4	—	—	PUNCT	_	_	16	punct	_	_
+5	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	10	obl	_	_
+6	Марий	марий	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	Элын	эл	PROPN	_	Case=Gen|Number=Sing	9	nmod	_	_
+8	Морко	Морко	PROPN	_	Case=Nom|Number=Sing	9	compound	_	_
+9	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl	_	_
+10	верланыше	верланаш	VERB	_	VerbForm=Part|Voice=Act	14	acl	_	_
+11	Кокласола	Кокласола	PROPN	_	Case=Nom|Number=Sing	14	compound	_	_
+12	ял	ял	NOUN	_	Case=Nom|Number=Sing	13	obl	_	_
+13	шотан	шотан	ADJ	_	_	14	amod	_	_
+14	илемыш	илем	NOUN	_	Case=Ill|Number=Sing	15	obl	_	_
+15	пурышо	пураш	VERB	_	VerbForm=Part|Voice=Act	16	acl	_	_
+16	посёлко	посёлко	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = mhr-fewshot-0242
+# text = Тыгак тудо университетын студентше-влаклан программа ден методика пашам возен.
+# text_en = He also wrote programs and teaching methodology materials for the university students.
+# source_id = mhr:wiki:08ad24d6e1ab78393dca
+# source_sent_id = 83256
+# annotation_status = PARSER_FST_REVIEW
+1	Тыгак	тыгак	ADV	_	_	9	advmod	_	_
+2	тудо	тудо	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+3	университетын	университет	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
+4	студентше-влаклан	студент	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	9	obl	_	_
+5	программа	программе	NOUN	_	Case=Nom|Number=Sing	9	obj	_	_
+6	ден	ден	CCONJ	_	_	8	cc	_	_
+7	методика	методика	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
+8	пашам	паша	NOUN	_	Case=Acc|Number=Sing	5	conj	_	_
+9	возен	возаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = mhr-fewshot-0243
+# text = Ромашкин Владимир Иванович — Марий Эл Республикын Калык артистше.
+# text_en = Vladimir Ivanovich Romashkin is a People's Artist of the Republic of Mari El.
+# source_id = mhr:wiki:99325fdd720f069b826b
+# source_sent_id = 151393
+# annotation_status = PARSER_FST_REVIEW
+1	Ромашкин	Ромашкин	PROPN	_	Case=Nom|Number=Sing	9	nsubj	_	_
+2	Владимир	Владимир	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+3	Иванович	Иванович	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+4	—	—	PUNCT	_	_	9	punct	_	_
+5	Марий	марий	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	Эл	эл	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	Республикын	республик	NOUN	_	Case=Gen|Number=Sing	9	nmod	_	_
+8	Калык	калык	ADJ	_	_	9	amod	_	_
+9	артистше	артист	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = mhr-fewshot-0244
+# text = Романыште мо умбакыже лиеш пале огыл.
+# text_en = It is unclear what will happen next in the novel.
+# source_id = mhr:wiki:692cdac41a09ebdceef0
+# source_sent_id = 69577
+# annotation_status = PARSER_FST_REVIEW
+1	Романыште	роман	NOUN	_	Case=Ine|Number=Sing	4	obl	_	_
+2	мо	мо	PRON	_	Case=Nom|Number=Sing|PronType=Int	4	nsubj	_	_
+3	умбакыже	умбакыже	ADV	_	_	4	advmod	_	_
+4	лиеш	лияш	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	csubj	_	_
+5	пале	пале	ADJ	_	_	0	root	_	_
+6	огыл	улаш	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	_
+
