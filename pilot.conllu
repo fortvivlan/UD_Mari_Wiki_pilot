@@ -196,12 +196,12 @@
 # source_sent_id = 47710
 # annotation_status = PARSER_FST_REVIEW
 1	Йошкар-Ола	Йошкар-Ола	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
-2	ола	ола	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
-3	деч	деч	ADP	_	AdpPart=Post	2	case	_	_
+2	ола	ола	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
 4	198	198	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
 5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
 6	кечывалвел-касвел	кечывалвел-касвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
-7	могырно	могырно	ADP	_	AdpPart=Post	6	case	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
 8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
 
@@ -283,7 +283,7 @@
 5	кылме	кылме	ADJ	_	_	6	amod	_	_
 6	тылзын	тылзе	NOUN	_	Case=Gen|Number=Sing	8	nmod	_	_
 7	7-ше	7	ADJ	_	NumForm=Digit|NumType=Ord	8	amod	_	_
-8	кечынже	кече	NOUN	_	Number=Sing|number[psor]=Sing|Person[psor]=3	18	obl:tmod	_	_
+8	кечынже	кече	NOUN	_	Number=Sing|Number[psor]=Sing|Person[psor]=3	18	obl:tmod	_	_
 9	Вотск	Вотск	PROPN	_	Case=Nom|Number=Sing	11	compound	_	_
 10	автоном	автоном	ADJ	_	_	11	amod	_	_
 11	область	область	NOUN	_	Case=Nom|Number=Sing	17	nmod	_	SpaceAfter=No
@@ -402,7 +402,7 @@
 5	5	5	NUM	_	NumForm=Digit|NumType=Card	6	nummod	_	_
 6	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
 7	кечывалвел-эрвел	кечывалвел-эрвел	NOUN	_	Case=Nom|Number=Sing	9	obl	_	_
-8	могырно	могырно	NOUN	ADP	AdpType=Post	7	case	_	_
+8	могырно	могырно	ADP	_	AdpType=Post	7	case	_	_
 9	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	SpaceAfter=No
 
@@ -520,8 +520,8 @@
 # source_sent_id = 181942
 # annotation_status = PARSER_FST_REVIEW
 1	Муржинов	Муржинов	PROPN	_	Case=Nom|Number=Sing	8	nsubj	_	_
-2	Григорий	Григорий	PROPN	_	Case=Nom|Number=Sing	2	flat:name	_	_
-3	Петрович	Петрович	PROPN	_	Case=Nom|Number=Sing	2	flat:name	_	_
+2	Григорий	Григорий	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
+3	Петрович	Петрович	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 4	–	–	PUNCT	_	_	8	punct	_	_
 5	Йошкар	йошкар	ADJ	_	Variant=Short	6	amod	_	_
 6	Шӱдыр	шӱдыр	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
@@ -575,11 +575,11 @@
 # source_sent_id = 151433
 # annotation_status = PARSER_FST_REVIEW
 1	Пайскурык	Пайскурык	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
-2	сола	сола	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
 3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
 4	6	6	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
 5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
-6	йӱдвел-касвел	йӱдвел-касвел	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+6	йӱдвел-касвел	йӱдвел-касвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
 7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
 8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
@@ -666,7 +666,7 @@
 # annotation_status = PARSER_FST_REVIEW
 1	Урал	Урал	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
 2	федерал	федерал	ADJ	_	_	3	amod	_	_
-3	йырвелыш	йырвел	NOUN	_	Case=Lat|Number=Sing	4	obl	_	_
+3	йырвелыш	йырвел	NOUN	_	Case=Ill|Number=Sing	4	obl	_	_
 4	пура	пураш	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -687,7 +687,7 @@
 9	ял	ял	NOUN	_	Case=Nom|Number=Sing	10	obl	_	_
 10	шотан	шотан	ADJ	_	_	11	amod	_	_
 11	илем	илем	NOUN	_	Case=Nom|Number=Sing	6	conj	_	_
-12	уло	уло	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+12	уло	улаш	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = mhr-fewshot-0056
@@ -701,7 +701,7 @@
 3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
 4	4	4	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
 5	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
-6	кечывалвелне	кечывалвелне	ADV	_	_	7	obl	_	_
+6	кечывалвелне	кечывалвелне	ADV	_	_	7	advmod	_	_
 7	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
 8	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:aspect	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
@@ -719,7 +719,7 @@
 5	шорыкйол	шорыкйол	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
 6	тылзын	тылзе	NOUN	_	Case=Gen|Number=Sing	8	nmod	_	_
 7	6-шо	6	ADJ	_	NumForm=Digit|NumType=Ord	8	amod	_	_
-8	кечынже	кече	NOUN	_	Number=Sing|number[psor]=Sing|Person[psor]=3	18	obl:tmod	_	_
+8	кечынже	кече	NOUN	_	Number=Sing|Number[psor]=Sing|Person[psor]=3	18	obl:tmod	_	_
 9	Марий	марий	NOUN	_	Case=Nom|Number=Sing	10	nmod	_	_
 10	АССР	АССР	PROPN	_	Abbr=Yes	15	nmod	_	_
 11	Морко	Морко	PROPN	_	Case=Nom|Number=Sing	12	compound	_	_
@@ -749,8 +749,8 @@
 9	догазификацийым	догазификаций	NOUN	_	Case=Acc|Number=Sing	10	obj	_	_
 10	виктарыме	виктараш	VERB	_	VerbForm=Part|Voice=Pass	12	acl	_	_
 11	шотышто	шотышто	ADP	_	AdpType=Post	10	case	_	_
-12	кӱштымашыжым	кӱштымаш	NOUN	_	Case=Acc|Number=Plur|Person[psor]=3|VerbForm=Vnoun	14	obj	_	_
-13	кузе	кузе	ADV	_	PronType=Int	15	advmod	_	_
+12	кӱштымашыжым	кӱштымаш	NOUN	_	Case=Acc|Number=Sing|Person[psor]=3|VerbForm=Vnoun	14	obj	_	_
+13	кузе	кузе	ADV	_	PronType=Int	14	advmod	_	_
 14	шуктен	шукташ	VERB	_	ConvType=Gen|VerbForm=Conv	17	ccomp	_	_
 15	толмо	толаш	AUX	_	VerbForm=Part|Voice=Pass	14	aux:aspect	_	_
 16	нерген	нерген	ADP	_	AdpType=Post	14	mark	_	_
@@ -766,7 +766,7 @@
 1	Олык	олык	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 2	марий	марий	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 3	йылмым	йылме	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
-4	кучылтыт	кучылташ	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	кучылтыт	кучылташ	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = mhr-fewshot-0062
@@ -780,7 +780,7 @@
 3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
 4	4	4	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
 5	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
-6	касвелне	касвелне	ADV	_	_	7	obl	_	_
+6	касвелне	касвелне	ADV	_	_	7	advmod	_	_
 7	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
 8	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:aspect	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
@@ -802,7 +802,7 @@
 9	марий	марий	NOUN	_	Case=Nom|Number=Sing	10	nmod	_	_
 10	тиштерыште	тиштер	NOUN	_	Case=Ine|Number=Sing	7	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
-	1
+
 # sent_id = mhr-fewshot-0065
 # text = Тошто Крешын ял деч 1 километр касвелне лийын шоген.
 # text_en = It was located 1 kilometer west of the village of Toshto Kreshyn.
@@ -827,7 +827,7 @@
 # source_id = mhr:wiki:36095402a12197bb6bca
 # source_sent_id = 143779
 # annotation_status = PARSER_FST_REVIEW
-1	1989	1989	NUM	_	NumForm=Digit|NumType=Ord	2	nummod	_	_
+1	1989	1989	ADJ	_	NumForm=Digit|NumType=Ord	2	amod	_	_
 2	ийыште	ий	NOUN	_	Case=Ine|Number=Sing	6	nmod	_	_
 3	шыжа	шыжа	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	тылзын	тылзе	NOUN	_	Case=Gen|Number=Sing	6	nmod	_	_
@@ -836,10 +836,10 @@
 7	Касьяново	Касьяново	PROPN	_	Case=Nom|Number=Sing	8	compound	_	_
 8	ял	ял	NOUN	_	Case=Nom|Number=Sing	12	nsubj:pass	_	_
 9	шотлымо	шотлаш	VERB	_	VerbForm=Part|Voice=Pass	10	acl	_	_
-10	данный-влак	данный	NOUN	_	Case=Nom|Number=Plur	11	obl	_	_
+10	данный-влак	данный	NOUN	_	Case=Nom|Number=Plur	12	obl	_	_
 11	гыч	гыч	ADP	_	AdpType=Post	10	case	_	_
-11	лукталтын	лукталташ	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+12	лукталтын	лукталташ	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
 
 # sent_id = mhr-fewshot-0067
 # text = Ганга Талао - Маврикийыште Саванне кундемыште Индуизм тынын шнуй ер.
@@ -867,12 +867,12 @@
 # annotation_status = PARSER_FST_REVIEW
 1	Кӱльмӱж	Кӱльмӱж	PROPN	_	Case=Nom|Number=Sing	9	nsubj	_	_
 2	—	—	PUNCT	_	_	9	punct	_	_
-3	Российыште	Российыш?Россий	PROPN	_	Case=Ine|Number=Sing	8	obl	_	_
+3	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	8	obl	_	_
 4	Одо	одо	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 5	Элын	эл	NOUN	_	Case=Gen|Number=Sing	7	nmod	_	_
 6	Сюмси	Сюмси	PROPN	_	Case=Nom|Number=Sing	7	compound	_	_
 7	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obl	_	_
-8	верланыше	верланаш	VERB	_	VerbForm=Part|Voice=Act	8	acl	_	_
+8	верланыше	верланаш	VERB	_	VerbForm=Part|Voice=Act	9	acl	_	_
 9	сола	сола	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -882,7 +882,7 @@
 # source_id = mhr:wiki:5be01167a709676e57c6
 # source_sent_id = 192751
 # annotation_status = PARSER_FST_REVIEW
-1	1932	1932	NUM	_	NumForm=Digit|NumType=Ord	2	nummod	_	_
+1	1932	1932	ADJ	_	NumForm=Digit|NumType=Ord	2	amod	_	_
 2	ийыште	ий	NOUN	_	Case=Ine|Number=Sing	12	obl:tmod	_	_
 3	У	у	ADJ	_	_	4	amod	_	_
 4	Рычан	Рычан	PROPN	_	Case=Nom|Number=Sing	7	compound	_	_
@@ -895,7 +895,7 @@
 11	ялсоветыш	ялсовет	NOUN	_	Case=Ill|Number=Sing	12	obl	_	_
 12	пурен	пураш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	19	punct	_	_
-14	1981	1981	NUM	_	NumForm=Digit|NumType=Ord	15	nummod	_	_
+14	1981	1981	ADJ	_	NumForm=Digit|NumType=Ord	15	amod	_	_
 15	ийыште	ий	NOUN	_	Case=Ine|Number=Sing	19	obl:tmod	_	_
 16	посна	посна	ADJ	_	_	17	amod	_	_
 17	ялсоветын	ялсовет	NOUN	_	Case=Gen|Number=Sing	18	nmod	_	_
@@ -910,7 +910,7 @@
 # source_sent_id = 157755
 # annotation_status = PARSER_FST_REVIEW
 1	Йӱксар	Йӱксар	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
-2	сола	сола	NOUN	_	Case=Nom|Number=Sing	8	nsubj	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
 3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
 4	14	14	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
 5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
@@ -926,7 +926,7 @@
 # source_sent_id = 149325
 # annotation_status = PARSER_FST_REVIEW
 1	Пайскурык	Пайскурык	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
-2	ял	ял	NOUN	_	Case=Nom|Number=Sing	8	nsubj	_	_
+2	ял	ял	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
 3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
 4	4	4	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
 5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
@@ -942,7 +942,7 @@
 # source_sent_id = 166734
 # annotation_status = PARSER_FST_REVIEW
 1	Нефтекамск	Нефтекамск	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
-2	ола	ола	NOUN	_	Case=Gen|Number=Sing	8	nsubj	_	_
+2	ола	ола	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
 3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
 4	8	8	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
 5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
@@ -1017,7 +1017,7 @@
 16	олам	ола	NOUN	_	Case=Acc|Number=Sing	17	obj	_	_
 17	налын	налаш	VERB	_	ConvType=Gen|VerbForm=Conv	12	conj	_	_
 18	кертын	керташ	AUX	_	ConvType=Gen|VerbForm=Conv	17	aux	_	_
-19	огытыл	улаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	17	aux	_	SpaceAfter=No
+19	огытыл	улаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	17	aux	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = mhr-fewshot-0078
@@ -1027,7 +1027,7 @@
 # source_sent_id = 128369
 # annotation_status = PARSER_FST_REVIEW
 1	Элнет	Элнет	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
-2	сола	сола	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
 3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
 4	9	9	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
 5	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
@@ -1043,7 +1043,7 @@
 # source_sent_id = 142097
 # annotation_status = PARSER_FST_REVIEW
 1	Пекшиксола	Пекшиксола	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
-2	ял	ял	PROPN	_	Case=Nom|Number=Sing	7	nsubj	_	_
+2	ял	ял	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
 3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
 4	3	3	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
 5	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
@@ -1059,7 +1059,7 @@
 # source_sent_id = 119728
 # annotation_status = PARSER_FST_REVIEW
 1	Токспай	Токспай	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
-2	сола	сола	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
 3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
 4	2	2	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
 5	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
@@ -1202,7 +1202,7 @@
 5	Тӱнямбал	тӱнямбал	ADJ	_	_	6	amod	_	_
 6	чемпионатын	чемпионат	NOUN	_	Case=Gen|Number=Sing	7	nmod	_	_
 7	программышкыж	программе	NOUN	_	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	obl	_	_
-8	тыгай	тыгай	DET	_	PronType=Dem	10	amod	_	_
+8	тыгай	тыгай	DET	_	PronType=Dem	10	det	_	_
 9	спорт	спорт	NOUN	_	Case=Nom|Number=Sing	10	nmod	_	_
 10	тӱрлык-влак	тӱрлык	NOUN	_	Case=Nom|Number=Plur	11	nsubj	_	_
 11	пурат	пураш	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1236,7 +1236,7 @@
 # source_id = mhr:wiki:51a3d794039215e34d21
 # source_sent_id = 62591
 # annotation_status = PARSER_FST_REVIEW
-1	Йошкар-Ола	Йошкар-Ола	PROPN	_	Case=Nom|Number=Sing	1	nmod	_	_
+1	Йошкар-Ола	Йошкар-Ола	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	мут	мут	NOUN	_	Case=Nom|Number=Sing	11	obl	_	_
 3	дене	дене	ADP	_	AdpType=Post	2	case	_	_
 4	тӱҥ	тӱҥ	ADV	_	_	11	advmod	_	_
@@ -1292,7 +1292,7 @@
 5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
 6	кечывалвел-касвел	кечывалвел-касвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
 7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
-8	верланен	верланен?верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = mhr-fewshot-0095
@@ -1326,7 +1326,7 @@
 7	премийым	премий	NOUN	_	Case=Acc|Number=Sing	10	obj	_	_
 8	сулен	сулаш	VERB	_	ConvType=Gen|VerbForm=Conv	9	acl	_	_
 9	налше-влаклан	налше	NOUN	_	Case=Dat|Number=Plur	10	obl	_	_
-10	пуалтеш	пуаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+10	пуалтеш	пуаш	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
 11	:	:	PUNCT	_	_	10	punct	_	_
 
 # sent_id = mhr-fewshot-0098
@@ -1362,7 +1362,7 @@
 1	Категория	категория	X	_	Foreign=Yes	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	Горькийысе	Горький	PROPN	_	Case=Gen|Number=Sing	5	nmod	_	_
-4	кӱртньӧ	кӱртньӧ	NOUN	_	Case=Nom|Number=Sing	5	amod	_	_
+4	кӱртньӧ	кӱртньӧ	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 5	корно	корно	NOUN	_	Case=Nom|Number=Sing	1	appos	_	_
 
 # sent_id = mhr-fewshot-0101
@@ -1417,7 +1417,7 @@
 9	студийыш	студий	NOUN	_	Case=Ill|Number=Sing	10	obl	_	_
 10	толеденыт	толедаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	:	:	PUNCT	_	_	12	punct	_	_
-12	чурийтӱр	чурийтӱр	NOUN	_	Case=Nom|Number=Sing	10	appos	_	SpaceAfter=No
+12	чурийтӱр	чурийтӱр	NOUN	_	Case=Nom|Number=Sing	8	appos	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	чурийвылыш	чурийвылыш	NOUN	_	Case=Nom|Number=Sing	12	conj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
@@ -1471,7 +1471,7 @@
 6	12	12	NUM	_	NumForm=Digit|NumType=Card	7	nummod	_	_
 7	километр	километр	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
 8	йӱдвел-эрвел	йӱдвел-эрвел	NOUN	_	Case=Nom|Number=Sing	10	obl	_	_
-9	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
+9	могырно	могырно	ADP	_	AdpType=Post	8	case	_	_
 10	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -1546,7 +1546,7 @@
 4	оласе	оласе	ADJ	_	_	5	amod	_	_
 5	Олимпиадыште	олимпиаде	NOUN	_	Case=Ine|Number=Sing	10	obl	_	_
 6	Екатерина	Екатерина	PROPN	_	Case=Nom|Number=Sing	10	nsubj	_	_
-7	Миронова	Миронова	PROPN	_	Case=Nom|Number=Sing	6	flat:nsubj	_	_
+7	Миронова	Миронова	PROPN	_	Case=Nom|Number=Sing	6	flat:name	_	_
 8	7-ше	7	ADJ	_	NumForm=Digit|NumType=Ord	9	amod	_	_
 9	верым	вер	NOUN	_	Case=Acc|Number=Sing	10	obj	_	_
 10	налын	налаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1611,7 +1611,7 @@
 3	кӱлешан	кӱлешан	ADJ	_	_	5	amod	_	_
 4	Европысо	Европысо	ADJ	_	_	5	amod	_	_
 5	корно	корно	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
-6	да	да	CCONJ	_	_	8	cc	_	_
+6	да	да	CCONJ	_	_	10	cc	_	_
 7	тӱҥ	тӱҥ	ADJ	_	_	10	amod	_	_
 8	колым	кол	NOUN	_	Case=Acc|Number=Sing	9	obj	_	_
 9	кучымаш	кучымаш	NOUN	_	Case=Nom|Number=Sing|VerbForm=Vnoun	10	nmod	_	_
@@ -1640,7 +1640,7 @@
 12	Марий	марий	NOUN	_	Case=Nom|Number=Sing	13	nmod	_	_
 13	Элыште	эл	NOUN	_	Case=Ine|Number=Sing	18	obl	_	_
 14	Икымше	икымше	ADJ	_	_	17	amod	_	_
-15	Марий	марий	NOUN	_	Case=Nom|Number=Sing	17	amod	_	_
+15	Марий	марий	NOUN	_	Case=Nom|Number=Sing	17	nmod	_	_
 16	Самырыктукым	самырыктукым	NOUN	_	Case=Nom|Number=Sing	17	nmod	_	_
 17	Слёт	слёт	NOUN	_	Case=Nom|Number=Sing	18	nsubj	_	_
 18	тӱҥалын	тӱҥалаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
@@ -1665,7 +1665,7 @@
 # annotation_status = PARSER_FST_REVIEW
 1	Александр	Александр	PROPN	_	Case=Nom|Number=Sing	10	nsubj	_	_
 2	Коковихин	Коковихин	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
-3	1967	1967	NUM	_	NumForm=Digit|NumType=Ord	8	amod	_	_
+3	1967	1967	ADJ	_	NumForm=Digit|NumType=Ord	4	amod	_	_
 4	ийын	ий	NOUN	_	Case=Gen|Number=Sing	8	nmod	_	_
 5	сорла	сорла	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
 6	тылзын	тылзе	NOUN	_	Case=Gen|Number=Sing	8	nmod	_	_
@@ -1682,8 +1682,8 @@
 # source_sent_id = 167733
 # annotation_status = PARSER_FST_REVIEW
 1	Марий-влак	марий	NOUN	_	Case=Nom|Number=Plur	5	nsubj	_	_
-2	олык	олык	NOUN	_	Case=Nom|Number=Sing	4	amod	_	_
-3	марий	марий	NOUN	_	Case=Nom|Number=Sing	4	amod	_	_
+2	олык	олык	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
+3	марий	марий	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	йылмым	йылме	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
 5	кучылтыт	кучылташ	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -1722,7 +1722,7 @@
 3	Оръю	Оръю	PROPN	_	Case=Nom|Number=Sing	4	compound	_	_
 4	эҥер	эҥер	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 5	йоген	йогаш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
-6	эрта	эрташ	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	compound:svc	_	SpaceAfter=No
+6	эрта	эрташ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	compound:svc	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = mhr-fewshot-0123
@@ -1750,7 +1750,7 @@
 # source_id = mhr:wiki:565303baeff52d14338f
 # source_sent_id = 1694
 # annotation_status = PARSER_FST_REVIEW
-1	1953	1953	ADJ	_	NumForm=Digit|NumType=Ord	2	amod	_	_
+1	1953-шо	1953	ADJ	_	NumForm=Digit|NumType=Ord	2	amod	_	_
 2	ийыште	ий	NOUN	_	Case=Ine|Number=Sing	14	obl:tmod	_	_
 3	Торяъл	Торяъл	PROPN	_	Case=Nom|Number=Sing	4	obl	_	_
 4	кундемысе	кундемысе	ADJ	_	_	7	amod	_	_
@@ -1763,7 +1763,7 @@
 11	Йошкар-Оласе	Йошкар-Оласе	ADJ	_	_	12	amod	_	_
 12	педучилищыш	педучилище	NOUN	_	Case=Ill|Number=Sing	14	obl	_	_
 13	тунемаш	тунемаш	VERB	_	VerbForm=Inf	14	xcomp	_	_
-14	пурен	пураш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	пурен	пураш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = mhr-fewshot-0127
@@ -1805,7 +1805,7 @@
 7	орденын	орден	NOUN	_	Case=Gen|Number=Sing	8	nmod	_	_
 8	кавалерже	кавалер	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	17	punct	_	_
-10	1941	1941	NUM	_	NumForm=Digit|NumType=Card	4	nummod	_	SpaceAfter=No
+10	1941	1941	NUM	_	NumForm=Digit|NumType=Card	13	nummod	_	SpaceAfter=No
 11	–	–	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	1945	1945	NUM	_	NumForm=Digit|NumType=Card	10	nmod	_	_
 13	ийласе	ийласе	ADJ	_	_	16	amod	_	_
@@ -1872,10 +1872,10 @@
 4	пӱя	пӱя	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 5	уло	улаш	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
-7	Курша	Курша	PROPN	_	Case=Nom|Definite=Ind|Number=Sing	8	amod	_	_
+7	Курша	Курша	PROPN	_	Case=Nom|Number=Sing	8	compound	_	_
 8	эҥер	эҥер	NOUN	_	Case=Nom|Number=Sing	10	nsubj	_	_
 9	йоген	йогаш	VERB	_	ConvType=Gen|VerbForm=Conv	5	parataxis	_	_
-10	эрта	эрташ	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	compound:svc	_	SpaceAfter=No
+10	эрта	эрташ	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	compound:svc	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = mhr-fewshot-0132
@@ -1941,7 +1941,7 @@
 1	Рӱдӧ	рӱдӧ	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 2	федерал	федерал	ADJ	_	_	3	amod	_	_
 3	йырвелыш	йырвел	NOUN	_	Case=Ill|Number=Sing	4	obl	_	_
-4	пура	пура	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	пура	пураш	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = mhr-fewshot-0140
@@ -2009,7 +2009,7 @@
 4	Советын	совет	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
 5	Указше	указ	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	14	obl	_	_
 6	почеш	почеш	ADP	_	AdpType=Post	5	case	_	_
-7	1973	1973	NUM	_	NumForm=Digit|NumType=Card	8	amod	_	_
+7	1973	1973	ADJ	_	NumForm=Digit|NumType=Ord	8	amod	_	_
 8	ийыште	ий	NOUN	_	Case=Ine|Number=Sing	12	nmod	_	_
 9	сорла	сорла	NOUN	_	Case=Nom|Number=Sing	10	nmod	_	_
 10	тылзын	тылзе	NOUN	_	Case=Gen|Number=Sing	12	nmod	_	_
@@ -2018,7 +2018,7 @@
 13	Кугу	кугу	ADJ	_	_	14	amod	_	_
 14	Торъял	Торъял	PROPN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
-16	Кӱшыл	кӱшыл	ADJ	_	_	17	conj	_	_
+16	Кӱшыл	кӱшыл	ADJ	_	_	17	amod	_	_
 17	Торъял	Торъял	PROPN	_	Case=Nom|Number=Sing	14	conj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -2077,7 +2077,7 @@
 1	Налын	налаш	VERB	_	ConvType=Gen|VerbForm=Conv	11	advcl	_	_
 2	мундыражым	мундыра	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	1	obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
-4	Шöртньö	шöртньö	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	CorrectForm=Шӧртньӧ
+4	Шöртньö	шӧртньӧ	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	CorrectForm=Шӧртньӧ
 5	шӱртылажым	шӱртӧ	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	2	conj	_	_
 6	Юмын	юмо	NOUN	_	Case=Gen|Number=Sing	7	nmod	_	_
 7	ӱдыр	ӱдыр	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
@@ -2099,13 +2099,13 @@
 4	вашке	вашкаш	VERB	_	Connegative=Yes|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	Шып	шып	ADV	_	_	7	advmod	_	_
-7	ончем	ончаш	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	conj	_	_
+7	ончем	ончаш	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 8	кавашке	кава	NOUN	_	Case=Ill|Number=Sing	7	obl	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
 10	Кок	кок	NUM	_	NumType=Card|Variant=Short	11	nummod	_	_
 11	куэ	куэ	NOUN	_	Case=Nom|Number=Sing	15	obl	_	_
 12	коклаште	коклаште	ADP	_	AdpType=Post	11	case	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	15	punct	_	
+13	,	,	PUNCT	_	_	15	punct	_	_
 14	Шкетын	шкетын	ADV	_	_	15	advmod	_	_
 15	лӱҥгалтен	лӱҥгалташ	VERB	_	ConvType=Gen|VerbForm=Conv	7	advcl	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	4	punct	_	_
@@ -2205,7 +2205,7 @@
 3	сайлыме	сайлаш	VERB	_	VerbForm=Part|Voice=Pass	4	acl	_	_
 4	жапыште	жап	NOUN	_	Case=Ine|Number=Sing	12	obl	_	_
 5	Марий	марий	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
-6	кундемыште	кундем	9	_	Case=Ine|Number=Sing	9	nmod	_	_
+6	кундемыште	кундем	NOUN	_	Case=Ine|Number=Sing	9	nmod	_	_
 7	эн	эн	ADV	_	Degree=Sup	8	advmod	_	_
 8	кугу	кугу	ADJ	_	_	9	amod	_	_
 9	олалан	ола	NOUN	_	Case=Dat|Number=Sing	12	xcomp	_	_
@@ -2220,7 +2220,7 @@
 # source_id = mhr:wiki:6f91fdc211fa79603340
 # source_sent_id = 116857
 # annotation_status = PARSER_FST_REVIEW
-1	Кӱчыкъер	Кӱчыкъер	PROPN	_	Case=Nom|Number=Sing	4	obl	_	_
+1	Кӱчыкъер	Кӱчыкъер	PROPN	_	Case=Nom|Number=Sing	3	obl	_	_
 2	воктен	воктен	ADP	_	AdpType=Post	1	case	_	_
 3	лийын	лияш	VERB	_	ConvType=Gen|VerbForm=Conv	0	root	_	_
 4	шоген	шогаш	AUX	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:aspect	_	SpaceAfter=No
@@ -2324,7 +2324,7 @@
 4	5	5	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
 5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
 6	кечывалвел-эрвел	кечывалвел-эрвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
-7	могырно	могырно	ADP	_	AdpType=Post	6	case
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
 8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -2340,7 +2340,7 @@
 4	4	4	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
 5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
 6	кечывалвел	кечывалвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
-7	могырно	могырно	ADP	_	AdpType=Post	6	case
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
 8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -2380,7 +2380,7 @@
 4	2	2	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
 5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
 6	касвел	касвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
-7	могырно	могырно	ADP	_	AdpType=Post	6	case
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
 8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -2505,7 +2505,7 @@
 2	Президиум	президиум	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 3	Верховный	верховный	ADJ	_	_	4	amod	_	_
 4	Советын	совет	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
-5	Указше	указ	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	14	obl	_	_
+5	Указше	указ	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	15	obl	_	_
 6	почеш	почеш	ADP	_	AdpType=Post	5	case	_	_
 7	1973	1973	ADJ	_	NumForm=Digit|NumType=Ord	8	amod	_	_
 8	ийыште	ий	NOUN	_	Case=Ine|Number=Sing	15	obl:tmod	_	_
@@ -2635,7 +2635,7 @@
 # source_sent_id = 124749
 # annotation_status = PARSER_FST_REVIEW
 1	Кельмаксола	Кельмаксола	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
-2	ял	ял	PROPN	_	Case=Nom|Number=Sing	8	obl	_	_
+2	ял	ял	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
 3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
 4	1,5	1,5	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
 5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
@@ -2670,7 +2670,7 @@
 5	кок	кок	NUM	_	NumType=Card|Variant=Short	8	nummod	_	_
 6	Йошкар	йошкар	ADJ	_	Variant=Short	7	amod	_	_
 7	Шӱдыр	шӱдыр	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
-8	орденын	орден	NOUN	_	Case=Gen|Number=Sing	9	nmod	_	_
+8	орден-влакын	орден	NOUN	_	Case=Gen|Number=Plur	9	nmod	_	_
 9	кавалерже	кавалер	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	18	punct	_	_
 11	1941	1941	NUM	_	NumForm=Digit|NumType=Card	14	nummod	_	SpaceAfter=No
@@ -2680,7 +2680,7 @@
 15	Кугу	кугу	ADJ	_	_	17	amod	_	_
 16	Ачамланде	ачамланде	NOUN	_	Case=Nom|Number=Sing	17	nmod	_	_
 17	сарын	сар	NOUN	_	Case=Gen|Number=Sing	18	nmod	_	_
-18	участникше	участник	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	conj	_	SpaceAfter=No
+18	участникше	участник	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	conj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = mhr-fewshot-0190
@@ -2751,8 +2751,8 @@
 3	)	)	PUNCT	_	_	1	punct	_	_
 4	–	–	PUNCT	_	_	16	punct	_	_
 5	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	10	obl	_	_
-6	Марий	марий	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
-7	Элын	эл	NOUN	_	Case=Gen|Number=Sing	9	nmod	_	_
+6	Киров	Киров	PROPN	_	Case=Nom|Number=Sing	7	compound	_	_
+7	велын	вел	NOUN	_	Case=Gen|Number=Sing	9	nmod	_	_
 8	Яраҥ	Яраҥ	PROPN	_	Case=Nom|Number=Sing	9	compound	_	_
 9	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl	_	_
 10	верланыше	верланаш	VERB	_	VerbForm=Part|Voice=Act	14	acl	_	_
@@ -2822,7 +2822,7 @@
 6	Юлсер	Юлсер	PROPN	_	Case=Nom|Number=Sing	7	compound	_	_
 7	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obl	_	_
 8	верланыше	верланаш	VERB	_	VerbForm=Part|Voice=Act	10	acl	_	_
-9	марий	марий	NOUN	_	Case=Nom|Number=Sing	10	amod	_	_
+9	марий	марий	NOUN	_	Case=Nom|Number=Sing	10	nmod	_	_
 10	ял	ял	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -2879,13 +2879,13 @@
 4	3,8	3,8	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
 5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
 6	йӱдвел-эрвел	йӱдвел-эрвел	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
-7	могырно	ADP	_	AdpType=Post	6	case	_	_
+7	могырно	могырно	ADP	_	AdpType=Post	6	case	_	_
 8	верланен	верланаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = mhr-fewshot-0204
 # text = 1973-ан ийыште Ӱлыл Вончӱмбал ял Кӱшыл Вончӱмбал ял дене пырля ик пырляштарыме Вончӱмбал ялыш савырненыт.
-# text_en = In 1973, Lower Vonchymbal and Upper Vonchymbal were merged into the village of Vonchymbal. The village of Lower Vonzhepol (Lower Vonchymbal, Lower Village, Lower, Ylylsola).
+# text_en = In 1973, Lower Vonchymbal and Upper Vonchymbal were merged into the village of Vonchymbal. 
 # source_id = mhr:wiki:9bc8236dd3a1782c45db
 # source_sent_id = 138480
 # annotation_status = PARSER_FST_REVIEW
@@ -2893,17 +2893,17 @@
 2	ийыште	ий	NOUN	_	Case=Ine|Number=Sing	15	obl	_	_
 3	Ӱлыл	ӱлыл	ADJ	_	_	4	amod	_	_
 4	Вончӱмбал	Вончӱмбал	PROPN	_	Case=Nom|Number=Sing	5	compound	_	_
-5	ял	ял	NOUN	_	Case=Nom|Number=Sing	17	nmod	_	_
+5	ял	ял	NOUN	_	Case=Nom|Number=Sing	15	nsubj	_	_
 6	Кӱшыл	кӱшыл	ADJ	_	Case=Nom|Number=Sing	8	amod	_	_
-7	Вончӱмбал	Вончӱмбал	PROPN	_	Case=Nom|Number=Sing	8	nmod	_	_
+7	Вончӱмбал	Вончӱмбал	PROPN	_	Case=Nom|Number=Sing	8	compound	_	_
 8	ял	ял	NOUN	_	Case=Nom|Number=Sing	12	obl	_	_
 9	дене	дене	ADP	_	AdpType=Post	8	case	_	_
-10	пырля	пырля	NOUN	_	_	15	obl	_	_
-11	ик	ик	ADV	_	_	12	advmod	_	_
-12	пырляштарыме	пырляштараш	ADJ	_	Case=Nom	14	amod	_	_
-13	Вончӱмбал	Вончӱмбал	PROPN	_	Case=Nom|Number=Sing	14	nmod	_	_
+10	пырля	пырля	ADV	_	_	15	advmod	_	_
+11	ик	ик	NUM	_	NumType=Card|Variant=Short	14	nummod	_	_
+12	пырляштарыме	пырляштараш	VERB	_	VerbForm=Part|Voice=Pass	14	acl	_	_
+13	Вончӱмбал	Вончӱмбал	PROPN	_	Case=Nom|Number=Sing	14	compound	_	_
 14	ялыш	ял	NOUN	_	Case=Ill|Number=Sing	15	obl	_	_
-15	савырненыт	савырнаш	VERB	_	Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	савырненыт	савырнаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	15	punct	_	SpaceAfter=No
 
 # sent_id = mhr-fewshot-0205
@@ -2953,7 +2953,7 @@
 # source_id = mhr:wiki:39a8cd2abc55883c7814
 # source_sent_id = 42329
 # annotation_status = PARSER_FST_REVIEW
-1	Тыште	тыште	ADV	_	PronType=Dem	5	obl	_	_
+1	Тыште	тыште	ADV	_	PronType=Dem	5	advmod	_	_
 2	пытартыш	пытартыш	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 3	жапыште	жап	NOUN	_	Case=Ine|Number=Sing	5	obl	_	_
 4	турнир	турнир	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
@@ -2986,9 +2986,9 @@
 2	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	1	punct	_	_
 4	—	—	PUNCT	_	_	16	punct	_	_
-5	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	11	obl	_	_
+5	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	10	obl	_	_
 6	Марий	марий	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
-7	Элын	эл	NOUN	_	Case=Gen|Number=Sing	10	nmod	_	_
+7	Элын	эл	NOUN	_	Case=Gen|Number=Sing	9	nmod	_	_
 8	Маскасола	Маскасола	PROPN	_	Case=Nom|Number=Sing	9	compound	_	_
 9	кундемыштыже	кундем	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl	_	_
 10	верланыше	верланаш	VERB	_	VerbForm=Part|Voice=Act	14	acl	_	_
@@ -3046,12 +3046,12 @@
 # source_sent_id = 143135
 # annotation_status = PARSER_FST_REVIEW
 1	1973	1973	ADJ	_	NumForm=Digit|NumType=Ord	2	amod	_	_
-2	ийын	ийы	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
+2	ийын	ий	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
 3	вӱдшор	вӱдшор	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	тылзыштыже	тылзе	NOUN	_	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obl:tmod	_	_
 5	Кораксола	Кораксола	PROPN	_	Case=Nom|Number=Sing	6	compound	_	_
 6	ял	ял	NOUN	_	Case=Nom|Number=Sing	10	nsubj:pass	_	_
-7	шотлымо	шотлаш	VERB	_	CVerbForm=Part|Voice=Pass	8	acl	_	_
+7	шотлымо	шотлаш	VERB	_	VerbForm=Part|Voice=Pass	8	acl	_	_
 8	данный-влак	данный	NOUN	_	Case=Nom|Number=Plur	10	obl	_	_
 9	гыч	гыч	ADP	_	AdpType=Post	8	case	_	_
 10	лукталтын	лукталташ	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
@@ -3080,7 +3080,7 @@
 # source_sent_id = 146134
 # annotation_status = PARSER_FST_REVIEW
 1	Сардаял	Сардаял	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
-2	ял	ял	PROPN	_	Case=Nom|Number=Sing	7	obl	_	_
+2	ял	ял	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
 3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
 4	7	7	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
 5	километр	километр	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
@@ -3099,7 +3099,7 @@
 2	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	1	punct	_	_
 4	–	–	PUNCT	_	_	17	punct	_	_
-5	Российыште	Россий	NOUN	_	Case=Ine|Number=Sing	11	obl	_	_
+5	Российыште	Россий	PROPN	_	Case=Ine|Number=Sing	11	obl	_	_
 6	Свердловск	Свердловск	PROPN	_	Case=Nom|Number=Sing	10	nmod	_	_
 7	велын	вел	NOUN	_	Case=Gen|Number=Sing	10	nmod	_	_
 8	Арти	Арти	PROPN	_	Case=Nom|Number=Sing	9	obl	_	_
@@ -3109,7 +3109,7 @@
 12	Йыванал	Йыванал	PROPN	_	Case=Nom|Number=Sing	15	compound	_	_
 13	ял	ял	NOUN	_	Case=Nom|Number=Sing	14	obl	_	_
 14	шотан	шотан	ADJ	_	_	15	amod	_	_
-15	илемыш	илем	NOUN	_	Case=Ill|Number=Sing	17	nmod	_	_
+15	илемыш	илем	NOUN	_	Case=Ill|Number=Sing	16	obl	_	_
 16	пурышо	пураш	VERB	_	VerbForm=Part|Voice=Act	17	acl	_	_
 17	ял	ял	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	17	punct	_	_
@@ -3152,12 +3152,12 @@
 # source_id = mhr:wiki:24f66f0d9d38d691c199
 # source_sent_id = 69958
 # annotation_status = PARSER_FST_REVIEW
-1	Кириллице	кириллице	NOUN	_	Case=Gen|Number=Sing	5	nmod	_	_
+1	Кириллице	кириллице	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 2	негызеш	негызеш	ADP	_	AdpType=Post	1	case	_	_
 3	кызытсе	кызытсе	ADJ	_	_	5	amod	_	_
 4	якут	якут	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 5	тиштер	тиштер	NOUN	_	Case=Nom|Number=Sing	8	nsubj	_	_
-6	1939	1939	NUM	_	NumForm=Digit|NumType=Ord	7	amod	_	_
+6	1939	1939	ADJ	_	NumForm=Digit|NumType=Ord	7	amod	_	_
 7	ийыште	ий	NOUN	_	Case=Ine|Number=Sing	8	obl:tmod	_	_
 8	пеҥгыдемдалтын	пеҥгыдемдалташ	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
@@ -3215,7 +3215,7 @@
 # source_sent_id = 141696
 # annotation_status = PARSER_FST_REVIEW
 1	Пурсанур	Пурсанур	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
-2	сола	сола	NOUN	_	Case=Nom|Number=Sing	8	obj	_	_
+2	сола	сола	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
 3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
 4	4	4	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
 5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
@@ -3236,9 +3236,9 @@
 4	Советын	совет	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
 5	Указше	указ	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	16	obl	_	_
 6	почеш	почеш	ADP	_	AdpType=Post	5	case	_	_
-7	1979	1979	NUM	_	NumForm=Digit|NumType=Card	12	amod	_	_
+7	1979	1979	ADJ	_	NumForm=Digit|NumType=Ord	8	amod	_	_
 8	ийыште	ий	NOUN	_	Case=Ine|Number=Sing	12	nmod	_	_
-9	сӱрем	сӱрем	NOUN	_	Case=Gen|Number=Sing	10	nmod	_	_
+9	сӱрем	сӱрем	NOUN	_	Case=Nom|Number=Sing	10	nmod	_	_
 10	тылзын	тылзе	NOUN	_	Case=Gen|Number=Sing	12	nmod	_	_
 11	2-шо	2	ADJ	_	NumForm=Digit|NumType=Ord	12	amod	_	_
 12	кечынже	кече	NOUN	_	Number=Sing|Number[psor]=Sing|Person[psor]=3	16	obl:tmod	_	_
@@ -3255,7 +3255,7 @@
 # source_sent_id = 67487
 # annotation_status = PARSER_FST_REVIEW
 1	Камша	Камша	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
-2	ола	ола	NOUN	_	Case=Gen|Number=Sing	8	obl	_	_
+2	ола	ола	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
 3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
 4	16	16	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
 5	километр	километр	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
@@ -3276,7 +3276,7 @@
 4	Вуйвержын	вуйвер	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
 5	Кӱштыкшӧ	кӱштык	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	20	obl	_	_
 6	почеш	почеш	ADP	_	AdpType=Post	5	case	_	_
-7	1973	1973	NUM	_	NumForm=Digit|NumType=Ord	8	amod	_	_
+7	1973	1973	ADJ	_	NumForm=Digit|NumType=Ord	8	amod	_	_
 8	ийыште	ий	NOUN	_	Case=Ine|Number=Sing	12	obl	_	_
 9	идым	идым	NOUN	_	Case=Nom|Number=Sing	10	nmod	_	_
 10	тылзын	тылзе	NOUN	_	Case=Gen|Number=Sing	12	nmod	_	_
@@ -3286,7 +3286,7 @@
 14	ден	ден	CCONJ	_	_	15	cc	_	_
 15	Вичкудо	Вичкудо	PROPN	_	Case=Nom|Number=Sing	13	conj	_	_
 16	ялла	ял	NOUN	_	Case=Nom|Number=Plur	20	nsubj	_	_
-17	ик	ик	NUM	_	NumType=Card|Variant=Short	18	nummod	_	_
+17	ик	ик	NUM	_	NumType=Card|Variant=Short	19	nummod	_	_
 18	илыме	илаш	VERB	_	VerbForm=Part|Voice=Pass	19	acl	_	_
 19	верыш	вер	NOUN	_	Case=Ill|Number=Sing	20	obl	_	_
 20	ушненыт	ушнаш	VERB	_	Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3491,7 +3491,7 @@
 # annotation_status = PARSER_FST_REVIEW
 1	Мустай	Мустай	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
 2	ял	ял	NOUN	_	Case=Nom|Number=Sing	10	obl	_	_
-3	деч	деч	ADP	_	AdpType	2	case	_	_
+3	деч	деч	ADP	_	AdpType=Post	2	case	_	_
 4	6	6	NUM	_	NumForm=Digit|NumType=Card	5	nummod	_	_
 5	километр	километр	NOUN	_	Case=Nom|Number=Sing	10	obl	_	_
 6	кечывалвел-касвелне	кечывалвел-касвелне	ADV	_	_	10	advmod	_	_
