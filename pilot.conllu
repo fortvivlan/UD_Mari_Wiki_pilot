@@ -74,7 +74,7 @@
 2	могай	могай	ADJ	_	PronType=Int	4	amod	_	_
 3	марий	марий	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	сайт-влак	сайт	NOUN	_	Case=Nom|Number=Plur	1	nsubj	_	_
-5	улыт	улаш	AUX	_	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
+5	улыт	улаш	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	1	punct	_	_
 
 # sent_id = mhr-fewshot-0007
@@ -319,7 +319,7 @@
 2	тиде	тиде	DET	_	PronType=Dem	3	det	_	_
 3	сар	сар	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
 4	утарыше	утарыше	ADJ	_	_	0	root	_	_
-5	ыле	улаш	AUX	_	Tense=Past	4	cop	_	SpaceAfter=No
+5	ыле	улаш	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	11	punct	_	_
 7	садлан	садлан	ADV	_	PronType=Dem	11	advmod	_	_
 8	Кугу	кугу	ADJ	_	_	10	amod	_	_
@@ -385,7 +385,7 @@
 1	Ешартыш	ешартыш	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	тиште	тиште	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
 3	да	да	CCONJ	_	_	5	cc	_	_
-4	тудын	тудо	DET	_	PronType=Prs	5	nmod	_	_
+4	тудын	тудо	DET	_	PronType=Prs	5	det	_	_
 5	Юникодше	Юникод	PROPN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	conj	_	SpaceAfter=No
 6	:	:	PUNCT	_	_	1	punct	_	_
 
@@ -614,7 +614,7 @@
 7	ял	ял	NOUN	_	Case=Nom|Number=Sing	9	obl	_	_
 8	деке	деке	ADP	_	AdpType=Post	7	case	_	_
 9	ушалтын	ушалташ	VERB	_	Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	13	punct	_	_
+10	,	,	PUNCT	_	_	14	punct	_	_
 11	кызыт	кызыт	ADV	_	_	14	advmod	_	_
 12	Шкетан	Шкетан	PROPN	_	Case=Nom|Number=Sing	13	nmod	_	_
 13	уремже	урем	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	14	xcomp	_	_
@@ -1163,10 +1163,10 @@
 # annotation_status = PARSER_FST_REVIEW
 1	Таче	таче	ADV	_	_	26	advmod	_	_
 2	Медведево	Медведево	PROPN	_	Case=Nom|Number=Sing	3	compound	_	_
-3	районышто	район	NOUN	_	Case=Ine|Number=Sing	23	obl	_	_
+3	районышто	район	NOUN	_	Case=Ine|Number=Sing	6	nmod	_	_
 4	вич	вич	NUM	_	NumType=Card|Variant=Short	6	nummod	_	_
 5	илыме	илаш	VERB	_	VerbForm=Part|Voice=Pass	6	acl	_	_
-6	верым	вер	NOUN	_	Case=Acc|Number=Sing	23	obj	_	SpaceAfter=No
+6	верым	вер	NOUN	_	Case=Acc|Number=Sing	26	obj	_	SpaceAfter=No
 7	:	:	PUNCT	_	_	9	punct	_	_
 8	Нужъял	Нужъял	PROPN	_	Case=Nom|Number=Sing	9	compound	_	_
 9	посёлкым	посёлко	NOUN	_	Case=Acc|Number=Sing	6	appos	_	SpaceAfter=No
@@ -1636,7 +1636,7 @@
 8	ыле	улаш	AUX	_	Tense=Past	7	aux	_	_
 9	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 10	тиде	тиде	DET	_	PronType=Dem	11	det	_	_
-11	кечын	кече	NOUN	_	Case=Gen|Number=Sing	18	obl:tmod	_	_
+11	кечын	кече	NOUN	_	Number=Sing	18	obl:tmod	_	_
 12	Марий	марий	NOUN	_	Case=Nom|Number=Sing	13	nmod	_	_
 13	Элыште	эл	NOUN	_	Case=Ine|Number=Sing	18	obl	_	_
 14	Икымше	икымше	ADJ	_	_	17	amod	_	_
@@ -1981,7 +1981,7 @@
 # source_id = mhr:wiki:d81408e7d17ca940bb94
 # source_sent_id = 121738
 # annotation_status = PARSER_FST_REVIEW
-1	МАССР	МАССР	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
+1	МАССР	МАССР	PROPN	_	Abbr=Yes	4	nmod	_	_
 2	Президиум	президиум	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 3	Верховный	верховный	ADJ	_	_	4	amod	_	_
 4	Советын	совет	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
@@ -2003,7 +2003,7 @@
 # source_id = mhr:wiki:144a0471ca18ba136164
 # source_sent_id = 121195
 # annotation_status = PARSER_FST_REVIEW
-1	МАССР	МАССР	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
+1	МАССР	МАССР	PROPN	_	Abbr=Yes	4	nmod	_	_
 2	Президиум	президиум	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 3	Верховный	верховный	ADJ	_	_	4	amod	_	_
 4	Советын	совет	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
@@ -2141,9 +2141,9 @@
 # source_id = mhr:wiki:aaf7051ad08364740872
 # source_sent_id = 633
 # annotation_status = PARSER_FST_REVIEW
-1	Пургыжлан	пургыж	NOUN	_	Case=Dat|Number=Sing	4	iobj	_	_
+1	Пургыжлан	пургыж	NOUN	_	Case=Dat|Number=Sing	4	obl	_	_
 2	ты	ты	DET	_	PronType=Dem	3	det	_	_
-3	кечын	кече	NOUN	_	Case=Gen|Number=Sing	4	obl:tmod	_	_
+3	кечын	кече	NOUN	_	Number=Sing	4	obl:tmod	_	_
 4	ӱшанаш	ӱшанаш	VERB	_	VerbForm=Inf	0	root	_	_
 5	ок	огеш	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	aux	_	_
 6	лий	лияш	AUX	_	Connegative=Yes|VerbForm=Fin	4	aux	_	SpaceAfter=No
@@ -2289,7 +2289,7 @@
 # annotation_status = PARSER_FST_REVIEW
 1	Часамла	часамла	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
 2	—	—	PUNCT	_	_	7	punct	_	_
-3	юмылан	юмо	NOUN	_	Case=Dat|Number=Sing	4	iobj	_	_
+3	юмылан	юмо	NOUN	_	Case=Dat|Number=Sing	4	obl	_	_
 4	кумалаш	кумалаш	VERB	_	VerbForm=Inf	5	xcomp	_	_
 5	ыштыме	ышташ	VERB	_	VerbForm=Part|Voice=Pass	7	acl	_	_
 6	изи	изи	ADJ	_	_	7	amod	_	_
@@ -2501,7 +2501,7 @@
 # source_id = mhr:wiki:561e5d6f1e6d9ef56c2a
 # source_sent_id = 122924
 # annotation_status = PARSER_FST_REVIEW
-1	МАССР	МАССР	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
+1	МАССР	МАССР	PROPN	_	Abbr=Yes	4	nmod	_	_
 2	Президиум	президиум	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 3	Верховный	верховный	ADJ	_	_	4	amod	_	_
 4	Советын	совет	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
@@ -3184,7 +3184,7 @@
 # source_id = mhr:wiki:e9979fd254acc7087c03
 # source_sent_id = 121450
 # annotation_status = PARSER_FST_REVIEW
-1	МАССР	МАССР	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
+1	МАССР	МАССР	PROPN	_	Abbr=Yes	4	nmod	_	_
 2	Президиум	президиум	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 3	Верховный	верховный	ADJ	_	_	4	amod	_	_
 4	Советын	совет	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
@@ -3230,7 +3230,7 @@
 # source_id = mhr:wiki:93903bfc90a7dfb484ff
 # source_sent_id = 127861
 # annotation_status = PARSER_FST_REVIEW
-1	МАССР	МАССР	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
+1	МАССР	МАССР	PROPN	_	Abbr=Yes	4	nmod	_	_
 2	Президиум	президиум	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 3	Верховный	верховный	ADJ	_	_	4	amod	_	_
 4	Советын	совет	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
@@ -3270,7 +3270,7 @@
 # source_id = mhr:wiki:6567c3a70ba6d96ec978
 # source_sent_id = 117278
 # annotation_status = PARSER_FST_REVIEW
-1	МАССР-ын	МАССР	PROPN	_	Case=Gen|Number=Sing	4	nmod	_	_
+1	МАССР-ын	МАССР	PROPN	_	Abbr=Yes|Case=Gen|Number=Sing	4	nmod	_	_
 2	Кӱшыл	кӱшыл	ADJ	_	_	3	amod	_	_
 3	Каҥашын	каҥаш	PROPN	_	Case=Gen|Number=Sing	4	nmod	_	_
 4	Вуйвержын	вуйвер	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
